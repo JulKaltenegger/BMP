@@ -1,0 +1,1639 @@
+# baseURI: http://linkedbuildingdata.net/ifc/resources20210118_131523/
+
+@prefix EXAMPLE: <https://example.com#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix bot:  <https://w3id.org/bot#> .
+@prefix beo:  <https://pi.pauwel.be/voc/buildingelement#> .
+@prefix mep:  <https://pi.pauwel.be/voc/distributionelement#> .
+@prefix props:  <https://w3id.org/props#> .
+@prefix bmp: <https://w3id.org/bmp#> .
+
+
+EXAMPLE: rdf:type <http://www.w3.org/2002/07/owl#Ontology> .
+
+EXAMPLE:site_45107
+	a bot:Site ;
+	rdfs:label "Default"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "4d0b1bb7-555b-43e1-b5fc-8d366f89076c"^^xsd:string ;
+	props:hasCompressedGuid "1D2nktLLj3uRNyZJPlYGTi"^^xsd:string ;
+	bot:hasBuilding EXAMPLE:building_115 . 
+
+EXAMPLE:building_115
+	a bot:Building ;
+	rdfs:label "Standaard projecttemplate"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "4d0b1bb7-555b-43e1-b5fc-8d366f89076f"^^xsd:string ;
+	props:hasCompressedGuid "1D2nktLLj3uRNyZJPlYGTl"^^xsd:string ;
+	bot:hasStorey EXAMPLE:storey_126 ;
+	bot:hasStorey EXAMPLE:storey_130 ;
+	bot:hasStorey EXAMPLE:storey_142 ;
+	bot:hasStorey EXAMPLE:storey_154 ;
+	props:numberOfStoreys "4"^^xsd:double ;
+	props:isLandmarked ".U."^^xsd:double ;
+	props:category "Project Information"^^xsd:string . 
+
+EXAMPLE:storey_126
+	a bot:Storey ;
+	bot:hasGuid "4d0b1bb7-555b-43e1-b5fc-8d36907dad24"^^xsd:string ;
+	props:hasCompressedGuid "1D2nktLLj3uRNyZJQGVQqa"^^xsd:string ;
+	rdfs:label "00_LE"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:containsElement EXAMPLE:wall_23005 , EXAMPLE:wall_23275 , EXAMPLE:wall_23619 , EXAMPLE:wall_23815 , EXAMPLE:wall_24000 , EXAMPLE:wall_24312 , EXAMPLE:slab_30300 , EXAMPLE:wall_33621 , EXAMPLE:wall_33721 ;
+	props:name "00_LE"^^xsd:string ;
+	props:aboveGround ".U."^^xsd:double ;
+	props:name "00_LE"^^xsd:string ;
+	props:category "Levels"^^xsd:string . 
+
+EXAMPLE:storey_130
+	a bot:Storey ;
+	bot:hasGuid "4d0b1bb7-555b-43e1-b5fc-8d369076fdcd"^^xsd:string ;
+	props:hasCompressedGuid "1D2nktLLj3uRNyZJQGTltD"^^xsd:string ;
+	rdfs:label "00_Begane Grond"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasSpace EXAMPLE:space_205 , EXAMPLE:space_267 , EXAMPLE:space_352 , EXAMPLE:space_409 , EXAMPLE:space_717 , EXAMPLE:space_755 ;
+	bot:containsElement EXAMPLE:slab_842 , EXAMPLE:wall_1085 , EXAMPLE:wall_1203 , EXAMPLE:wall_23153 , EXAMPLE:wall_23417 , EXAMPLE:wall_23917 , EXAMPLE:wall_24114 , EXAMPLE:door_29936 , EXAMPLE:slab_30220 , EXAMPLE:slab_30385 , EXAMPLE:wall_30754 , EXAMPLE:wall_30847 , EXAMPLE:wall_30909 , EXAMPLE:wall_31004 , EXAMPLE:door_31052 , EXAMPLE:wall_31104 , EXAMPLE:wall_31166 , EXAMPLE:wall_31266 , EXAMPLE:stair_31307 , EXAMPLE:wall_33157 , EXAMPLE:door_42526 , EXAMPLE:window_43062 , EXAMPLE:window_43842 ;
+	props:name "00_Begane Grond"^^xsd:string ;
+	props:aboveGround ".U."^^xsd:double ;
+	props:name "00_Begane Grond"^^xsd:string ;
+	props:category "Levels"^^xsd:string . 
+
+EXAMPLE:storey_142
+	a bot:Storey ;
+	bot:hasGuid "4d0b1bb7-555b-43e1-b5fc-8d36907da4f5"^^xsd:string ;
+	props:hasCompressedGuid "1D2nktLLj3uRNyZJQGVQJr"^^xsd:string ;
+	rdfs:label "01_WV_Eerste Verdieping"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasSpace EXAMPLE:space_448 , EXAMPLE:space_486 , EXAMPLE:space_524 , EXAMPLE:space_562 , EXAMPLE:space_793 ;
+	bot:containsElement EXAMPLE:slab_979 , EXAMPLE:wall_1300 , EXAMPLE:wall_1407 , EXAMPLE:wall_1469 , EXAMPLE:wall_1531 , EXAMPLE:door_12217 , EXAMPLE:door_22829 , EXAMPLE:door_22868 , EXAMPLE:door_22906 , EXAMPLE:slab_30005 , EXAMPLE:slab_30125 , EXAMPLE:stair_33762 , EXAMPLE:window_43102 , EXAMPLE:window_43803 , EXAMPLE:window_44351 , EXAMPLE:window_45053 ;
+	props:name "01_WV_Eerste Verdieping"^^xsd:string ;
+	props:aboveGround ".U."^^xsd:double ;
+	props:name "01_WV_Eerste Verdieping"^^xsd:string ;
+	props:category "Levels"^^xsd:string . 
+
+EXAMPLE:storey_154
+	a bot:Storey ;
+	bot:hasGuid "4d0b1bb7-555b-43e1-b5fc-8d369076e7aa"^^xsd:string ;
+	props:hasCompressedGuid "1D2nktLLj3uRNyZJQGTkUg"^^xsd:string ;
+	rdfs:label "02_WV_Tweede Verdieping"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasSpace EXAMPLE:space_660 ;
+	bot:containsElement EXAMPLE:slab_30480 , EXAMPLE:slab_30575 , EXAMPLE:slab_30670 , EXAMPLE:roof_33200 , EXAMPLE:roof_33374 ;
+	props:name "02_WV_Tweede Verdieping"^^xsd:string ;
+	props:aboveGround ".U."^^xsd:double ;
+	props:name "02_WV_Tweede Verdieping"^^xsd:string ;
+	props:category "Levels"^^xsd:string . 
+
+EXAMPLE:space_205
+	a bot:Space ;
+	bot:hasGuid "770957ba-9d96-4593-8134-b6c1c172bbbc"^^xsd:string ;
+	props:hasCompressedGuid "1t2LUwdPP5au4qji71Shky"^^xsd:string ;
+	props:name "Dinner Room"^^xsd:string ;
+	props:name "Dinner Room"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Dinner Room 03"^^xsd:string ;
+	props:category "Spaces"^^xsd:string . 
+
+EXAMPLE:space_267
+	a bot:Space ;
+	bot:hasGuid "770957ba-9d96-4593-8134-b6c1c172bbba"^^xsd:string ;
+	props:hasCompressedGuid "1t2LUwdPP5au4qji71Shkw"^^xsd:string ;
+	props:name "Kitchen"^^xsd:string ;
+	props:name "Kitchen"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Kitchen 04"^^xsd:string ;
+	props:category "Spaces"^^xsd:string . 
+
+EXAMPLE:space_352
+	a bot:Space ;
+	bot:hasGuid "770957ba-9d96-4593-8134-b6c1c172bbb8"^^xsd:string ;
+	props:hasCompressedGuid "1t2LUwdPP5au4qji71Shku"^^xsd:string ;
+	props:name "Living"^^xsd:string ;
+	props:name "Living"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Living 02"^^xsd:string ;
+	props:category "Spaces"^^xsd:string . 
+
+EXAMPLE:space_409
+	a bot:Space ;
+	bot:hasGuid "770957ba-9d96-4593-8134-b6c1c172bbb6"^^xsd:string ;
+	props:hasCompressedGuid "1t2LUwdPP5au4qji71Shks"^^xsd:string ;
+	props:name "Entrance"^^xsd:string ;
+	props:name "Entrance"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Entrance 01"^^xsd:string ;
+	props:category "Spaces"^^xsd:string . 
+
+EXAMPLE:space_448
+	a bot:Space ;
+	bot:hasGuid "770957ba-9d96-4593-8134-b6c1c172ba54"^^xsd:string ;
+	props:hasCompressedGuid "1t2LUwdPP5au4qji71ShfK"^^xsd:string ;
+	props:name "Room 1"^^xsd:string ;
+	props:name "Room 1"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Room 1 09"^^xsd:string ;
+	props:category "Spaces"^^xsd:string . 
+
+EXAMPLE:space_486
+	a bot:Space ;
+	bot:hasGuid "770957ba-9d96-4593-8134-b6c1c172ba53"^^xsd:string ;
+	props:hasCompressedGuid "1t2LUwdPP5au4qji71ShfJ"^^xsd:string ;
+	props:name "Bathroom"^^xsd:string ;
+	props:name "Bathroom"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Bathroom 08"^^xsd:string ;
+	props:category "Spaces"^^xsd:string . 
+
+EXAMPLE:space_524
+	a bot:Space ;
+	bot:hasGuid "770957ba-9d96-4593-8134-b6c1c172ba51"^^xsd:string ;
+	props:hasCompressedGuid "1t2LUwdPP5au4qji71ShfH"^^xsd:string ;
+	props:name "Room 2"^^xsd:string ;
+	props:name "Room 2"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Room 2 10"^^xsd:string ;
+	props:category "Spaces"^^xsd:string . 
+
+EXAMPLE:space_562
+	a bot:Space ;
+	bot:hasGuid "770957ba-9d96-4593-8134-b6c1c172ba4f"^^xsd:string ;
+	props:hasCompressedGuid "1t2LUwdPP5au4qji71ShfF"^^xsd:string ;
+	props:name "Room 3"^^xsd:string ;
+	props:name "Room 3"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Room 3 11"^^xsd:string ;
+	props:category "Spaces"^^xsd:string . 
+
+EXAMPLE:space_660
+	a bot:Space ;
+	bot:hasGuid "770957ba-9d96-4593-8134-b6c1c172ba1d"^^xsd:string ;
+	props:hasCompressedGuid "1t2LUwdPP5au4qji71SheT"^^xsd:string ;
+	props:name "Roof"^^xsd:string ;
+	props:name "Roof"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Roof 12"^^xsd:string ;
+	props:category "Spaces"^^xsd:string . 
+
+EXAMPLE:space_717
+	a bot:Space ;
+	bot:hasGuid "238c2826-9890-4f27-8fd1-22598521fc17"^^xsd:string ;
+	props:hasCompressedGuid "0ZZ2Wcc91F9u$H8bc58VmN"^^xsd:string ;
+	props:name "Stairs"^^xsd:string ;
+	props:name "Stairs"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Stairs 06"^^xsd:string ;
+	props:category "Spaces"^^xsd:string . 
+
+EXAMPLE:space_755
+	a bot:Space ;
+	bot:hasGuid "238c2826-9890-4f27-8fd1-22598521fc11"^^xsd:string ;
+	props:hasCompressedGuid "0ZZ2Wcc91F9u$H8bc58VmH"^^xsd:string ;
+	props:name "Toilet"^^xsd:string ;
+	props:name "Toilet"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Toilet 05"^^xsd:string ;
+	props:category "Spaces"^^xsd:string . 
+
+EXAMPLE:space_793
+	a bot:Space ;
+	bot:hasGuid "238c2826-9890-4f27-8fd1-22598521fc1f"^^xsd:string ;
+	props:hasCompressedGuid "0ZZ2Wcc91F9u$H8bc58VmV"^^xsd:string ;
+	props:name "Stairs"^^xsd:string ;
+	props:name "Stairs"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Stairs 07"^^xsd:string ;
+	props:category "Spaces"^^xsd:string . 
+
+EXAMPLE:slab_842
+	a bot:Element ;
+	a beo:Slab__FLOOR ;
+	rdfs:label "Floor:NLRS_23_IN_80mm:828284"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "e7b4d20e-e60c-4040-985a-d2cc1f8a5e6a"^^xsd:string ;
+	props:hasCompressedGuid "3djD8EvWn0G9XQqimVYbvg"^^xsd:string ;
+	props:tag "828284"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Floors"^^xsd:string ;
+	props:reference "NLRS_23_IN_80mm"^^xsd:string ;
+	props:description "vloer, generiek"^^xsd:string ;
+	props:reference "NLRS_23_IN_80mm"^^xsd:string ;
+	props:reference "NLRS_23_IN_80mm"^^xsd:string ;
+	props:thermalTransmittance "8.625"^^xsd:double ;
+	props:isExternal true ;
+	props:loadBearing false ;
+	props:pitchAngle "0."^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Floors"^^xsd:string ;
+	props:reference "NLRS_23_IN_80mm"^^xsd:string ;
+	props:description "vloer, generiek"^^xsd:string ;
+	props:reference "NLRS_23_IN_80mm"^^xsd:string ;
+	props:reference "NLRS_23_IN_80mm"^^xsd:string ;
+	props:thermalTransmittance "8.625"^^xsd:double ;
+	props:isExternal false ;
+	bmp:hasLayer EXAMPLE:layer_1 .
+
+
+EXAMPLE:slab_979
+	a bot:Element ;
+	a beo:Slab__FLOOR ;
+	rdfs:label "Floor:NLRS_23_FL_Finish 15mm:828426"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "e7b4d20e-e60c-4040-985a-d2cc1f8a591c"^^xsd:string ;
+	props:hasCompressedGuid "3djD8EvWn0G9XQqimVYbaS"^^xsd:string ;
+	props:tag "828426"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Floors"^^xsd:string ;
+	props:reference "NLRS_23_FL_Finish 15mm"^^xsd:string ;
+	props:description "vloer, generiek"^^xsd:string ;
+	props:reference "NLRS_23_FL_Finish 15mm"^^xsd:string ;
+	props:isExternal true ;
+	props:loadBearing false ;
+	props:pitchAngle "0."^^xsd:double ;
+	props:reference "NLRS_23_FL_Finish 15mm"^^xsd:string ;
+	props:thermalTransmittance "193.333333333333"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Floors"^^xsd:string ;
+	props:reference "NLRS_23_FL_Finish 15mm"^^xsd:string ;
+	props:description "vloer, generiek"^^xsd:string ;
+	props:reference "NLRS_23_FL_Finish 15mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_23_FL_Finish 15mm"^^xsd:string ;
+	props:thermalTransmittance "193.333333333333"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 . 
+
+EXAMPLE:wall_1085
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_22_WA_250mm:830959"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "af013f6d-0dda-43c9-a60c-475962980abf"^^xsd:string ;
+	props:hasCompressedGuid "2l0Jzj3Tf3oQOCHrbYc0g$"^^xsd:string ;
+	props:tag "830959"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_22_WA_250mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_22_WA_250mm"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:reference "NLRS_22_WA_250mm"^^xsd:string ;
+	props:thermalTransmittance "4.2901740926527"^^xsd:double ;
+	props:extendToStructure false ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_22_WA_250mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_22_WA_250mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_22_WA_250mm"^^xsd:string ;
+	props:thermalTransmittance "4.2901740926527"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 ;
+	bmp:hasLayer EXAMPLE:layer_2 ;
+	bmp:hasLayer EXAMPLE:layer_3 . 
+
+EXAMPLE:wall_1203
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_22_WA_250mm:831350"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "87d51e70-08ec-4185-a481-3d5833f5b580"^^xsd:string ;
+	props:hasCompressedGuid "27rHvm2En1XQI1FLWpzRM0"^^xsd:string ;
+	props:tag "831350"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_22_WA_250mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_22_WA_250mm"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:reference "NLRS_22_WA_250mm"^^xsd:string ;
+	props:extendToStructure false ;
+	props:thermalTransmittance "4.2901740926527"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_22_WA_250mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_22_WA_250mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_22_WA_250mm"^^xsd:string ;
+	props:thermalTransmittance "4.2901740926527"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:wall_1300
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_42_WA_75mm:837942"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "9f7ccc62-a209-47d8-b29f-c120dc22d51a"^^xsd:string ;
+	props:hasCompressedGuid "2VVCnYeWb7sBAVmI3S8jKQ"^^xsd:string ;
+	bot:hostsElement EXAMPLE:door_22906 ;
+	props:tag "837942"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure false ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:thermalTransmittance "18.5333333333333"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:thermalTransmittance "18.5333333333333"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:wall_1407
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_42_WA_75mm:838090"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "f09998e2-9d69-44da-a059-0def1b64bfb4"^^xsd:string ;
+	props:hasCompressedGuid "3mcPZYdMb4sg1P3UyRPB_q"^^xsd:string ;
+	bot:hostsElement EXAMPLE:door_22868 ;
+	props:tag "838090"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure false ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:thermalTransmittance "18.5333333333333"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:thermalTransmittance "18.5333333333333"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:wall_1469
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_42_WA_75mm:838140"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "f09998e2-9d69-44da-a059-0def1b64bf82"^^xsd:string ;
+	props:hasCompressedGuid "3mcPZYdMb4sg1P3UyRPB_2"^^xsd:string ;
+	bot:hostsElement EXAMPLE:door_12217 ;
+	bot:hostsElement EXAMPLE:door_22829 ;
+	props:tag "838140"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure false ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:thermalTransmittance "18.5333333333333"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:thermalTransmittance "18.5333333333333"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:wall_1531
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_42_WA_75mm:838560"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "f09998e2-9d69-44da-a059-0def1b64bdde"^^xsd:string ;
+	props:hasCompressedGuid "3mcPZYdMb4sg1P3UyRPBtU"^^xsd:string ;
+	props:tag "838560"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure false ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:thermalTransmittance "18.5333333333333"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:thermalTransmittance "18.5333333333333"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 . 
+
+EXAMPLE:door_12217
+	a bot:Element ;
+	a beo:Door ;
+	rdfs:label "Doors_IntSgl_1:800x2110mm:844144"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "66210f52-3662-4f75-952b-7b5fc54b36e0"^^xsd:string ;
+	props:hasCompressedGuid "1c8GzIDc9FTPKhUr$5IpRW"^^xsd:string ;
+	props:tag "844144"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "800x2110mm"^^xsd:string ;
+	props:thermalTransmittance "3.7021"^^xsd:double ;
+	props:manufacturer "Revit"^^xsd:string ;
+	props:category "Doors"^^xsd:string ;
+	props:reference "800x2110mm"^^xsd:string . 
+
+EXAMPLE:door_22829
+	a bot:Element ;
+	a beo:Door ;
+	rdfs:label "Doors_IntSgl_1:800x2110mm:844159"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "66210f52-3662-4f75-952b-7b5fc54b36ef"^^xsd:string ;
+	props:hasCompressedGuid "1c8GzIDc9FTPKhUr$5IpRl"^^xsd:string ;
+	props:tag "844159"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "800x2110mm"^^xsd:string ;
+	props:thermalTransmittance "3.7021"^^xsd:double ;
+	props:manufacturer "Revit"^^xsd:string ;
+	props:category "Doors"^^xsd:string ;
+	props:reference "800x2110mm"^^xsd:string . 
+
+EXAMPLE:door_22868
+	a bot:Element ;
+	a beo:Door ;
+	rdfs:label "Doors_IntSgl_1:800x2110mm:844198"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "66210f52-3662-4f75-952b-7b5fc54b3636"^^xsd:string ;
+	props:hasCompressedGuid "1c8GzIDc9FTPKhUr$5IpOs"^^xsd:string ;
+	props:tag "844198"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "800x2110mm"^^xsd:string ;
+	props:thermalTransmittance "3.7021"^^xsd:double ;
+	props:manufacturer "Revit"^^xsd:string ;
+	props:category "Doors"^^xsd:string ;
+	props:reference "800x2110mm"^^xsd:string . 
+
+EXAMPLE:door_22906
+	a bot:Element ;
+	a beo:Door ;
+	rdfs:label "Doors_IntSgl_1:800x2110mm:844224"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "66210f52-3662-4f75-952b-7b5fc54b3650"^^xsd:string ;
+	props:hasCompressedGuid "1c8GzIDc9FTPKhUr$5IpPG"^^xsd:string ;
+	props:tag "844224"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "800x2110mm"^^xsd:string ;
+	props:thermalTransmittance "3.7021"^^xsd:double ;
+	props:manufacturer "Revit"^^xsd:string ;
+	props:category "Doors"^^xsd:string ;
+	props:reference "800x2110mm"^^xsd:string . 
+
+EXAMPLE:wall_23005
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_41_AIR_80mm:852474"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "15887e26-d900-4736-8782-50dc1dbbf336"^^xsd:string ;
+	props:hasCompressedGuid "0LY7ucsG17DeU2KDmTk$Cs"^^xsd:string ;
+	props:tag "852474"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:thermalTransmittance "5.875"^^xsd:double ;
+	props:extendToStructure true ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:thermalTransmittance "5.875"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:wall_23153
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_22_WA_80mm int:852740"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "15887e26-d900-4736-8782-50dc1dbbf1c8"^^xsd:string ;
+	props:hasCompressedGuid "0LY7ucsG17DeU2KDmTk$78"^^xsd:string ;
+	props:tag "852740"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure true ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:thermalTransmittance "10."^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:thermalTransmittance "10."^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:wall_23275
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_41_AIR_80mm:854387"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "c879ab99-a4d3-4ed8-b07f-f54c43b86949"^^xsd:string ;
+	props:hasCompressedGuid "38UQkPfDDEsB1$zKn3k6b9"^^xsd:string ;
+	bot:hostsElement EXAMPLE:door_42526 ;
+	bot:hostsElement EXAMPLE:window_43842 ;
+	props:tag "854387"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:extendToStructure true ;
+	props:thermalTransmittance "5.875"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:thermalTransmittance "5.875"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:wall_23417
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_22_WA_80mm int:854388"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "c879ab99-a4d3-4ed8-b07f-f54c43b8694e"^^xsd:string ;
+	props:hasCompressedGuid "38UQkPfDDEsB1$zKn3k6bE"^^xsd:string ;
+	props:tag "854388"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure true ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:thermalTransmittance "10."^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:thermalTransmittance "10."^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:wall_23619
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_21_WA_80mm ext:854390"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "c879ab99-a4d3-4ed8-b07f-f54c43b8694c"^^xsd:string ;
+	props:hasCompressedGuid "38UQkPfDDEsB1$zKn3k6bC"^^xsd:string ;
+	bot:hostsElement EXAMPLE:window_44351 ;
+	bot:hostsElement EXAMPLE:window_45053 ;
+	props:tag "854390"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure true ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:thermalTransmittance "16.25"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:thermalTransmittance "16.25"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:wall_23815
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_41_AIR_80mm:854458"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "c879ab99-a4d3-4ed8-b07f-f54c43b86980"^^xsd:string ;
+	props:hasCompressedGuid "38UQkPfDDEsB1$zKn3k6c0"^^xsd:string ;
+	props:tag "854458"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:extendToStructure true ;
+	props:thermalTransmittance "5.875"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:thermalTransmittance "5.875"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:wall_23917
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_22_WA_80mm int:854459"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "c879ab99-a4d3-4ed8-b07f-f54c43b86981"^^xsd:string ;
+	props:hasCompressedGuid "38UQkPfDDEsB1$zKn3k6c1"^^xsd:string ;
+	props:tag "854459"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure true ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:thermalTransmittance "10."^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:thermalTransmittance "10."^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:wall_24000
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_41_AIR_80mm:855375"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "c879ab99-a4d3-4ed8-b07f-f54c43b86d75"^^xsd:string ;
+	props:hasCompressedGuid "38UQkPfDDEsB1$zKn3k6rr"^^xsd:string ;
+	bot:hostsElement EXAMPLE:window_43803 ;
+	bot:hostsElement EXAMPLE:window_43062 ;
+	bot:hostsElement EXAMPLE:window_43102 ;
+	props:tag "855375"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:extendToStructure true ;
+	props:thermalTransmittance "5.875"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:thermalTransmittance "5.875"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:wall_24114
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_22_WA_80mm int:855376"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "c879ab99-a4d3-4ed8-b07f-f54c43b86d6a"^^xsd:string ;
+	props:hasCompressedGuid "38UQkPfDDEsB1$zKn3k6rg"^^xsd:string ;
+	props:tag "855376"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure true ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:thermalTransmittance "10."^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:thermalTransmittance "10."^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:wall_24312
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_21_WA_80mm ext:855378"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "c879ab99-a4d3-4ed8-b07f-f54c43b86d68"^^xsd:string ;
+	props:hasCompressedGuid "38UQkPfDDEsB1$zKn3k6re"^^xsd:string ;
+	bot:hostsElement EXAMPLE:door_29936 ;
+	props:tag "855378"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure true ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:thermalTransmittance "16.25"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:thermalTransmittance "16.25"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:door_29936
+	a bot:Element ;
+	a beo:Door ;
+	rdfs:label "Doors_ExtSgl_3:1010x2110mm:855427"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "c879ab99-a4d3-4ed8-b07f-f54c43b86db9"^^xsd:string ;
+	props:hasCompressedGuid "38UQkPfDDEsB1$zKn3k6sv"^^xsd:string ;
+	props:tag "855427"^^xsd:string ;
+	props:isExternal true ;
+	props:reference "1010x2110mm"^^xsd:string ;
+	props:thermalTransmittance "3.7"^^xsd:double ;
+	props:category "Doors"^^xsd:string ;
+	props:reference "1010x2110mm"^^xsd:string . 
+
+EXAMPLE:slab_30005
+	a bot:Element ;
+	a beo:Slab__FLOOR ;
+	rdfs:label "Floor:NLRS_23_FL_150mm:858017"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "9ec78beb-fa7b-44f9-9081-0e8b9cf0c21c"^^xsd:string ;
+	props:hasCompressedGuid "2Unulh_dj4_P213ekSyC8S"^^xsd:string ;
+	props:tag "858017"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Floors"^^xsd:string ;
+	props:reference "NLRS_23_FL_150mm"^^xsd:string ;
+	props:description "vloer, generiek"^^xsd:string ;
+	props:reference "NLRS_23_FL_150mm"^^xsd:string ;
+	props:isExternal true ;
+	props:loadBearing false ;
+	props:pitchAngle "0."^^xsd:double ;
+	props:reference "NLRS_23_FL_150mm"^^xsd:string ;
+	props:thermalTransmittance "1.53333333333333"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Floors"^^xsd:string ;
+	props:reference "NLRS_23_FL_150mm"^^xsd:string ;
+	props:description "vloer, generiek"^^xsd:string ;
+	props:reference "NLRS_23_FL_150mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_23_FL_150mm"^^xsd:string ;
+	props:thermalTransmittance "1.53333333333333"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:slab_30125
+	a bot:Element ;
+	a beo:Slab__FLOOR ;
+	rdfs:label "Floor:NLRS_23_FL_Insulation 35mm:858217"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "9ec78beb-fa7b-44f9-9081-0e8b9cf0cdd4"^^xsd:string ;
+	props:hasCompressedGuid "2Unulh_dj4_P213ekSyCtK"^^xsd:string ;
+	props:tag "858217"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Floors"^^xsd:string ;
+	props:reference "NLRS_23_FL_Insulation 35mm"^^xsd:string ;
+	props:description "vloer, generiek"^^xsd:string ;
+	props:reference "NLRS_23_FL_Insulation 35mm"^^xsd:string ;
+	props:isExternal true ;
+	props:loadBearing false ;
+	props:pitchAngle "0."^^xsd:double ;
+	props:reference "NLRS_23_FL_Insulation 35mm"^^xsd:string ;
+	props:thermalTransmittance "19.7142857142857"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Floors"^^xsd:string ;
+	props:reference "NLRS_23_FL_Insulation 35mm"^^xsd:string ;
+	props:description "vloer, generiek"^^xsd:string ;
+	props:reference "NLRS_23_FL_Insulation 35mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_23_FL_Insulation 35mm"^^xsd:string ;
+	props:thermalTransmittance "19.7142857142857"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:slab_30220
+	a bot:Element ;
+	a beo:Slab__FLOOR ;
+	rdfs:label "Floor:NLRS_23_FL_Finish 15mm:858313"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "9ec78beb-fa7b-44f9-9081-0e8b9cf0cd74"^^xsd:string ;
+	props:hasCompressedGuid "2Unulh_dj4_P213ekSyCrq"^^xsd:string ;
+	props:tag "858313"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Floors"^^xsd:string ;
+	props:reference "NLRS_23_FL_Finish 15mm"^^xsd:string ;
+	props:description "vloer, generiek"^^xsd:string ;
+	props:reference "NLRS_23_FL_Finish 15mm"^^xsd:string ;
+	props:isExternal true ;
+	props:loadBearing false ;
+	props:pitchAngle "0."^^xsd:double ;
+	props:reference "NLRS_23_FL_Finish 15mm"^^xsd:string ;
+	props:thermalTransmittance "193.333333333333"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Floors"^^xsd:string ;
+	props:reference "NLRS_23_FL_Finish 15mm"^^xsd:string ;
+	props:description "vloer, generiek"^^xsd:string ;
+	props:reference "NLRS_23_FL_Finish 15mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_23_FL_Finish 15mm"^^xsd:string ;
+	props:thermalTransmittance "193.333333333333"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:slab_30300
+	a bot:Element ;
+	a beo:Slab__FLOOR ;
+	rdfs:label "Floor:NLRS_23_FL_250mm:858324"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "9ec78beb-fa7b-44f9-9081-0e8b9cf0cd69"^^xsd:string ;
+	props:hasCompressedGuid "2Unulh_dj4_P213ekSyCrf"^^xsd:string ;
+	props:tag "858324"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Floors"^^xsd:string ;
+	props:reference "NLRS_23_FL_250mm"^^xsd:string ;
+	props:description "vloer, generiek"^^xsd:string ;
+	props:reference "NLRS_23_FL_250mm"^^xsd:string ;
+	props:isExternal true ;
+	props:loadBearing false ;
+	props:pitchAngle "0."^^xsd:double ;
+	props:reference "NLRS_23_FL_250mm"^^xsd:string ;
+	props:thermalTransmittance "0.92"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Floors"^^xsd:string ;
+	props:reference "NLRS_23_FL_250mm"^^xsd:string ;
+	props:description "vloer, generiek"^^xsd:string ;
+	props:reference "NLRS_23_FL_250mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_23_FL_250mm"^^xsd:string ;
+	props:thermalTransmittance "0.92"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:slab_30385
+	a bot:Element ;
+	a beo:Slab__FLOOR ;
+	rdfs:label "Floor:NLRS_23_FL_Insulation 35mm:858335"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "9ec78beb-fa7b-44f9-9081-0e8b9cf0cd62"^^xsd:string ;
+	props:hasCompressedGuid "2Unulh_dj4_P213ekSyCrY"^^xsd:string ;
+	props:tag "858335"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Floors"^^xsd:string ;
+	props:reference "NLRS_23_FL_Insulation 35mm"^^xsd:string ;
+	props:description "vloer, generiek"^^xsd:string ;
+	props:reference "NLRS_23_FL_Insulation 35mm"^^xsd:string ;
+	props:isExternal true ;
+	props:loadBearing false ;
+	props:pitchAngle "0."^^xsd:double ;
+	props:reference "NLRS_23_FL_Insulation 35mm"^^xsd:string ;
+	props:thermalTransmittance "19.7142857142857"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Floors"^^xsd:string ;
+	props:reference "NLRS_23_FL_Insulation 35mm"^^xsd:string ;
+	props:description "vloer, generiek"^^xsd:string ;
+	props:reference "NLRS_23_FL_Insulation 35mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_23_FL_Insulation 35mm"^^xsd:string ;
+	props:thermalTransmittance "19.7142857142857"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:slab_30480
+	a bot:Element ;
+	a beo:Slab__FLOOR ;
+	rdfs:label "Floor:NLRS_23_FL_Finish 15mm:858977"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "ad3c5e6d-41c2-44e6-949f-478690186557"^^xsd:string ;
+	props:hasCompressedGuid "2jF5vjGS94vfIVHuQG66LN"^^xsd:string ;
+	props:tag "858977"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Floors"^^xsd:string ;
+	props:reference "NLRS_23_FL_Finish 15mm"^^xsd:string ;
+	props:description "vloer, generiek"^^xsd:string ;
+	props:reference "NLRS_23_FL_Finish 15mm"^^xsd:string ;
+	props:isExternal true ;
+	props:loadBearing false ;
+	props:pitchAngle "0."^^xsd:double ;
+	props:reference "NLRS_23_FL_Finish 15mm"^^xsd:string ;
+	props:thermalTransmittance "193.333333333333"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Floors"^^xsd:string ;
+	props:reference "NLRS_23_FL_Finish 15mm"^^xsd:string ;
+	props:description "vloer, generiek"^^xsd:string ;
+	props:reference "NLRS_23_FL_Finish 15mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_23_FL_Finish 15mm"^^xsd:string ;
+	props:thermalTransmittance "193.333333333333"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:slab_30575
+	a bot:Element ;
+	a beo:Slab__FLOOR ;
+	rdfs:label "Floor:NLRS_23_FL_150mm:858988"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "ad3c5e6d-41c2-44e6-949f-47869018655a"^^xsd:string ;
+	props:hasCompressedGuid "2jF5vjGS94vfIVHuQG66LQ"^^xsd:string ;
+	props:tag "858988"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Floors"^^xsd:string ;
+	props:reference "NLRS_23_FL_150mm"^^xsd:string ;
+	props:description "vloer, generiek"^^xsd:string ;
+	props:reference "NLRS_23_FL_150mm"^^xsd:string ;
+	props:isExternal true ;
+	props:loadBearing false ;
+	props:pitchAngle "0."^^xsd:double ;
+	props:reference "NLRS_23_FL_150mm"^^xsd:string ;
+	props:thermalTransmittance "1.53333333333333"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Floors"^^xsd:string ;
+	props:reference "NLRS_23_FL_150mm"^^xsd:string ;
+	props:description "vloer, generiek"^^xsd:string ;
+	props:reference "NLRS_23_FL_150mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_23_FL_150mm"^^xsd:string ;
+	props:thermalTransmittance "1.53333333333333"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 . 
+
+EXAMPLE:slab_30670
+	a bot:Element ;
+	a beo:Slab__FLOOR ;
+	rdfs:label "Floor:NLRS_23_FL_Insulation 35mm:858999"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "ad3c5e6d-41c2-44e6-949f-478690186541"^^xsd:string ;
+	props:hasCompressedGuid "2jF5vjGS94vfIVHuQG66L1"^^xsd:string ;
+	props:tag "858999"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Floors"^^xsd:string ;
+	props:reference "NLRS_23_FL_Insulation 35mm"^^xsd:string ;
+	props:description "vloer, generiek"^^xsd:string ;
+	props:reference "NLRS_23_FL_Insulation 35mm"^^xsd:string ;
+	props:isExternal true ;
+	props:loadBearing false ;
+	props:pitchAngle "0."^^xsd:double ;
+	props:reference "NLRS_23_FL_Insulation 35mm"^^xsd:string ;
+	props:thermalTransmittance "19.7142857142857"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Floors"^^xsd:string ;
+	props:reference "NLRS_23_FL_Insulation 35mm"^^xsd:string ;
+	props:description "vloer, generiek"^^xsd:string ;
+	props:reference "NLRS_23_FL_Insulation 35mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_23_FL_Insulation 35mm"^^xsd:string ;
+	props:thermalTransmittance "19.7142857142857"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:wall_30754
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_22_WA_350mm:861551"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "33d3e87c-bff6-42bd-bcd7-4d7bcb51929b"^^xsd:string ;
+	props:hasCompressedGuid "0pq_Xyl$P2lRpNJNlBKPAR"^^xsd:string ;
+	props:tag "861551"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_22_WA_350mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_22_WA_350mm"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure false ;
+	props:reference "NLRS_22_WA_350mm"^^xsd:string ;
+	props:thermalTransmittance "3.04235195647625"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_22_WA_350mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_22_WA_350mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_22_WA_350mm"^^xsd:string ;
+	props:thermalTransmittance "3.04235195647625"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 . 
+
+EXAMPLE:wall_30847
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_22_WA_350mm:862021"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "33d3e87c-bff6-42bd-bcd7-4d7bcb5190b1"^^xsd:string ;
+	props:hasCompressedGuid "0pq_Xyl$P2lRpNJNlBKP2n"^^xsd:string ;
+	props:tag "862021"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_22_WA_350mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_22_WA_350mm"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure false ;
+	props:reference "NLRS_22_WA_350mm"^^xsd:string ;
+	props:thermalTransmittance "3.04235195647625"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_22_WA_350mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_22_WA_350mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_22_WA_350mm"^^xsd:string ;
+	props:thermalTransmittance "3.04235195647625"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:wall_30909
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_22_WA_250mm:862386"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "33d3e87c-bff6-42bd-bcd7-4d7bcb519f46"^^xsd:string ;
+	props:hasCompressedGuid "0pq_Xyl$P2lRpNJNlBKPz6"^^xsd:string ;
+	props:tag "862386"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_22_WA_250mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_22_WA_250mm"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:reference "NLRS_22_WA_250mm"^^xsd:string ;
+	props:extendToStructure false ;
+	props:thermalTransmittance "4.2901740926527"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_22_WA_250mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_22_WA_250mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_22_WA_250mm"^^xsd:string ;
+	props:thermalTransmittance "4.2901740926527"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:wall_31004
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_42_WA_75mm:862907"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "03d162fd-fefd-42d3-84a2-bde414c9168b"^^xsd:string ;
+	props:hasCompressedGuid "03qMBz$lr2quIYlUGKoHQB"^^xsd:string ;
+	bot:hostsElement EXAMPLE:door_31052 ;
+	props:tag "862907"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure false ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:thermalTransmittance "18.5333333333333"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:thermalTransmittance "18.5333333333333"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:door_31052
+	a bot:Element ;
+	a beo:Door ;
+	rdfs:label "Doors_IntSgl_1:800x2110mm:862963"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "03d162fd-fefd-42d3-84a2-bde414c916c3"^^xsd:string ;
+	props:hasCompressedGuid "03qMBz$lr2quIYlUGKoHR3"^^xsd:string ;
+	props:tag "862963"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "800x2110mm"^^xsd:string ;
+	props:thermalTransmittance "3.7021"^^xsd:double ;
+	props:manufacturer "Revit"^^xsd:string ;
+	props:category "Doors"^^xsd:string ;
+	props:reference "800x2110mm"^^xsd:string . 
+
+EXAMPLE:wall_31104
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_42_WA_75mm:863010"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "03d162fd-fefd-42d3-84a2-bde414c91712"^^xsd:string ;
+	props:hasCompressedGuid "03qMBz$lr2quIYlUGKoHSI"^^xsd:string ;
+	props:tag "863010"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure false ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:thermalTransmittance "18.5333333333333"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:thermalTransmittance "18.5333333333333"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:wall_31166
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_42_WA_75mm:863259"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "03d162fd-fefd-42d3-84a2-bde414c9102b"^^xsd:string ;
+	props:hasCompressedGuid "03qMBz$lr2quIYlUGKoH0h"^^xsd:string ;
+	props:tag "863259"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure false ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:thermalTransmittance "18.5333333333333"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:thermalTransmittance "18.5333333333333"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:wall_31266
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_42_WA_75mm:865329"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "f7bbb6c4-846a-49d6-a083-a9918bb50e2e"^^xsd:string ;
+	props:hasCompressedGuid "3tkxR4X6f9rg23gP6BjGuk"^^xsd:string ;
+	props:tag "865329"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure false ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:thermalTransmittance "18.5333333333333"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:thermalTransmittance "18.5333333333333"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .  
+
+EXAMPLE:stair_31307
+	a bot:Element ;
+	a beo:Stair ;
+	rdfs:label "Cast-In-Place Stair:Stair:868647"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "a1d2e13f-02ce-4bbd-8515-89bad0b0a736"^^xsd:string ;
+	props:hasCompressedGuid "2Xqk4$0ivBlOKLYRhGiASs"^^xsd:string ;
+	bot:hasSubElement EXAMPLE:stairFlight_33077 ;
+	props:tag "868647"^^xsd:string ;
+	props:category "Stairs"^^xsd:string ;
+	props:reference "NLRS_24_STR_trap-beton ihwg-monolitisch-breedte 850mm-optrede 185mm-aantrede 220mm_gen_rsf"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_24_STR_trap-beton ihwg-monolitisch-breedte 850mm-optrede 185mm-aantrede 220mm_gen_rsf"^^xsd:string ;
+	props:numberOfRiser "15."^^xsd:double ;
+	props:numberOfTreads "14."^^xsd:double ;
+	props:riserHeight "180."^^xsd:double ;
+	props:treadLength "200."^^xsd:double ;
+	bmp:hasMaterial EXAMPLE:Wood001 .
+
+EXAMPLE:stairFlight_33077
+	a bot:Element ;
+	a beo:StairFlight ;
+	rdfs:label "Cast-In-Place Stair:Stair:868647 Run 1"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "a1d2e13f-02ce-4bbd-8515-89bad0b0a75d"^^xsd:string ;
+	props:hasCompressedGuid "2Xqk4$0ivBlOKLYRhGiATT"^^xsd:string ;
+	props:tag "868684"^^xsd:string ;
+	props:category "Runs"^^xsd:string ;
+	props:reference "NLRS_24_STRR_trap-beton prefab-monolithisch-recht_gen_rsf"^^xsd:string ;
+	props:reference "NLRS_24_STRR_trap-beton prefab-monolithisch-recht_gen_rsf"^^xsd:string ;
+	props:numberOfRiser "15."^^xsd:double ;
+	props:numberOfTreads "14."^^xsd:double ;
+	props:riserHeight "180."^^xsd:double ;
+	props:treadLength "200."^^xsd:double ;
+	props:nosingLength "0."^^xsd:double ;
+	props:treadLengthAtOffset "200."^^xsd:double . 
+
+EXAMPLE:wall_33157
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_42_WA_75mm:870182"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "a2e83558-f744-4df6-83ef-10dd0d606cd0"^^xsd:string ;
+	props:hasCompressedGuid "2Yw3LOzqHDzeFl4DqDO6pG"^^xsd:string ;
+	props:tag "870182"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure false ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:thermalTransmittance "18.5333333333333"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_42_WA_75mm"^^xsd:string ;
+	props:thermalTransmittance "18.5333333333333"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 . 
+
+EXAMPLE:roof_33200
+	a bot:Element ;
+	a beo:Roof ;
+	rdfs:label "Basic Roof:NLRS_27_structure-120mm:872419"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "a965b370-8ba7-4f38-ad09-2fb3fd844e9f"^^xsd:string ;
+	props:hasCompressedGuid "2fPRDmYwTFEAq9BxFzX4wV"^^xsd:string ;
+	bot:hasSubElement EXAMPLE:slab_33229 ;
+	bot:hasSubElement EXAMPLE:slab_33256 ;
+	props:tag "872419"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Roofs"^^xsd:string ;
+	props:reference "NLRS_27_structure-120mm"^^xsd:string ;
+	props:isExternal true ;
+	props:reference "NLRS_27_structure-120mm"^^xsd:string ;
+	props:projectedArea "53.9615999999997"^^xsd:double ;
+	props:totalArea "65.8749500489099"^^xsd:double ; 
+	bmp:hasLayer EXAMPLE:layer_1 .
+
+EXAMPLE:slab_33229
+	a bot:Element ;
+	a beo:Slab ;
+	rdfs:label "Basic Roof:NLRS_27_structure-120mm:872419"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "a965b370-8ba7-4f38-ad09-2fb1fd844e9f"^^xsd:string ;
+	props:hasCompressedGuid "2fPRDmYwTFEAq9Bx7zX4wV"^^xsd:string ;
+	props:tag "872419"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Roofs"^^xsd:string ;
+	props:reference "NLRS_27_structure-120mm"^^xsd:string ;
+	props:description "dak, generiek"^^xsd:string ;
+	props:reference "NLRS_27_structure-120mm"^^xsd:string ;
+	props:isExternal true ;
+	props:reference "NLRS_27_structure-120mm"^^xsd:string ;
+	props:thermalTransmittance "11.5833333333333"^^xsd:double ;
+	props:pitchAngle "40.1189367226617"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .
+
+EXAMPLE:slab_33256
+	a bot:Element ;
+	a beo:Slab ;
+	rdfs:label "Basic Roof:NLRS_27_structure-120mm:872419"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "a965b370-8ba7-4f38-ad09-2fb0fd844e9f"^^xsd:string ;
+	props:hasCompressedGuid "2fPRDmYwTFEAq9Bx3zX4wV"^^xsd:string ;
+	props:tag "872419"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Roofs"^^xsd:string ;
+	props:reference "NLRS_27_structure-120mm"^^xsd:string ;
+	props:description "dak, generiek"^^xsd:string ;
+	props:reference "NLRS_27_structure-120mm"^^xsd:string ;
+	props:isExternal true ;
+	props:reference "NLRS_27_structure-120mm"^^xsd:string ;
+	props:thermalTransmittance "11.5833333333333"^^xsd:double ;
+	props:pitchAngle "40.1189367226617"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .
+
+EXAMPLE:roof_33374
+	a bot:Element ;
+	a beo:Roof ;
+	rdfs:label "Basic Roof:NLRS_27_IN-80mm:872584"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "a965b370-8ba7-4f38-ad09-2fb3fd8451f4"^^xsd:string ;
+	props:hasCompressedGuid "2fPRDmYwTFEAq9BxFzX57q"^^xsd:string ;
+	bot:hasSubElement EXAMPLE:slab_33407 ;
+	bot:hasSubElement EXAMPLE:slab_33434 ;
+	props:tag "872584"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Roofs"^^xsd:string ;
+	props:reference "NLRS_27_IN-80mm"^^xsd:string ;
+	props:isExternal true ;
+	props:reference "NLRS_27_IN-80mm"^^xsd:string ;
+	props:projectedArea "58.8383999999994"^^xsd:double ;
+	props:totalArea "71.8284235633814"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .
+
+EXAMPLE:slab_33407
+	a bot:Element ;
+	a beo:Slab ;
+	rdfs:label "Basic Roof:NLRS_27_IN-80mm:872584"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "a965b370-8ba7-4f38-ad09-2fb1fd8451f4"^^xsd:string ;
+	props:hasCompressedGuid "2fPRDmYwTFEAq9Bx7zX57q"^^xsd:string ;
+	props:tag "872584"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Roofs"^^xsd:string ;
+	props:reference "NLRS_27_IN-80mm"^^xsd:string ;
+	props:description "dak, generiek"^^xsd:string ;
+	props:reference "NLRS_27_IN-80mm"^^xsd:string ;
+	props:isExternal true ;
+	props:reference "NLRS_27_IN-80mm"^^xsd:string ;
+	props:thermalTransmittance "4.39252336448598"^^xsd:double ;
+	props:pitchAngle "40.1189367226617"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 .
+
+EXAMPLE:slab_33434
+	a bot:Element ;
+	a beo:Slab ;
+	rdfs:label "Basic Roof:NLRS_27_IN-80mm:872584"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "a965b370-8ba7-4f38-ad09-2fb0fd8451f4"^^xsd:string ;
+	props:hasCompressedGuid "2fPRDmYwTFEAq9Bx3zX57q"^^xsd:string ;
+	props:tag "872584"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Roofs"^^xsd:string ;
+	props:reference "NLRS_27_IN-80mm"^^xsd:string ;
+	props:description "dak, generiek"^^xsd:string ;
+	props:reference "NLRS_27_IN-80mm"^^xsd:string ;
+	props:isExternal true ;
+	props:reference "NLRS_27_IN-80mm"^^xsd:string ;
+	props:thermalTransmittance "4.39252336448598"^^xsd:double ;
+	props:pitchAngle "40.1189367226617"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 . 
+
+EXAMPLE:wall_33621
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_21_WA_80mm ext:872814"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "28470628-2285-4d41-8541-1460997fcf41"^^xsd:string ;
+	props:hasCompressedGuid "0eHmOe8eLDGOL1562PVyz1"^^xsd:string ;
+	props:tag "872814"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure true ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:thermalTransmittance "16.25"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:thermalTransmittance "16.25"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 . 
+
+EXAMPLE:wall_33721
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_21_WA_80mm ext:873094"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "28470628-2285-4d41-8541-1460997fcca9"^^xsd:string ;
+	props:hasCompressedGuid "0eHmOe8eLDGOL1562PVyof"^^xsd:string ;
+	props:tag "873094"^^xsd:string ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure true ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:thermalTransmittance "16.25"^^xsd:double ;
+	props:roughness "304.8"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:thermalTransmittance "16.25"^^xsd:double ;
+	bmp:hasLayer EXAMPLE:layer_1 . 
+
+EXAMPLE:stair_33762
+	a bot:Element ;
+	a beo:Stair ;
+	rdfs:label "Cast-In-Place Stair:Stair:874176"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "dd619595-0009-4b68-9cba-1acc297a0e57"^^xsd:string ;
+	props:hasCompressedGuid "3TOPML00bBQ9ow6imfUWvN"^^xsd:string ;
+	bot:hasSubElement EXAMPLE:stairFlight_36972 ;
+	props:tag "874176"^^xsd:string ;
+	props:category "Stairs"^^xsd:string ;
+	props:reference "NLRS_24_STR_trap-beton ihwg-monolitisch-breedte 850mm-optrede 185mm-aantrede 220mm_gen_rsf"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "NLRS_24_STR_trap-beton ihwg-monolitisch-breedte 850mm-optrede 185mm-aantrede 220mm_gen_rsf"^^xsd:string ;
+	props:numberOfRiser "14."^^xsd:double ;
+	props:numberOfTreads "13."^^xsd:double ;
+	props:riserHeight "192.857142857143"^^xsd:double ;
+	props:treadLength "200."^^xsd:double ;
+	bmp:hasMaterial EXAMPLE:Wood001 .
+
+EXAMPLE:stairFlight_36972
+	a bot:Element ;
+	a beo:StairFlight ;
+	rdfs:label "Cast-In-Place Stair:Stair:874176 Run 1"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "dd619595-0009-4b68-9cba-1acc297a0e4a"^^xsd:string ;
+	props:hasCompressedGuid "3TOPML00bBQ9ow6imfUWvA"^^xsd:string ;
+	props:tag "874205"^^xsd:string ;
+	props:category "Runs"^^xsd:string ;
+	props:reference "NLRS_24_STRR_trap-beton prefab-monolithisch-recht_gen_rsf"^^xsd:string ;
+	props:reference "NLRS_24_STRR_trap-beton prefab-monolithisch-recht_gen_rsf"^^xsd:string ;
+	props:nosingLength "0."^^xsd:double ;
+	props:numberOfRiser "14."^^xsd:double ;
+	props:numberOfTreads "13."^^xsd:double ;
+	props:riserHeight "192.857142857143"^^xsd:double ;
+	props:treadLength "200."^^xsd:double ;
+	props:treadLengthAtOffset "200."^^xsd:double . 
+
+EXAMPLE:door_42526
+	a bot:Element ;
+	a beo:Door ;
+	rdfs:label "Doors_ExtSgl_3:1010x2110mm:878657"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "c1242486-9424-4364-98b3-2c6163e797d2"^^xsd:string ;
+	props:hasCompressedGuid "3192I6b2H3P9YpB65ZvvVI"^^xsd:string ;
+	props:tag "878657"^^xsd:string ;
+	props:isExternal true ;
+	props:reference "1010x2110mm"^^xsd:string ;
+	props:thermalTransmittance "3.7"^^xsd:double ;
+	props:category "Doors"^^xsd:string ;
+	props:reference "1010x2110mm"^^xsd:string . 
+
+EXAMPLE:window_43062
+	a bot:Element ;
+	a beo:Window ;
+	rdfs:label "Windows_Concept_Plain_Sgl:2416x1900mm:880971"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "c1242486-9424-4364-98b3-2c6163e78ed8"^^xsd:string ;
+	props:hasCompressedGuid "3192I6b2H3P9YpB65ZvuxO"^^xsd:string ;
+	props:tag "880971"^^xsd:string ;
+	props:manufacturer "Revit"^^xsd:string ;
+	props:category "Windows"^^xsd:string ;
+	props:reference "2416x1900mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "2416x1900mm"^^xsd:string ;
+	props:thermalTransmittance "2.9"^^xsd:double . 
+
+EXAMPLE:window_43102
+	a bot:Element ;
+	a beo:Window ;
+	rdfs:label "Windows_Concept_Plain_Sgl:2416x1900mm:881130"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "c1242486-9424-4364-98b3-2c6163e78e79"^^xsd:string ;
+	props:hasCompressedGuid "3192I6b2H3P9YpB65Zvuvv"^^xsd:string ;
+	props:tag "881130"^^xsd:string ;
+	props:manufacturer "Revit"^^xsd:string ;
+	props:category "Windows"^^xsd:string ;
+	props:reference "2416x1900mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "2416x1900mm"^^xsd:string ;
+	props:thermalTransmittance "2.9"^^xsd:double . 
+
+EXAMPLE:window_43803
+	a bot:Element ;
+	a beo:Window ;
+	rdfs:label "Windows_Concept_Plain_Dbl:1000x1000mm:881262"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "c1242486-9424-4364-98b3-2c6163e78dfd"^^xsd:string ;
+	props:hasCompressedGuid "3192I6b2H3P9YpB65Zvutz"^^xsd:string ;
+	props:tag "881262"^^xsd:string ;
+	props:manufacturer "Revit"^^xsd:string ;
+	props:category "Windows"^^xsd:string ;
+	props:reference "1000x1000mm"^^xsd:string ;
+	props:isExternal false ;
+	props:thermalTransmittance "2.9"^^xsd:double ;
+	props:reference "1000x1000mm"^^xsd:string . 
+
+EXAMPLE:window_43842
+	a bot:Element ;
+	a beo:Window ;
+	rdfs:label "Windows_Concept_Plain_Sgl:2416x1900mm:885465"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "238c2826-9890-4f27-8fd1-22598521fdad"^^xsd:string ;
+	props:hasCompressedGuid "0ZZ2Wcc91F9u$H8bc58Vsj"^^xsd:string ;
+	props:tag "885465"^^xsd:string ;
+	props:manufacturer "Revit"^^xsd:string ;
+	props:category "Windows"^^xsd:string ;
+	props:reference "2416x1900mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "2416x1900mm"^^xsd:string ;
+	props:thermalTransmittance "2.9"^^xsd:double . 
+
+EXAMPLE:window_44351
+	a bot:Element ;
+	a beo:Window ;
+	rdfs:label "Windows_Concept_Plain_Sgl:2416x1900mm:885511"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "238c2826-9890-4f27-8fd1-22598521fc73"^^xsd:string ;
+	props:hasCompressedGuid "0ZZ2Wcc91F9u$H8bc58Vnp"^^xsd:string ;
+	props:tag "885511"^^xsd:string ;
+	props:manufacturer "Revit"^^xsd:string ;
+	props:category "Windows"^^xsd:string ;
+	props:reference "2416x1900mm"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "2416x1900mm"^^xsd:string ;
+	props:thermalTransmittance "2.9"^^xsd:double . 
+
+EXAMPLE:window_45053
+	a bot:Element ;
+	a beo:Window ;
+	rdfs:label "Windows_Concept_Plain_Dbl:1000x1000mm:885512"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "238c2826-9890-4f27-8fd1-22598521fc7c"^^xsd:string ;
+	props:hasCompressedGuid "0ZZ2Wcc91F9u$H8bc58Vny"^^xsd:string ;
+	props:tag "885512"^^xsd:string ;
+	props:manufacturer "Revit"^^xsd:string ;
+	props:category "Windows"^^xsd:string ;
+	props:reference "1000x1000mm"^^xsd:string ;
+	props:isExternal false ;
+	props:thermalTransmittance "2.9"^^xsd:double ;
+	props:reference "1000x1000mm"^^xsd:string . 
+
+
+EXAMPLE:layer_1
+	a bmp:Layer ;
+	bmp:hasLayerFunction EXAMPLE:layerFunction_1 ;
+	bmp:hasLayerLocation EXAMPLE:layerLocation_1 ;
+	bmp:hasMaterial EXAMPLE:ss ;
+	bmp:hasMaterial EXAMPLE:WoodFiber001 ;
+	bmp:hasMaterial EXAMPLE:LightBrick001 .
+	
+
+EXAMPLE:layer_2
+	a bmp:Layer ;
+	bmp:hasLayerFunction EXAMPLE:layerFunction_1 ;
+	bmp:hasLayerLocation EXAMPLE:layerLocation_1 ;
+	bmp:hasMaterial EXAMPLE:WoodFiber001 .
+	
+EXAMPLE:layer_3
+	a bmp:Layer ;
+	bmp:hasLayerFunction EXAMPLE:layerFunction_1 ;
+	bmp:hasLayerLocation EXAMPLE:layerLocation_1 ;
+	bmp:hasMaterial EXAMPLE:LightBrick001 .
+
+EXAMPLE:layerFunction_1
+	a bmp:Insulation ;
+	a bmp:Finishing ;
+	a bmp:Structural .
