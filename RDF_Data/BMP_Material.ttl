@@ -74,7 +74,7 @@ inst:WaterVaporSorptionIsothermState_003 a bmp:WaterVaporSorptionIsothermState ;
   bmp:hasDesortpionC "6.67"^^xsd:double .
 
 inst:ThermalConductivityState_003 a bmp:thermalConductivityState ;
-  bmp:hashasThermalConductivity "0.038"^^xsd:double ;
+  bmp:hasThermalConductivity "0.038"^^xsd:double ;
   bmp:hasTemperatureCondition "22"^^xsd:double ;
   bmp:hasMoistureCondition "70"^^xsd:double .
 
@@ -99,7 +99,7 @@ inst:WaterVaporSorptionIsothermState_004 a bmp:WaterVaporSorptionIsothermState ;
   bmp:hasDesortpionC "6.68"^^xsd:double .
 
 inst:ThermalConductivityState_004 a bmp:thermalConductivityState ;
-  bmp:hashasThermalConductivity "0.22"^^xsd:double ;
+  bmp:hasThermalConductivity "0.22"^^xsd:double ;
   bmp:hasTemperatureCondition "23"^^xsd:double ;
   bmp:hasMoistureCondition "80"^^xsd:double .
 
@@ -124,6 +124,6 @@ inst:WaterVaporSorptionIsothermState_005 a bmp:WaterVaporSorptionIsothermState ;
   bmp:hasDesortpionC "6.669"^^xsd:double .
 
 inst:ThermalConductivityState_005 a bmp:thermalConductivityState ;
-  bmp:hashasThermalConductivity "1.1"^^xsd:double ;
+  bmp:hasThermalConductivity "1.1"^^xsd:double ;
   bmp:hasTemperatureCondition "24"^^xsd:double ;
   bmp:hasMoistureCondition "90"^^xsd:double .
