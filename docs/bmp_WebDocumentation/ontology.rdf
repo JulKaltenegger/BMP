@@ -1,0 +1,1596 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://w3id.org/bmp#"
+     xml:base="http://w3id.org/bmp"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://w3id.org/bmp#">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-8651-0671"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-9383-7234"/>
+        <terms:description xml:lang="en">The Building Material Performance ontology is created to enrich 
+building information models with highly aggregated information with respect to material information modelling and material simulation.
+
+BMP classifies construction materials based on categories, types and property groups. Each property group describes parameters to be used as input values for simulation works.</terms:description>
+        <terms:title xml:lang="en">Building Material Performance</terms:title>
+        <vann:preferredNamespacePrefix xml:lang="en">bmp</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri xml:lang="en">https://w3id.org/bmp#</vann:preferredNamespaceUri>
+        <rdfs:label>Building Material Performance</rdfs:label>
+        <owl:versionInfo xml:lang="en">1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/weblog -->
+
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/weblog"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/bmp#hasAdsorptionC -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasAdsorptionC">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/bmp#hasWaterVapourSorptionIsotherm"/>
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#WaterVapourSorptionIsotherm"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#AdsorptionC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasAdsorptionK -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasAdsorptionK">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/bmp#hasWaterVapourSorptionIsotherm"/>
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#WaterVapourSorptionIsotherm"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#AdsorptionK"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasAdsorptionWm -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasAdsorptionWm">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/bmp#hasWaterVapourSorptionIsotherm"/>
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#WaterVapourSorptionIsotherm"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#AdsorptionWm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasBulkDensity -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasBulkDensity">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#Physical"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#BulkDensity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasDesorptionC -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasDesorptionC">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/bmp#hasWaterVapourSorptionIsotherm"/>
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#WaterVapourSorptionIsotherm"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#DesorptionC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasDesorptionK -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasDesorptionK">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/bmp#hasWaterVapourSorptionIsotherm"/>
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#WaterVapourSorptionIsotherm"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#DesorptionK"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasDesorptionWm -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasDesorptionWm">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/bmp#hasWaterVapourSorptionIsotherm"/>
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#WaterVapourSorptionIsotherm"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#DesorptionWm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasDropping -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasDropping">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/bmp#hasFireResistance"/>
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#FireResistance"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#Dropping"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasEffectiveGasPermeability -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasEffectiveGasPermeability">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#Physical"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#EffectiveGasPermeability"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasFireClassification -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasFireClassification">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/bmp#hasFireResistance"/>
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#FireResistance"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#FireClassification"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasFireResistance -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasFireResistance">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#Durability"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#FireResistance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasLifeSpan -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasLifeSpan">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#Durability"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#LifeSpan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasLiquidTransportCoef -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasLiquidTransportCoef">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#Hygric"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#LiquidTransportCoef"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasMoistureContent -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasMoistureContent">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/bmp#hasThermalConductivity"/>
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#ThermalConductivity"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#MoistureContent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasPorosity -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasPorosity">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#Physical"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#Porosity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasRelativeGasDiffusivity -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasRelativeGasDiffusivity">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#Physical"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#RelativeGasDiffusivity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasSmokeDevelopment -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasSmokeDevelopment">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/bmp#hasFireResistance"/>
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#FireResistance"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#SmokeDevelopment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasSolarTransmittance -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasSolarTransmittance">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#Thermal"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#SolarTransmittance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasSpecificHeatCapacity -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasSpecificHeatCapacity">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#Thermal"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#SpecificHeatCapacity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasTemperatureCondition -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasTemperatureCondition">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/bmp#hasThermalConductivity"/>
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#ThermalConductivity"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#TempCondition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasThermalConductivity -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasThermalConductivity">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#Thermal"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#ThermalConductivity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasThermalDiffusivity -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasThermalDiffusivity">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#Thermal"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#ThermalDiffusivity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasThermalExpansionCoef -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasThermalExpansionCoef">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#Thermal"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#ThermalExpansionCoef"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasVolumetricHeatCapacity -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasVolumetricHeatCapacity">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#Thermal"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#VolumetricHeatCapacity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasWaterVapourDiffusionThickness -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasWaterVapourDiffusionThickness">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#Hygric"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#WaterVapourDiffusionThickness"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasWaterVapourDiffusivity -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasWaterVapourDiffusivity">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#Hygric"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#WaterVapourDiffusivity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasWaterVapourPermeability -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasWaterVapourPermeability">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#Hygric"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#WaterVapourPermeability"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasWaterVapourResistanceFactor -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasWaterVapourResistanceFactor">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#Hygric"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#WaterVapourResistanceFactor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#hasWaterVapourSorptionIsotherm -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#hasWaterVapourSorptionIsotherm">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#Hygric"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#WaterVapourSorptionIsotherm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isAirDryTimber -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isAirDryTimber">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#AirDryTimber"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isBasaltStone -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isBasaltStone">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#BasaltStone"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isBrick -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isBrick">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialCategory"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#Brick"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isBrickMasonryUnit -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isBrickMasonryUnit">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#BrickMasonryUnit"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isCalciumSilicateUnit -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isCalciumSilicateUnit">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#CalciumSilicateUnit"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isClayUnit -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isClayUnit">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#ClayUnit"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isConcrete -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isConcrete">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialCategory"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#Concrete"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isDrawnSheetGlass -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isDrawnSheetGlass">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#DrawnSheetGlass"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isFloatGlass -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isFloatGlass">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#FloatGlass"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isGlass -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isGlass">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialCategory"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#Glass"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isGranitStone -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isGranitStone">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#GranitStone"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isHeavyWeightAggregate -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isHeavyWeightAggregate">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#HeavyWeightAggregate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isHeavyWeightConcrete -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isHeavyWeightConcrete">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#HeavyWeightConcrete"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isHemp -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isHemp">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialCategory"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#Hemp"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isHempFibreBoard -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isHempFibreBoard">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#HempFibreBoard"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isHempFibreMat -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isHempFibreMat">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#HempFibreMat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isHempcrete -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isHempcrete">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#Hempcrete"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isLightWeightAggregate -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isLightWeightAggregate">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#LightWeightAggregate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isLightWeightConcrete -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isLightWeightConcrete">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#LightWeightConcrete"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isMineralFibre -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isMineralFibre">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialCategory"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#MineralFibre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isMineralFibreBoard -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isMineralFibreBoard">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#MineralFibreBoard"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isMineralFibreMat -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isMineralFibreMat">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#MineralFibreMat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isNaturalStone -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isNaturalStone">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialCategory"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#NaturalStone"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isNonMetallic -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isNonMetallic">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialCategory"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#NonMetallic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isPatternedGlass -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isPatternedGlass">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#PatternedGlass"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isPolishedWiredGlass -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isPolishedWiredGlass">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#PolishedWiredGlass"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isPrestressedConcrete -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isPrestressedConcrete">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#PrestressedConcrete"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isSandStone -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isSandStone">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#SandStone"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isWoodHard -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isWoodHard">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#WoodHard"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isWoodSoft -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isWoodSoft">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#WoodSoft"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bmp#isWoodTimber -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bmp#isWoodTimber">
+        <rdfs:domain rdf:resource="https://w3id.org/bmp#MaterialCategory"/>
+        <rdfs:range rdf:resource="https://w3id.org/bmp#WoodTimber"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/bmp#Accoustic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#Accoustic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialProperty"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Durability"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Hygric"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Mechanical"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Optical"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Physical"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Thermal"/>
+        <rdfs:label xml:lang="en">Accoustic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#AdsorptionC -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#AdsorptionC">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#WaterVapourSorptionIsotherm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#AdsorptionK -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#AdsorptionK">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#WaterVapourSorptionIsotherm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#AdsorptionWm -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#AdsorptionWm">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#WaterVapourSorptionIsotherm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#AirDryTimber -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#AirDryTimber">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/77077.html</rdfs:comment>
+        <rdfs:label xml:lang="en">AirDryTimber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#BasaltStone -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#BasaltStone">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/77077.html</rdfs:comment>
+        <rdfs:label xml:lang="en">BasaltStone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#Brick -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#Brick">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialCategory"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/32918.html</rdfs:comment>
+        <rdfs:label xml:lang="en">Brick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#BrickMasonryUnit -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#BrickMasonryUnit">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/32918.html</rdfs:comment>
+        <rdfs:label xml:lang="en">BrickMasonryUnit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#BulkDensity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#BulkDensity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#CalciumSilicateUnit -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#CalciumSilicateUnit">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/32918.html</rdfs:comment>
+        <rdfs:label xml:lang="en">CalciumSilicateUnit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#ClayUnit -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#ClayUnit">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/32918.html</rdfs:comment>
+        <rdfs:label xml:lang="en">ClayUnit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#Concrete -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#Concrete">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialCategory"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/41260.html</rdfs:comment>
+        <rdfs:label xml:lang="en">Concrete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#DesorptionC -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#DesorptionC">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#WaterVapourSorptionIsotherm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#DesorptionK -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#DesorptionK">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#WaterVapourSorptionIsotherm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#DesorptionWm -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#DesorptionWm">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#WaterVapourSorptionIsotherm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#DrawnSheetGlass -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#DrawnSheetGlass">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/46375.html</rdfs:comment>
+        <rdfs:label xml:lang="en">DrawnSheetGlass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#Dropping -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#Dropping">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#FireResistance"/>
+        <rdfs:label xml:lang="en">Dropping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#Durability -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#Durability">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialProperty"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Hygric"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Mechanical"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Optical"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Physical"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Thermal"/>
+        <rdfs:label xml:lang="en">Durability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#EffectiveGasPermeability -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#EffectiveGasPermeability">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#Finishing -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#Finishing">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#LayerFunction"/>
+        <rdfs:label>Finishing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#FireClassification -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#FireClassification">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#FireResistance"/>
+        <rdfs:label xml:lang="en">FireClassification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#FireResistance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#FireResistance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#Durability"/>
+        <rdfs:comment xml:lang="en">https://www.peroni.com/lang_UK/_download/EN_Reaction_to_Fire_Classification.pdf</rdfs:comment>
+        <rdfs:label xml:lang="en">FireResistance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#FloatGlass -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#FloatGlass">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/46375.html</rdfs:comment>
+        <rdfs:label xml:lang="en">FloatGlass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#Glass -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#Glass">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialCategory"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/46375.html</rdfs:comment>
+        <rdfs:label xml:lang="en">Glass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#GlazingOpening -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#GlazingOpening">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#LayerFunction"/>
+        <rdfs:label xml:lang="en">Glazing</rdfs:label>
+        <rdfs:label xml:lang="en">Opening</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#GranitStone -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#GranitStone">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/77077.html</rdfs:comment>
+        <rdfs:label xml:lang="en">GranitStone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#HeavyWeightAggregate -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#HeavyWeightAggregate">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/41260.html</rdfs:comment>
+        <rdfs:label xml:lang="en">HeavyWeightAggregate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#HeavyWeightConcrete -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#HeavyWeightConcrete">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/41260.html</rdfs:comment>
+        <rdfs:label xml:lang="en">HeavyWeightConcrete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#Hemp -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#Hemp">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialCategory"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/78231.html</rdfs:comment>
+        <rdfs:label xml:lang="en">Hemp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#HempFibreBoard -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#HempFibreBoard">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/78231.html</rdfs:comment>
+        <rdfs:label xml:lang="en">HempFibreBoard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#HempFibreMat -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#HempFibreMat">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/78231.html</rdfs:comment>
+        <rdfs:label xml:lang="en">HempFibreMat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#Hempcrete -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#Hempcrete">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/41260.html</rdfs:comment>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/78231.html</rdfs:comment>
+        <rdfs:label xml:lang="en">Hempcrete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#Hygric -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#Hygric">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialProperty"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Mechanical"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Optical"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Physical"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Thermal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#Insulating -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#Insulating">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#LayerFunction"/>
+        <rdfs:label xml:lang="en">Insulating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#Layer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#Layer">
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Material"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#MaterialCategory"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#MaterialProperty"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#MaterialType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#LayerFunction -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#LayerFunction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#Layer"/>
+        <rdfs:comment xml:lang="en">The Layer Function class is used to give a first-time identification of building components, such as a layer, in building models.</rdfs:comment>
+        <rdfs:label xml:lang="en">LayerFunction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#LayerLocation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#LayerLocation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#Layer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#LifeSpan -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#LifeSpan">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#Durability"/>
+        <rdfs:comment xml:lang="en">Service life time of a material or a product</rdfs:comment>
+        <rdfs:label xml:lang="en">LifeSpan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#LightWeightAggregate -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#LightWeightAggregate">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/41260.html</rdfs:comment>
+        <rdfs:label xml:lang="en">LightWeightAggregate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#LightWeightConcrete -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#LightWeightConcrete">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/41260.html</rdfs:comment>
+        <rdfs:label xml:lang="en">LightWeightConcrete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#LiquidTransportCoef -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#LiquidTransportCoef">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#Hygric"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#LoadBearing -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#LoadBearing">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#LayerFunction"/>
+        <rdfs:label xml:lang="en">LoadBearing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#Material -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#Material">
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#MaterialCategory"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#MaterialProperty"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">Material class is used to describe a material as a non-living entity that manifest properties that can be measured or characterised.</rdfs:comment>
+        <rdfs:label xml:lang="en">Material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#MaterialCategory -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#MaterialCategory">
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#MaterialProperty"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">Material Category class is used to describe material categories in a higher aggregated level.</rdfs:comment>
+        <rdfs:label xml:lang="en">MaterialCategory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#MaterialProperty -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#MaterialProperty">
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">A property is an inherent or acquired feature of an item and cannot be part of several property sets.</rdfs:comment>
+        <rdfs:label xml:lang="en">MaterialProperty</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#MaterialType -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#MaterialType">
+        <rdfs:comment xml:lang="en">Material Types class is used to describe material typologies and sub typologies in low aggregated level.</rdfs:comment>
+        <rdfs:label xml:lang="en">MaterialType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#Mechanical -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#Mechanical">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialProperty"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Optical"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Physical"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Thermal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#MineralFibre -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#MineralFibre">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialCategory"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/15229.html</rdfs:comment>
+        <rdfs:label xml:lang="en">MineralFibre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#MineralFibreBoard -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#MineralFibreBoard">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/15229.html</rdfs:comment>
+        <rdfs:label xml:lang="en">MineralFibreBoard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#MineralFibreMat -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#MineralFibreMat">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/15229.html</rdfs:comment>
+        <rdfs:label xml:lang="en">MineralFibreMat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#MoistureContent -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#MoistureContent">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#ThermalConductivity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#NaturalStone -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#NaturalStone">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialCategory"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/77077.html</rdfs:comment>
+        <rdfs:label xml:lang="en">NaturalStone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#NonLoadBearing -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#NonLoadBearing">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#LayerFunction"/>
+        <rdfs:label xml:lang="en">NonLoadBearing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#NonMetallic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#NonMetallic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialCategory"/>
+        <rdfs:comment xml:lang="en">NonMetallic</rdfs:comment>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/77077.html</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#Optical -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#Optical">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialProperty"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Physical"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Thermal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#PatternedGlass -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#PatternedGlass">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/46375.html</rdfs:comment>
+        <rdfs:label xml:lang="en">PatternedGlass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#Physical -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#Physical">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialProperty"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bmp#Thermal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#PolishedWiredGlass -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#PolishedWiredGlass">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/46375.html</rdfs:comment>
+        <rdfs:label xml:lang="en">PolishedWiredGlass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#Porosity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#Porosity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#PrestressedConcrete -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#PrestressedConcrete">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/41260.html</rdfs:comment>
+        <rdfs:label xml:lang="en">PrestressedConcrete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#RelativeGasDiffusivity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#RelativeGasDiffusivity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#SandStone -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#SandStone">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/77077.html</rdfs:comment>
+        <rdfs:label xml:lang="en">SandStone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#SmokeDevelopment -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#SmokeDevelopment">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#FireResistance"/>
+        <rdfs:label xml:lang="en">SmokeDevelopment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#SolarTransmittance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#SolarTransmittance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#Thermal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#SpecificHeatCapacity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#SpecificHeatCapacity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#Thermal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#TempCondition -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#TempCondition">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#ThermalConductivity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#Thermal -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#Thermal">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#ThermalConductivity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#ThermalConductivity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#Thermal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#ThermalDiffusivity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#ThermalDiffusivity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#Thermal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#ThermalExpansionCoef -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#ThermalExpansionCoef">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#Thermal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#VolumetricHeatCapacity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#VolumetricHeatCapacity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#Thermal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#WaterVapourDiffusionThickness -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#WaterVapourDiffusionThickness">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#Hygric"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#WaterVapourDiffusivity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#WaterVapourDiffusivity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#Hygric"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#WaterVapourPermeability -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#WaterVapourPermeability">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#Hygric"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#WaterVapourResistanceFactor -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#WaterVapourResistanceFactor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#Hygric"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#WaterVapourSorptionIsotherm -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#WaterVapourSorptionIsotherm">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#Hygric"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#WoodHard -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#WoodHard">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/77077.html</rdfs:comment>
+        <rdfs:label xml:lang="en">WoodHard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#WoodSoft -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#WoodSoft">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialType"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/77077.html</rdfs:comment>
+        <rdfs:label xml:lang="en">WoodSoft</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bmp#WoodTimber -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bmp#WoodTimber">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bmp#MaterialCategory"/>
+        <rdfs:comment xml:lang="en">https://www.iso.org/standard/77077.html</rdfs:comment>
+        <rdfs:label xml:lang="en">Timber</rdfs:label>
+        <rdfs:label xml:lang="en">Wood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://orcid.org/0000-0002-8651-0671 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-8651-0671">
+        <rdfs:comment>Ekaterina Petrova</rdfs:comment>
+        <rdfs:label>Ekaterina Petrova</rdfs:label>
+        <foaf:name>Ekaterina Petrova</foaf:name>
+        <foaf:weblog>https://research.tue.nl/en/persons/ekaterina-petrova</foaf:weblog>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-9383-7234 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-9383-7234">
+        <rdfs:comment>Julia Kaltenegger</rdfs:comment>
+        <rdfs:label>Julia Kaltenegger</rdfs:label>
+        <foaf:name>Julia Kaltenegger</foaf:name>
+        <foaf:weblog>https://linktr.ee/julkaltenegger</foaf:weblog>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

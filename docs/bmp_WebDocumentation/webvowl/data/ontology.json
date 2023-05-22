@@ -1,0 +1,2891 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "https://w3id.org/bmp", "http://www.w3.org/2001/XMLSchema" ],
+    "title" : {
+      "en" : "Building Material Performance"
+    },
+    "iri" : "http://w3id.org/bmp#",
+    "version" : "1.0",
+    "author" : [ "https://orcid.org/0000-0002-9383-7234" ],
+    "description" : {
+      "en" : "The Building Material Performance ontology is created to enrich \nbuilding information models with highly aggregated information with respect to material information modelling and material simulation.\n\nBMP classifies construction materials based on categories, types and property groups. Each property group describes parameters to be used as input values for simulation works."
+    },
+    "labels" : {
+      "undefined" : "Building Material Performance"
+    },
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "https://orcid.org/0000-0002-9383-7234",
+        "type" : "iri"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "https://orcid.org/0000-0002-8651-0671",
+        "type" : "iri"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "en",
+        "value" : "bmp",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "en",
+        "value" : "1.0",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "en",
+        "value" : "https://w3id.org/bmp#",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Building Material Performance",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "143",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "155",
+    "type" : "owl:Class"
+  }, {
+    "id" : "158",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "174",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "152",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  }, {
+    "id" : "180",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "161",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/bmp#WoodSoft",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WoodSoft",
+      "en" : "WoodSoft"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/77077.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#ClayUnit",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ClayUnit",
+      "en" : "ClayUnit"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/32918.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#HempFibreMat",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HempFibreMat",
+      "en" : "HempFibreMat"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/78231.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#SpecificHeatCapacity",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SpecificHeatCapacity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#Hygric",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hygric"
+    },
+    "subClasses" : [ "37", "38", "39", "40", "29", "41" ],
+    "attributes" : [ "external" ],
+    "id" : "35",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#ThermalDiffusivity",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ThermalDiffusivity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "46",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#HeavyWeightConcrete",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeavyWeightConcrete",
+      "en" : "HeavyWeightConcrete"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/41260.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "47",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#Mechanical",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mechanical"
+    },
+    "attributes" : [ "external" ],
+    "id" : "50",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#PatternedGlass",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PatternedGlass",
+      "en" : "PatternedGlass"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/46375.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "54",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#GranitStone",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GranitStone",
+      "en" : "GranitStone"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/77077.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "56",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#Thermal",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Thermal"
+    },
+    "subClasses" : [ "46", "69", "21", "23", "70", "7" ],
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#LiquidTransportCoef",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LiquidTransportCoef"
+    },
+    "attributes" : [ "external" ],
+    "id" : "39",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#FloatGlass",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FloatGlass",
+      "en" : "FloatGlass"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/46375.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "75",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#ThermalExpansionCoef",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ThermalExpansionCoef"
+    },
+    "attributes" : [ "external" ],
+    "id" : "69",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#DesorptionC",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DesorptionC"
+    },
+    "attributes" : [ "external" ],
+    "id" : "79",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#MaterialProperty",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaterialProperty",
+      "en" : "MaterialProperty"
+    },
+    "subClasses" : [ "6", "80", "81", "50", "82", "35", "12" ],
+    "comment" : {
+      "en" : "A property is an inherent or acquired feature of an item and cannot be part of several property sets."
+    },
+    "attributes" : [ "external" ],
+    "id" : "36"
+  }, {
+    "iri" : "https://w3id.org/bmp#Durability",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Durability",
+      "en" : "Durability"
+    },
+    "subClasses" : [ "25", "83" ],
+    "attributes" : [ "external" ],
+    "id" : "80",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#DesorptionK",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DesorptionK"
+    },
+    "attributes" : [ "external" ],
+    "id" : "43",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#SmokeDevelopment",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SmokeDevelopment",
+      "en" : "SmokeDevelopment"
+    },
+    "attributes" : [ "external" ],
+    "id" : "49",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#RelativeGasDiffusivity",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RelativeGasDiffusivity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#NaturalStone",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NaturalStone",
+      "en" : "NaturalStone"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/77077.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "85",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#WoodHard",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WoodHard",
+      "en" : "WoodHard"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/77077.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "86",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#GlazingOpening",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GlazingOpening",
+      "en" : "Opening"
+    },
+    "attributes" : [ "external" ],
+    "id" : "87",
+    "superClasses" : [ "88" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#NonMetallic",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonMetallic"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/77077.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "89",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#HeavyWeightAggregate",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeavyWeightAggregate",
+      "en" : "HeavyWeightAggregate"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/41260.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "91",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#Concrete",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Concrete",
+      "en" : "Concrete"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/41260.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "95",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#BrickMasonryUnit",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BrickMasonryUnit",
+      "en" : "BrickMasonryUnit"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/32918.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#Brick",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Brick",
+      "en" : "Brick"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/32918.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "72",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#Physical",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Physical"
+    },
+    "subClasses" : [ "11", "14", "16", "18" ],
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#EffectiveGasPermeability",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EffectiveGasPermeability"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#BasaltStone",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BasaltStone",
+      "en" : "BasaltStone"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/77077.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "99",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#LayerLocation",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LayerLocation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "100",
+    "superClasses" : [ "101" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#WaterVapourDiffusionThickness",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WaterVapourDiffusionThickness"
+    },
+    "attributes" : [ "external" ],
+    "id" : "37",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#LayerFunction",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LayerFunction",
+      "en" : "LayerFunction"
+    },
+    "subClasses" : [ "108", "87", "109", "110", "111" ],
+    "comment" : {
+      "en" : "The Layer Function class is used to give a first-time identification of building components, such as a layer, in building models."
+    },
+    "attributes" : [ "external" ],
+    "id" : "88",
+    "superClasses" : [ "101" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#AdsorptionK",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AdsorptionK"
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#Accoustic",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Accoustic",
+      "en" : "Accoustic"
+    },
+    "attributes" : [ "external" ],
+    "id" : "82",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#AdsorptionC",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AdsorptionC"
+    },
+    "attributes" : [ "external" ],
+    "id" : "45",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#Optical",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Optical"
+    },
+    "attributes" : [ "external" ],
+    "id" : "81",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#BulkDensity",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BulkDensity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#MoistureContent",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MoistureContent"
+    },
+    "attributes" : [ "external" ],
+    "id" : "102",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#Hemp",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hemp",
+      "en" : "Hemp"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/78231.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "53",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#AirDryTimber",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AirDryTimber",
+      "en" : "AirDryTimber"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/77077.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "135",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#Hempcrete",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hempcrete",
+      "en" : "Hempcrete"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/41260.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "77",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#Insulating",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Insulating",
+      "en" : "Insulating"
+    },
+    "attributes" : [ "external" ],
+    "id" : "110",
+    "superClasses" : [ "88" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#PrestressedConcrete",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PrestressedConcrete",
+      "en" : "PrestressedConcrete"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/41260.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "143",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#DesorptionWm",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DesorptionWm"
+    },
+    "attributes" : [ "external" ],
+    "id" : "30",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#NonLoadBearing",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonLoadBearing",
+      "en" : "NonLoadBearing"
+    },
+    "attributes" : [ "external" ],
+    "id" : "109",
+    "superClasses" : [ "88" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#LifeSpan",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LifeSpan",
+      "en" : "LifeSpan"
+    },
+    "comment" : {
+      "en" : "Service life time of a material or a product"
+    },
+    "attributes" : [ "external" ],
+    "id" : "83",
+    "superClasses" : [ "80" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#Layer",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Layer"
+    },
+    "subClasses" : [ "88", "100" ],
+    "attributes" : [ "external" ],
+    "id" : "101"
+  }, {
+    "iri" : "https://w3id.org/bmp#WaterVapourResistanceFactor",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WaterVapourResistanceFactor"
+    },
+    "attributes" : [ "external" ],
+    "id" : "38",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#Glass",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Glass",
+      "en" : "Glass"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/46375.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "155",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#LightWeightAggregate",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LightWeightAggregate",
+      "en" : "LightWeightAggregate"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/41260.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "158",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#DrawnSheetGlass",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DrawnSheetGlass",
+      "en" : "DrawnSheetGlass"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/46375.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "132",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#MineralFibre",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MineralFibre",
+      "en" : "MineralFibre"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/15229.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "66",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#ThermalConductivity",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ThermalConductivity"
+    },
+    "subClasses" : [ "152", "102" ],
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#FireClassification",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FireClassification",
+      "en" : "FireClassification"
+    },
+    "attributes" : [ "external" ],
+    "id" : "174",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#SolarTransmittance",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SolarTransmittance"
+    },
+    "attributes" : [ "external" ],
+    "id" : "70",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#Finishing",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Finishing",
+      "undefined" : "Finishing"
+    },
+    "attributes" : [ "external" ],
+    "id" : "108",
+    "superClasses" : [ "88" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#MaterialCategory",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaterialCategory",
+      "en" : "MaterialCategory"
+    },
+    "subClasses" : [ "85", "155", "53", "68", "89", "95", "72", "66" ],
+    "comment" : {
+      "en" : "Material Category class is used to describe material categories in a higher aggregated level."
+    },
+    "attributes" : [ "external" ],
+    "id" : "52"
+  }, {
+    "iri" : "https://w3id.org/bmp#WaterVapourPermeability",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WaterVapourPermeability"
+    },
+    "attributes" : [ "external" ],
+    "id" : "41",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#CalciumSilicateUnit",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CalciumSilicateUnit",
+      "en" : "CalciumSilicateUnit"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/32918.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "74",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#TempCondition",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TempCondition"
+    },
+    "attributes" : [ "external" ],
+    "id" : "152",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#AdsorptionWm",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AdsorptionWm"
+    },
+    "attributes" : [ "external" ],
+    "id" : "103",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#Dropping",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dropping",
+      "en" : "Dropping"
+    },
+    "attributes" : [ "external" ],
+    "id" : "26",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#WoodTimber",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WoodTimber",
+      "en" : "Wood"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/77077.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "68",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#LoadBearing",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LoadBearing",
+      "en" : "LoadBearing"
+    },
+    "attributes" : [ "external" ],
+    "id" : "111",
+    "superClasses" : [ "88" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#MaterialType",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaterialType",
+      "en" : "MaterialType"
+    },
+    "subClasses" : [ "54", "86", "3", "74", "47", "19", "0", "161", "56", "91", "143", "157", "98", "75", "180", "158", "99", "94", "132", "135", "77", "4", "114" ],
+    "comment" : {
+      "en" : "Material Types class is used to describe material typologies and sub typologies in low aggregated level."
+    },
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "https://w3id.org/bmp#VolumetricHeatCapacity",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VolumetricHeatCapacity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#Porosity",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Porosity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#WaterVapourDiffusivity",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WaterVapourDiffusivity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "40",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#PolishedWiredGlass",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PolishedWiredGlass",
+      "en" : "PolishedWiredGlass"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/46375.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "157",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#HempFibreBoard",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HempFibreBoard",
+      "en" : "HempFibreBoard"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/78231.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "180",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#LightWeightConcrete",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LightWeightConcrete",
+      "en" : "LightWeightConcrete"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/41260.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "94",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#MineralFibreMat",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MineralFibreMat",
+      "en" : "MineralFibreMat"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/15229.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "114",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#FireResistance",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FireResistance",
+      "en" : "FireResistance"
+    },
+    "subClasses" : [ "26", "174", "49" ],
+    "comment" : {
+      "en" : "https://www.peroni.com/lang_UK/_download/EN_Reaction_to_Fire_Classification.pdf"
+    },
+    "attributes" : [ "external" ],
+    "id" : "25",
+    "superClasses" : [ "80" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#MineralFibreBoard",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MineralFibreBoard",
+      "en" : "MineralFibreBoard"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/15229.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "161",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#WaterVapourSorptionIsotherm",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WaterVapourSorptionIsotherm"
+    },
+    "subClasses" : [ "79", "103", "30", "33", "43", "45" ],
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#SandStone",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SandStone",
+      "en" : "SandStone"
+    },
+    "comment" : {
+      "en" : "https://www.iso.org/standard/77077.html"
+    },
+    "attributes" : [ "external" ],
+    "id" : "98",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/bmp#Material",
+    "baseIri" : "https://w3id.org/bmp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Material",
+      "en" : "Material"
+    },
+    "comment" : {
+      "en" : "Material class is used to describe a material as a non-living entity that manifest properties that can be measured or characterised."
+    },
+    "attributes" : [ "external" ],
+    "id" : "120"
+  } ],
+  "property" : [ {
+    "id" : "2",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "73",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "104",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "105",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "106",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "107",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "112",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "116",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "117",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "118",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "119",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "121",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "122",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "123",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "124",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "127",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "128",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "129",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "130",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "131",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "134",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "136",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "137",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "138",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "142",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "171",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "176",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "177",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "178",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "179",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "182",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "184",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "191",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "195",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "196",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "190",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "198",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "199",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "200",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "202",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "204",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "210",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "211",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "212",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "213",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "214",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "215",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "216",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "217",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "218",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "219",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "220",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "221",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "222",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "223",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "224",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "225",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "226",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "227",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "228",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "229",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "231",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "235",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "237",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "238",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "241",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "242",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://w3id.org/bmp#isBrickMasonryUnit",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "isBrickMasonryUnit"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasThermalConductivity",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasThermalConductivity"
+    },
+    "domain" : "6",
+    "subproperty" : [ "8", "9" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "5"
+  }, {
+    "range" : "12",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "10"
+  }, {
+    "range" : "12",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "13"
+  }, {
+    "range" : "12",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "range" : "12",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasVolumetricHeatCapacity",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "hasVolumetricHeatCapacity"
+    },
+    "domain" : "6",
+    "attributes" : [ "object", "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasPorosity",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasPorosity"
+    },
+    "domain" : "12",
+    "attributes" : [ "object", "external" ],
+    "id" : "22"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasDropping",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "hasDropping"
+    },
+    "superproperty" : [ "27" ],
+    "domain" : "25",
+    "attributes" : [ "object", "external" ],
+    "id" : "24"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasDesorptionWm",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "hasDesorptionWm"
+    },
+    "superproperty" : [ "31" ],
+    "domain" : "29",
+    "attributes" : [ "object", "external" ],
+    "id" : "28"
+  }, {
+    "range" : "29",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "29",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "range" : "29",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "29",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasSmokeDevelopment",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "hasSmokeDevelopment"
+    },
+    "superproperty" : [ "27" ],
+    "domain" : "25",
+    "attributes" : [ "object", "external" ],
+    "id" : "48"
+  }, {
+    "iri" : "https://w3id.org/bmp#isHemp",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "isHemp"
+    },
+    "domain" : "52",
+    "attributes" : [ "object", "external" ],
+    "id" : "51"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasSpecificHeatCapacity",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "hasSpecificHeatCapacity"
+    },
+    "domain" : "6",
+    "attributes" : [ "object", "external" ],
+    "id" : "55"
+  }, {
+    "iri" : "https://w3id.org/bmp#isHeavyWeightConcrete",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "isHeavyWeightConcrete"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "57"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasWaterVapourSorptionIsotherm",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "hasWaterVapourSorptionIsotherm"
+    },
+    "domain" : "35",
+    "subproperty" : [ "58", "59", "60", "61", "62", "28" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "31"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasThermalDiffusivity",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "hasThermalDiffusivity"
+    },
+    "domain" : "6",
+    "attributes" : [ "object", "external" ],
+    "id" : "63"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasWaterVapourDiffusivity",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "hasWaterVapourDiffusivity"
+    },
+    "domain" : "35",
+    "attributes" : [ "object", "external" ],
+    "id" : "64"
+  }, {
+    "iri" : "https://w3id.org/bmp#isMineralFibre",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "isMineralFibre"
+    },
+    "domain" : "52",
+    "attributes" : [ "object", "external" ],
+    "id" : "65"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasAdsorptionC",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "hasAdsorptionC"
+    },
+    "superproperty" : [ "31" ],
+    "domain" : "29",
+    "attributes" : [ "object", "external" ],
+    "id" : "58"
+  }, {
+    "iri" : "https://w3id.org/bmp#isWoodTimber",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "isWoodTimber"
+    },
+    "domain" : "52",
+    "attributes" : [ "object", "external" ],
+    "id" : "67"
+  }, {
+    "iri" : "https://w3id.org/bmp#isBrick",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "isBrick"
+    },
+    "domain" : "52",
+    "attributes" : [ "object", "external" ],
+    "id" : "71"
+  }, {
+    "iri" : "https://w3id.org/bmp#isCalciumSilicateUnit",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "isCalciumSilicateUnit"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "73"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasAdsorptionK",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "hasAdsorptionK"
+    },
+    "superproperty" : [ "31" ],
+    "domain" : "29",
+    "attributes" : [ "object", "external" ],
+    "id" : "61"
+  }, {
+    "iri" : "https://w3id.org/bmp#isHempcrete",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "isHempcrete"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "76"
+  }, {
+    "iri" : "https://w3id.org/bmp#isGranitStone",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "isGranitStone"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "78"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasLifeSpan",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "hasLifeSpan"
+    },
+    "domain" : "80",
+    "attributes" : [ "object", "external" ],
+    "id" : "84"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasWaterVapourPermeability",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "hasWaterVapourPermeability"
+    },
+    "domain" : "35",
+    "attributes" : [ "object", "external" ],
+    "id" : "90"
+  }, {
+    "iri" : "https://w3id.org/bmp#isHeavyWeightAggregate",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "91",
+    "label" : {
+      "IRI-based" : "isHeavyWeightAggregate"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "92"
+  }, {
+    "iri" : "https://w3id.org/bmp#isLightWeightConcrete",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "94",
+    "label" : {
+      "IRI-based" : "isLightWeightConcrete"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "93"
+  }, {
+    "iri" : "https://w3id.org/bmp#isConcrete",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "95",
+    "label" : {
+      "IRI-based" : "isConcrete"
+    },
+    "domain" : "52",
+    "attributes" : [ "object", "external" ],
+    "id" : "96"
+  }, {
+    "iri" : "https://w3id.org/bmp#isSandStone",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "98",
+    "label" : {
+      "IRI-based" : "isSandStone"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "97"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasDesorptionC",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "79",
+    "label" : {
+      "IRI-based" : "hasDesorptionC"
+    },
+    "superproperty" : [ "31" ],
+    "domain" : "29",
+    "attributes" : [ "object", "external" ],
+    "id" : "62"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasDesorptionK",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "hasDesorptionK"
+    },
+    "superproperty" : [ "31" ],
+    "domain" : "29",
+    "attributes" : [ "object", "external" ],
+    "id" : "60"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasMoistureContent",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "hasMoistureContent"
+    },
+    "superproperty" : [ "5" ],
+    "domain" : "7",
+    "attributes" : [ "object", "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasAdsorptionWm",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "103",
+    "label" : {
+      "IRI-based" : "hasAdsorptionWm"
+    },
+    "superproperty" : [ "31" ],
+    "domain" : "29",
+    "attributes" : [ "object", "external" ],
+    "id" : "59"
+  }, {
+    "range" : "6",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "104"
+  }, {
+    "range" : "12",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "105"
+  }, {
+    "iri" : "https://w3id.org/bmp#isWoodHard",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "86",
+    "label" : {
+      "IRI-based" : "isWoodHard"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "106"
+  }, {
+    "range" : "6",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "107"
+  }, {
+    "iri" : "https://w3id.org/bmp#isNaturalStone",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "isNaturalStone"
+    },
+    "domain" : "52",
+    "attributes" : [ "object", "external" ],
+    "id" : "112"
+  }, {
+    "iri" : "https://w3id.org/bmp#isMineralFibreMat",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "114",
+    "label" : {
+      "IRI-based" : "isMineralFibreMat"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "113"
+  }, {
+    "range" : "12",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "115"
+  }, {
+    "range" : "1",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "116"
+  }, {
+    "range" : "6",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "117"
+  }, {
+    "range" : "81",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "118"
+  }, {
+    "range" : "36",
+    "domain" : "120",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "119"
+  }, {
+    "range" : "1",
+    "domain" : "120",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "121"
+  }, {
+    "range" : "36",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "122"
+  }, {
+    "range" : "1",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "123"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasRelativeGasDiffusivity",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "hasRelativeGasDiffusivity"
+    },
+    "domain" : "12",
+    "attributes" : [ "object", "external" ],
+    "id" : "124"
+  }, {
+    "iri" : "https://w3id.org/bmp#isPatternedGlass",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "isPatternedGlass"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "125"
+  }, {
+    "range" : "36",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "126"
+  }, {
+    "range" : "1",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "127"
+  }, {
+    "range" : "52",
+    "domain" : "120",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "128"
+  }, {
+    "range" : "50",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "129"
+  }, {
+    "range" : "81",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "130"
+  }, {
+    "iri" : "https://w3id.org/bmp#isDrawnSheetGlass",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "132",
+    "label" : {
+      "IRI-based" : "isDrawnSheetGlass"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "131"
+  }, {
+    "range" : "52",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "133"
+  }, {
+    "range" : "120",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "134"
+  }, {
+    "range" : "35",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "range" : "12",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "137"
+  }, {
+    "range" : "6",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
+  }, {
+    "range" : "6",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "139"
+  }, {
+    "range" : "52",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "140"
+  }, {
+    "range" : "6",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "141"
+  }, {
+    "iri" : "https://w3id.org/bmp#isHempFibreMat",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "isHempFibreMat"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "142"
+  }, {
+    "range" : "6",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "range" : "6",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "145"
+  }, {
+    "range" : "6",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "146"
+  }, {
+    "range" : "6",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "range" : "101",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
+  }, {
+    "range" : "101",
+    "domain" : "88",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
+  }, {
+    "range" : "7",
+    "domain" : "102",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
+  }, {
+    "range" : "7",
+    "domain" : "152",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "range" : "35",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "153"
+  }, {
+    "range" : "35",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "iri" : "https://w3id.org/bmp#isPolishedWiredGlass",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "157",
+    "label" : {
+      "IRI-based" : "isPolishedWiredGlass"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "156"
+  }, {
+    "range" : "35",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "iri" : "https://w3id.org/bmp#isMineralFibreBoard",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "161",
+    "label" : {
+      "IRI-based" : "isMineralFibreBoard"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "160"
+  }, {
+    "range" : "35",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "range" : "88",
+    "domain" : "111",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "163"
+  }, {
+    "range" : "35",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
+  }, {
+    "range" : "35",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "165"
+  }, {
+    "range" : "88",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "166"
+  }, {
+    "range" : "88",
+    "domain" : "108",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  }, {
+    "range" : "88",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "168"
+  }, {
+    "range" : "88",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "169"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasTemperatureCondition",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "152",
+    "label" : {
+      "IRI-based" : "hasTemperatureCondition"
+    },
+    "superproperty" : [ "5" ],
+    "domain" : "7",
+    "attributes" : [ "object", "external" ],
+    "id" : "8"
+  }, {
+    "range" : "1",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "170"
+  }, {
+    "range" : "1",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "171"
+  }, {
+    "range" : "1",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "172"
+  }, {
+    "range" : "1",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "173"
+  }, {
+    "range" : "1",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "175"
+  }, {
+    "iri" : "https://w3id.org/bmp#isGlass",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "155",
+    "label" : {
+      "IRI-based" : "isGlass"
+    },
+    "domain" : "52",
+    "attributes" : [ "object", "external" ],
+    "id" : "176"
+  }, {
+    "iri" : "https://w3id.org/bmp#isPrestressedConcrete",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "143",
+    "label" : {
+      "IRI-based" : "isPrestressedConcrete"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "177"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasEffectiveGasPermeability",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "hasEffectiveGasPermeability"
+    },
+    "domain" : "12",
+    "attributes" : [ "object", "external" ],
+    "id" : "178"
+  }, {
+    "iri" : "https://w3id.org/bmp#isHempFibreBoard",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "180",
+    "label" : {
+      "IRI-based" : "isHempFibreBoard"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "179"
+  }, {
+    "range" : "1",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasSolarTransmittance",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "hasSolarTransmittance"
+    },
+    "domain" : "6",
+    "attributes" : [ "object", "external" ],
+    "id" : "182"
+  }, {
+    "range" : "80",
+    "domain" : "83",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasBulkDensity",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "hasBulkDensity"
+    },
+    "domain" : "12",
+    "attributes" : [ "object", "external" ],
+    "id" : "184"
+  }, {
+    "range" : "36",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "185"
+  }, {
+    "range" : "36",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "186"
+  }, {
+    "range" : "80",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "187"
+  }, {
+    "range" : "36",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "188"
+  }, {
+    "range" : "36",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "189"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasFireResistance",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "hasFireResistance"
+    },
+    "domain" : "80",
+    "subproperty" : [ "24", "48", "190" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "27"
+  }, {
+    "iri" : "https://w3id.org/bmp#isFloatGlass",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "75",
+    "label" : {
+      "IRI-based" : "isFloatGlass"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "191"
+  }, {
+    "range" : "36",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "192"
+  }, {
+    "range" : "36",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "193"
+  }, {
+    "range" : "36",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "194"
+  }, {
+    "iri" : "https://w3id.org/bmp#isClayUnit",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "isClayUnit"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "195"
+  }, {
+    "iri" : "https://w3id.org/bmp#isLightWeightAggregate",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "158",
+    "label" : {
+      "IRI-based" : "isLightWeightAggregate"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "196"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasFireClassification",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "174",
+    "label" : {
+      "IRI-based" : "hasFireClassification"
+    },
+    "superproperty" : [ "27" ],
+    "domain" : "25",
+    "attributes" : [ "object", "external" ],
+    "id" : "190"
+  }, {
+    "range" : "52",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "197"
+  }, {
+    "range" : "52",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "198"
+  }, {
+    "iri" : "https://w3id.org/bmp#isAirDryTimber",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "135",
+    "label" : {
+      "IRI-based" : "isAirDryTimber"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "199"
+  }, {
+    "range" : "52",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "200"
+  }, {
+    "range" : "52",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "201"
+  }, {
+    "range" : "52",
+    "domain" : "155",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "202"
+  }, {
+    "range" : "52",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "203"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasWaterVapourDiffusionThickness",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "hasWaterVapourDiffusionThickness"
+    },
+    "domain" : "35",
+    "attributes" : [ "object", "external" ],
+    "id" : "204"
+  }, {
+    "range" : "52",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "205"
+  }, {
+    "range" : "25",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "206"
+  }, {
+    "range" : "25",
+    "domain" : "174",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "207"
+  }, {
+    "range" : "29",
+    "domain" : "103",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "208"
+  }, {
+    "range" : "29",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "209"
+  }, {
+    "range" : "1",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "210"
+  }, {
+    "range" : "25",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "211"
+  }, {
+    "range" : "1",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "212"
+  }, {
+    "range" : "35",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "213"
+  }, {
+    "range" : "12",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "214"
+  }, {
+    "range" : "50",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "215"
+  }, {
+    "range" : "6",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "216"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasThermalExpansionCoef",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "hasThermalExpansionCoef"
+    },
+    "domain" : "6",
+    "attributes" : [ "object", "external" ],
+    "id" : "217"
+  }, {
+    "range" : "50",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "218"
+  }, {
+    "range" : "81",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "219"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasLiquidTransportCoef",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "hasLiquidTransportCoef"
+    },
+    "domain" : "35",
+    "attributes" : [ "object", "external" ],
+    "id" : "220"
+  }, {
+    "range" : "6",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "221"
+  }, {
+    "range" : "12",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "222"
+  }, {
+    "iri" : "https://w3id.org/bmp#isNonMetallic",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "isNonMetallic"
+    },
+    "domain" : "52",
+    "attributes" : [ "object", "external" ],
+    "id" : "223"
+  }, {
+    "iri" : "https://w3id.org/bmp#isBasaltStone",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "isBasaltStone"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "224"
+  }, {
+    "range" : "80",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "225"
+  }, {
+    "range" : "81",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "226"
+  }, {
+    "iri" : "https://w3id.org/bmp#isWoodSoft",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "isWoodSoft"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "227"
+  }, {
+    "range" : "1",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "228"
+  }, {
+    "range" : "1",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "229"
+  }, {
+    "range" : "1",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "230"
+  }, {
+    "range" : "1",
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "231"
+  }, {
+    "range" : "1",
+    "domain" : "180",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "232"
+  }, {
+    "range" : "1",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "233"
+  }, {
+    "range" : "1",
+    "domain" : "99",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "234"
+  }, {
+    "range" : "1",
+    "domain" : "158",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "235"
+  }, {
+    "range" : "1",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "236"
+  }, {
+    "range" : "1",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "237"
+  }, {
+    "iri" : "https://w3id.org/bmp#hasWaterVapourResistanceFactor",
+    "baseIri" : "https://w3id.org/bmp",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "hasWaterVapourResistanceFactor"
+    },
+    "domain" : "35",
+    "attributes" : [ "object", "external" ],
+    "id" : "238"
+  }, {
+    "range" : "1",
+    "domain" : "143",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "239"
+  }, {
+    "range" : "1",
+    "domain" : "161",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "240"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "241"
+  }, {
+    "range" : "1",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "242"
+  }, {
+    "range" : "1",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "243"
+  } ]
+}

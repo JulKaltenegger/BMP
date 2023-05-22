@@ -1,0 +1,826 @@
+<http://w3id.org/bmp#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://w3id.org/bmp#> <http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0002-8651-0671> .
+<http://w3id.org/bmp#> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-9383-7234> .
+<http://w3id.org/bmp#> <http://purl.org/dc/terms/description> "The Building Material Performance ontology is created to enrich \nbuilding information models with highly aggregated information with respect to material information modelling and material simulation.\n\nBMP classifies construction materials based on categories, types and property groups. Each property group describes parameters to be used as input values for simulation works."@en .
+<http://w3id.org/bmp#> <http://purl.org/dc/terms/title> "Building Material Performance"@en .
+<http://w3id.org/bmp#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "bmp"@en .
+<http://w3id.org/bmp#> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/bmp#"@en .
+<http://w3id.org/bmp#> <http://www.w3.org/2000/01/rdf-schema#label> "Building Material Performance" .
+<http://w3id.org/bmp#> <http://www.w3.org/2002/07/owl#versionInfo> "1.0"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/weblog
+<http://xmlns.com/foaf/0.1/weblog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/bmp#hasAdsorptionC
+<https://w3id.org/bmp#hasAdsorptionC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasAdsorptionC> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/bmp#hasWaterVapourSorptionIsotherm> .
+<https://w3id.org/bmp#hasAdsorptionC> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#WaterVapourSorptionIsotherm> .
+<https://w3id.org/bmp#hasAdsorptionC> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#AdsorptionC> .
+# 
+# https://w3id.org/bmp#hasAdsorptionK
+<https://w3id.org/bmp#hasAdsorptionK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasAdsorptionK> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/bmp#hasWaterVapourSorptionIsotherm> .
+<https://w3id.org/bmp#hasAdsorptionK> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#WaterVapourSorptionIsotherm> .
+<https://w3id.org/bmp#hasAdsorptionK> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#AdsorptionK> .
+# 
+# https://w3id.org/bmp#hasAdsorptionWm
+<https://w3id.org/bmp#hasAdsorptionWm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasAdsorptionWm> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/bmp#hasWaterVapourSorptionIsotherm> .
+<https://w3id.org/bmp#hasAdsorptionWm> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#WaterVapourSorptionIsotherm> .
+<https://w3id.org/bmp#hasAdsorptionWm> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#AdsorptionWm> .
+# 
+# https://w3id.org/bmp#hasBulkDensity
+<https://w3id.org/bmp#hasBulkDensity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasBulkDensity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#Physical> .
+<https://w3id.org/bmp#hasBulkDensity> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#BulkDensity> .
+# 
+# https://w3id.org/bmp#hasDesorptionC
+<https://w3id.org/bmp#hasDesorptionC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasDesorptionC> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/bmp#hasWaterVapourSorptionIsotherm> .
+<https://w3id.org/bmp#hasDesorptionC> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#WaterVapourSorptionIsotherm> .
+<https://w3id.org/bmp#hasDesorptionC> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#DesorptionC> .
+# 
+# https://w3id.org/bmp#hasDesorptionK
+<https://w3id.org/bmp#hasDesorptionK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasDesorptionK> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/bmp#hasWaterVapourSorptionIsotherm> .
+<https://w3id.org/bmp#hasDesorptionK> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#WaterVapourSorptionIsotherm> .
+<https://w3id.org/bmp#hasDesorptionK> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#DesorptionK> .
+# 
+# https://w3id.org/bmp#hasDesorptionWm
+<https://w3id.org/bmp#hasDesorptionWm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasDesorptionWm> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/bmp#hasWaterVapourSorptionIsotherm> .
+<https://w3id.org/bmp#hasDesorptionWm> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#WaterVapourSorptionIsotherm> .
+<https://w3id.org/bmp#hasDesorptionWm> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#DesorptionWm> .
+# 
+# https://w3id.org/bmp#hasDropping
+<https://w3id.org/bmp#hasDropping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasDropping> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/bmp#hasFireResistance> .
+<https://w3id.org/bmp#hasDropping> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#FireResistance> .
+<https://w3id.org/bmp#hasDropping> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#Dropping> .
+# 
+# https://w3id.org/bmp#hasEffectiveGasPermeability
+<https://w3id.org/bmp#hasEffectiveGasPermeability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasEffectiveGasPermeability> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#Physical> .
+<https://w3id.org/bmp#hasEffectiveGasPermeability> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#EffectiveGasPermeability> .
+# 
+# https://w3id.org/bmp#hasFireClassification
+<https://w3id.org/bmp#hasFireClassification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasFireClassification> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/bmp#hasFireResistance> .
+<https://w3id.org/bmp#hasFireClassification> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#FireResistance> .
+<https://w3id.org/bmp#hasFireClassification> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#FireClassification> .
+# 
+# https://w3id.org/bmp#hasFireResistance
+<https://w3id.org/bmp#hasFireResistance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasFireResistance> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#Durability> .
+<https://w3id.org/bmp#hasFireResistance> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#FireResistance> .
+# 
+# https://w3id.org/bmp#hasLifeSpan
+<https://w3id.org/bmp#hasLifeSpan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasLifeSpan> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#Durability> .
+<https://w3id.org/bmp#hasLifeSpan> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#LifeSpan> .
+# 
+# https://w3id.org/bmp#hasLiquidTransportCoef
+<https://w3id.org/bmp#hasLiquidTransportCoef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasLiquidTransportCoef> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#Hygric> .
+<https://w3id.org/bmp#hasLiquidTransportCoef> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#LiquidTransportCoef> .
+# 
+# https://w3id.org/bmp#hasMoistureContent
+<https://w3id.org/bmp#hasMoistureContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasMoistureContent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/bmp#hasThermalConductivity> .
+<https://w3id.org/bmp#hasMoistureContent> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#ThermalConductivity> .
+<https://w3id.org/bmp#hasMoistureContent> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#MoistureContent> .
+# 
+# https://w3id.org/bmp#hasPorosity
+<https://w3id.org/bmp#hasPorosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasPorosity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#Physical> .
+<https://w3id.org/bmp#hasPorosity> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#Porosity> .
+# 
+# https://w3id.org/bmp#hasRelativeGasDiffusivity
+<https://w3id.org/bmp#hasRelativeGasDiffusivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasRelativeGasDiffusivity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#Physical> .
+<https://w3id.org/bmp#hasRelativeGasDiffusivity> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#RelativeGasDiffusivity> .
+# 
+# https://w3id.org/bmp#hasSmokeDevelopment
+<https://w3id.org/bmp#hasSmokeDevelopment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasSmokeDevelopment> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/bmp#hasFireResistance> .
+<https://w3id.org/bmp#hasSmokeDevelopment> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#FireResistance> .
+<https://w3id.org/bmp#hasSmokeDevelopment> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#SmokeDevelopment> .
+# 
+# https://w3id.org/bmp#hasSolarTransmittance
+<https://w3id.org/bmp#hasSolarTransmittance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasSolarTransmittance> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#Thermal> .
+<https://w3id.org/bmp#hasSolarTransmittance> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#SolarTransmittance> .
+# 
+# https://w3id.org/bmp#hasSpecificHeatCapacity
+<https://w3id.org/bmp#hasSpecificHeatCapacity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasSpecificHeatCapacity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#Thermal> .
+<https://w3id.org/bmp#hasSpecificHeatCapacity> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#SpecificHeatCapacity> .
+# 
+# https://w3id.org/bmp#hasTemperatureCondition
+<https://w3id.org/bmp#hasTemperatureCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasTemperatureCondition> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/bmp#hasThermalConductivity> .
+<https://w3id.org/bmp#hasTemperatureCondition> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#ThermalConductivity> .
+<https://w3id.org/bmp#hasTemperatureCondition> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#TempCondition> .
+# 
+# https://w3id.org/bmp#hasThermalConductivity
+<https://w3id.org/bmp#hasThermalConductivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasThermalConductivity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#Thermal> .
+<https://w3id.org/bmp#hasThermalConductivity> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#ThermalConductivity> .
+# 
+# https://w3id.org/bmp#hasThermalDiffusivity
+<https://w3id.org/bmp#hasThermalDiffusivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasThermalDiffusivity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#Thermal> .
+<https://w3id.org/bmp#hasThermalDiffusivity> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#ThermalDiffusivity> .
+# 
+# https://w3id.org/bmp#hasThermalExpansionCoef
+<https://w3id.org/bmp#hasThermalExpansionCoef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasThermalExpansionCoef> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#Thermal> .
+<https://w3id.org/bmp#hasThermalExpansionCoef> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#ThermalExpansionCoef> .
+# 
+# https://w3id.org/bmp#hasVolumetricHeatCapacity
+<https://w3id.org/bmp#hasVolumetricHeatCapacity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasVolumetricHeatCapacity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#Thermal> .
+<https://w3id.org/bmp#hasVolumetricHeatCapacity> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#VolumetricHeatCapacity> .
+# 
+# https://w3id.org/bmp#hasWaterVapourDiffusionThickness
+<https://w3id.org/bmp#hasWaterVapourDiffusionThickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasWaterVapourDiffusionThickness> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#Hygric> .
+<https://w3id.org/bmp#hasWaterVapourDiffusionThickness> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#WaterVapourDiffusionThickness> .
+# 
+# https://w3id.org/bmp#hasWaterVapourDiffusivity
+<https://w3id.org/bmp#hasWaterVapourDiffusivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasWaterVapourDiffusivity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#Hygric> .
+<https://w3id.org/bmp#hasWaterVapourDiffusivity> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#WaterVapourDiffusivity> .
+# 
+# https://w3id.org/bmp#hasWaterVapourPermeability
+<https://w3id.org/bmp#hasWaterVapourPermeability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasWaterVapourPermeability> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#Hygric> .
+<https://w3id.org/bmp#hasWaterVapourPermeability> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#WaterVapourPermeability> .
+# 
+# https://w3id.org/bmp#hasWaterVapourResistanceFactor
+<https://w3id.org/bmp#hasWaterVapourResistanceFactor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasWaterVapourResistanceFactor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#Hygric> .
+<https://w3id.org/bmp#hasWaterVapourResistanceFactor> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#WaterVapourResistanceFactor> .
+# 
+# https://w3id.org/bmp#hasWaterVapourSorptionIsotherm
+<https://w3id.org/bmp#hasWaterVapourSorptionIsotherm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#hasWaterVapourSorptionIsotherm> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#Hygric> .
+<https://w3id.org/bmp#hasWaterVapourSorptionIsotherm> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#WaterVapourSorptionIsotherm> .
+# 
+# https://w3id.org/bmp#isAirDryTimber
+<https://w3id.org/bmp#isAirDryTimber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isAirDryTimber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isAirDryTimber> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#AirDryTimber> .
+# 
+# https://w3id.org/bmp#isBasaltStone
+<https://w3id.org/bmp#isBasaltStone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isBasaltStone> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isBasaltStone> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#BasaltStone> .
+# 
+# https://w3id.org/bmp#isBrick
+<https://w3id.org/bmp#isBrick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isBrick> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialCategory> .
+<https://w3id.org/bmp#isBrick> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#Brick> .
+# 
+# https://w3id.org/bmp#isBrickMasonryUnit
+<https://w3id.org/bmp#isBrickMasonryUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isBrickMasonryUnit> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isBrickMasonryUnit> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#BrickMasonryUnit> .
+# 
+# https://w3id.org/bmp#isCalciumSilicateUnit
+<https://w3id.org/bmp#isCalciumSilicateUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isCalciumSilicateUnit> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isCalciumSilicateUnit> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#CalciumSilicateUnit> .
+# 
+# https://w3id.org/bmp#isClayUnit
+<https://w3id.org/bmp#isClayUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isClayUnit> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isClayUnit> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#ClayUnit> .
+# 
+# https://w3id.org/bmp#isConcrete
+<https://w3id.org/bmp#isConcrete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isConcrete> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialCategory> .
+<https://w3id.org/bmp#isConcrete> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#Concrete> .
+# 
+# https://w3id.org/bmp#isDrawnSheetGlass
+<https://w3id.org/bmp#isDrawnSheetGlass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isDrawnSheetGlass> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isDrawnSheetGlass> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#DrawnSheetGlass> .
+# 
+# https://w3id.org/bmp#isFloatGlass
+<https://w3id.org/bmp#isFloatGlass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isFloatGlass> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isFloatGlass> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#FloatGlass> .
+# 
+# https://w3id.org/bmp#isGlass
+<https://w3id.org/bmp#isGlass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isGlass> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialCategory> .
+<https://w3id.org/bmp#isGlass> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#Glass> .
+# 
+# https://w3id.org/bmp#isGranitStone
+<https://w3id.org/bmp#isGranitStone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isGranitStone> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isGranitStone> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#GranitStone> .
+# 
+# https://w3id.org/bmp#isHeavyWeightAggregate
+<https://w3id.org/bmp#isHeavyWeightAggregate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isHeavyWeightAggregate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isHeavyWeightAggregate> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#HeavyWeightAggregate> .
+# 
+# https://w3id.org/bmp#isHeavyWeightConcrete
+<https://w3id.org/bmp#isHeavyWeightConcrete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isHeavyWeightConcrete> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isHeavyWeightConcrete> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#HeavyWeightConcrete> .
+# 
+# https://w3id.org/bmp#isHemp
+<https://w3id.org/bmp#isHemp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isHemp> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialCategory> .
+<https://w3id.org/bmp#isHemp> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#Hemp> .
+# 
+# https://w3id.org/bmp#isHempFibreBoard
+<https://w3id.org/bmp#isHempFibreBoard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isHempFibreBoard> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isHempFibreBoard> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#HempFibreBoard> .
+# 
+# https://w3id.org/bmp#isHempFibreMat
+<https://w3id.org/bmp#isHempFibreMat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isHempFibreMat> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isHempFibreMat> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#HempFibreMat> .
+# 
+# https://w3id.org/bmp#isHempcrete
+<https://w3id.org/bmp#isHempcrete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isHempcrete> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isHempcrete> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#Hempcrete> .
+# 
+# https://w3id.org/bmp#isLightWeightAggregate
+<https://w3id.org/bmp#isLightWeightAggregate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isLightWeightAggregate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isLightWeightAggregate> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#LightWeightAggregate> .
+# 
+# https://w3id.org/bmp#isLightWeightConcrete
+<https://w3id.org/bmp#isLightWeightConcrete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isLightWeightConcrete> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isLightWeightConcrete> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#LightWeightConcrete> .
+# 
+# https://w3id.org/bmp#isMineralFibre
+<https://w3id.org/bmp#isMineralFibre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isMineralFibre> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialCategory> .
+<https://w3id.org/bmp#isMineralFibre> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#MineralFibre> .
+# 
+# https://w3id.org/bmp#isMineralFibreBoard
+<https://w3id.org/bmp#isMineralFibreBoard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isMineralFibreBoard> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isMineralFibreBoard> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#MineralFibreBoard> .
+# 
+# https://w3id.org/bmp#isMineralFibreMat
+<https://w3id.org/bmp#isMineralFibreMat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isMineralFibreMat> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isMineralFibreMat> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#MineralFibreMat> .
+# 
+# https://w3id.org/bmp#isNaturalStone
+<https://w3id.org/bmp#isNaturalStone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isNaturalStone> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialCategory> .
+<https://w3id.org/bmp#isNaturalStone> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#NaturalStone> .
+# 
+# https://w3id.org/bmp#isNonMetallic
+<https://w3id.org/bmp#isNonMetallic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isNonMetallic> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialCategory> .
+<https://w3id.org/bmp#isNonMetallic> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#NonMetallic> .
+# 
+# https://w3id.org/bmp#isPatternedGlass
+<https://w3id.org/bmp#isPatternedGlass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isPatternedGlass> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isPatternedGlass> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#PatternedGlass> .
+# 
+# https://w3id.org/bmp#isPolishedWiredGlass
+<https://w3id.org/bmp#isPolishedWiredGlass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isPolishedWiredGlass> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isPolishedWiredGlass> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#PolishedWiredGlass> .
+# 
+# https://w3id.org/bmp#isPrestressedConcrete
+<https://w3id.org/bmp#isPrestressedConcrete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isPrestressedConcrete> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isPrestressedConcrete> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#PrestressedConcrete> .
+# 
+# https://w3id.org/bmp#isSandStone
+<https://w3id.org/bmp#isSandStone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isSandStone> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isSandStone> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#SandStone> .
+# 
+# https://w3id.org/bmp#isWoodHard
+<https://w3id.org/bmp#isWoodHard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isWoodHard> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isWoodHard> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#WoodHard> .
+# 
+# https://w3id.org/bmp#isWoodSoft
+<https://w3id.org/bmp#isWoodSoft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isWoodSoft> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#isWoodSoft> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#WoodSoft> .
+# 
+# https://w3id.org/bmp#isWoodTimber
+<https://w3id.org/bmp#isWoodTimber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bmp#isWoodTimber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bmp#MaterialCategory> .
+<https://w3id.org/bmp#isWoodTimber> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bmp#WoodTimber> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/bmp#Accoustic
+<https://w3id.org/bmp#Accoustic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#Accoustic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialProperty> .
+<https://w3id.org/bmp#Accoustic> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Durability> .
+<https://w3id.org/bmp#Accoustic> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Hygric> .
+<https://w3id.org/bmp#Accoustic> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Mechanical> .
+<https://w3id.org/bmp#Accoustic> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Optical> .
+<https://w3id.org/bmp#Accoustic> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Physical> .
+<https://w3id.org/bmp#Accoustic> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Thermal> .
+<https://w3id.org/bmp#Accoustic> <http://www.w3.org/2000/01/rdf-schema#label> "Accoustic"@en .
+# 
+# https://w3id.org/bmp#AdsorptionC
+<https://w3id.org/bmp#AdsorptionC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#AdsorptionC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#WaterVapourSorptionIsotherm> .
+# 
+# https://w3id.org/bmp#AdsorptionK
+<https://w3id.org/bmp#AdsorptionK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#AdsorptionK> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#WaterVapourSorptionIsotherm> .
+# 
+# https://w3id.org/bmp#AdsorptionWm
+<https://w3id.org/bmp#AdsorptionWm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#AdsorptionWm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#WaterVapourSorptionIsotherm> .
+# 
+# https://w3id.org/bmp#AirDryTimber
+<https://w3id.org/bmp#AirDryTimber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#AirDryTimber> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#AirDryTimber> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/77077.html"@en .
+<https://w3id.org/bmp#AirDryTimber> <http://www.w3.org/2000/01/rdf-schema#label> "AirDryTimber"@en .
+# 
+# https://w3id.org/bmp#BasaltStone
+<https://w3id.org/bmp#BasaltStone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#BasaltStone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#BasaltStone> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/77077.html"@en .
+<https://w3id.org/bmp#BasaltStone> <http://www.w3.org/2000/01/rdf-schema#label> "BasaltStone"@en .
+# 
+# https://w3id.org/bmp#Brick
+<https://w3id.org/bmp#Brick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#Brick> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialCategory> .
+<https://w3id.org/bmp#Brick> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/32918.html"@en .
+<https://w3id.org/bmp#Brick> <http://www.w3.org/2000/01/rdf-schema#label> "Brick"@en .
+# 
+# https://w3id.org/bmp#BrickMasonryUnit
+<https://w3id.org/bmp#BrickMasonryUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#BrickMasonryUnit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#BrickMasonryUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/32918.html"@en .
+<https://w3id.org/bmp#BrickMasonryUnit> <http://www.w3.org/2000/01/rdf-schema#label> "BrickMasonryUnit"@en .
+# 
+# https://w3id.org/bmp#BulkDensity
+<https://w3id.org/bmp#BulkDensity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#BulkDensity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#Physical> .
+# 
+# https://w3id.org/bmp#CalciumSilicateUnit
+<https://w3id.org/bmp#CalciumSilicateUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#CalciumSilicateUnit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#CalciumSilicateUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/32918.html"@en .
+<https://w3id.org/bmp#CalciumSilicateUnit> <http://www.w3.org/2000/01/rdf-schema#label> "CalciumSilicateUnit"@en .
+# 
+# https://w3id.org/bmp#ClayUnit
+<https://w3id.org/bmp#ClayUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#ClayUnit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#ClayUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/32918.html"@en .
+<https://w3id.org/bmp#ClayUnit> <http://www.w3.org/2000/01/rdf-schema#label> "ClayUnit"@en .
+# 
+# https://w3id.org/bmp#Concrete
+<https://w3id.org/bmp#Concrete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#Concrete> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialCategory> .
+<https://w3id.org/bmp#Concrete> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/41260.html"@en .
+<https://w3id.org/bmp#Concrete> <http://www.w3.org/2000/01/rdf-schema#label> "Concrete"@en .
+# 
+# https://w3id.org/bmp#DesorptionC
+<https://w3id.org/bmp#DesorptionC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#DesorptionC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#WaterVapourSorptionIsotherm> .
+# 
+# https://w3id.org/bmp#DesorptionK
+<https://w3id.org/bmp#DesorptionK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#DesorptionK> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#WaterVapourSorptionIsotherm> .
+# 
+# https://w3id.org/bmp#DesorptionWm
+<https://w3id.org/bmp#DesorptionWm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#DesorptionWm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#WaterVapourSorptionIsotherm> .
+# 
+# https://w3id.org/bmp#DrawnSheetGlass
+<https://w3id.org/bmp#DrawnSheetGlass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#DrawnSheetGlass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#DrawnSheetGlass> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/46375.html"@en .
+<https://w3id.org/bmp#DrawnSheetGlass> <http://www.w3.org/2000/01/rdf-schema#label> "DrawnSheetGlass"@en .
+# 
+# https://w3id.org/bmp#Dropping
+<https://w3id.org/bmp#Dropping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#Dropping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#FireResistance> .
+<https://w3id.org/bmp#Dropping> <http://www.w3.org/2000/01/rdf-schema#label> "Dropping"@en .
+# 
+# https://w3id.org/bmp#Durability
+<https://w3id.org/bmp#Durability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#Durability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialProperty> .
+<https://w3id.org/bmp#Durability> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Hygric> .
+<https://w3id.org/bmp#Durability> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Mechanical> .
+<https://w3id.org/bmp#Durability> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Optical> .
+<https://w3id.org/bmp#Durability> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Physical> .
+<https://w3id.org/bmp#Durability> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Thermal> .
+<https://w3id.org/bmp#Durability> <http://www.w3.org/2000/01/rdf-schema#label> "Durability"@en .
+# 
+# https://w3id.org/bmp#EffectiveGasPermeability
+<https://w3id.org/bmp#EffectiveGasPermeability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#EffectiveGasPermeability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#Physical> .
+# 
+# https://w3id.org/bmp#Finishing
+<https://w3id.org/bmp#Finishing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#Finishing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#LayerFunction> .
+<https://w3id.org/bmp#Finishing> <http://www.w3.org/2000/01/rdf-schema#label> "Finishing" .
+# 
+# https://w3id.org/bmp#FireClassification
+<https://w3id.org/bmp#FireClassification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#FireClassification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#FireResistance> .
+<https://w3id.org/bmp#FireClassification> <http://www.w3.org/2000/01/rdf-schema#label> "FireClassification"@en .
+# 
+# https://w3id.org/bmp#FireResistance
+<https://w3id.org/bmp#FireResistance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#FireResistance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#Durability> .
+<https://w3id.org/bmp#FireResistance> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.peroni.com/lang_UK/_download/EN_Reaction_to_Fire_Classification.pdf"@en .
+<https://w3id.org/bmp#FireResistance> <http://www.w3.org/2000/01/rdf-schema#label> "FireResistance"@en .
+# 
+# https://w3id.org/bmp#FloatGlass
+<https://w3id.org/bmp#FloatGlass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#FloatGlass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#FloatGlass> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/46375.html"@en .
+<https://w3id.org/bmp#FloatGlass> <http://www.w3.org/2000/01/rdf-schema#label> "FloatGlass"@en .
+# 
+# https://w3id.org/bmp#Glass
+<https://w3id.org/bmp#Glass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#Glass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialCategory> .
+<https://w3id.org/bmp#Glass> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/46375.html"@en .
+<https://w3id.org/bmp#Glass> <http://www.w3.org/2000/01/rdf-schema#label> "Glass"@en .
+# 
+# https://w3id.org/bmp#GlazingOpening
+<https://w3id.org/bmp#GlazingOpening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#GlazingOpening> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#LayerFunction> .
+<https://w3id.org/bmp#GlazingOpening> <http://www.w3.org/2000/01/rdf-schema#label> "Glazing"@en .
+<https://w3id.org/bmp#GlazingOpening> <http://www.w3.org/2000/01/rdf-schema#label> "Opening"@en .
+# 
+# https://w3id.org/bmp#GranitStone
+<https://w3id.org/bmp#GranitStone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#GranitStone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#GranitStone> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/77077.html"@en .
+<https://w3id.org/bmp#GranitStone> <http://www.w3.org/2000/01/rdf-schema#label> "GranitStone"@en .
+# 
+# https://w3id.org/bmp#HeavyWeightAggregate
+<https://w3id.org/bmp#HeavyWeightAggregate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#HeavyWeightAggregate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#HeavyWeightAggregate> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/41260.html"@en .
+<https://w3id.org/bmp#HeavyWeightAggregate> <http://www.w3.org/2000/01/rdf-schema#label> "HeavyWeightAggregate"@en .
+# 
+# https://w3id.org/bmp#HeavyWeightConcrete
+<https://w3id.org/bmp#HeavyWeightConcrete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#HeavyWeightConcrete> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#HeavyWeightConcrete> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/41260.html"@en .
+<https://w3id.org/bmp#HeavyWeightConcrete> <http://www.w3.org/2000/01/rdf-schema#label> "HeavyWeightConcrete"@en .
+# 
+# https://w3id.org/bmp#Hemp
+<https://w3id.org/bmp#Hemp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#Hemp> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialCategory> .
+<https://w3id.org/bmp#Hemp> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/78231.html"@en .
+<https://w3id.org/bmp#Hemp> <http://www.w3.org/2000/01/rdf-schema#label> "Hemp"@en .
+# 
+# https://w3id.org/bmp#HempFibreBoard
+<https://w3id.org/bmp#HempFibreBoard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#HempFibreBoard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#HempFibreBoard> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/78231.html"@en .
+<https://w3id.org/bmp#HempFibreBoard> <http://www.w3.org/2000/01/rdf-schema#label> "HempFibreBoard"@en .
+# 
+# https://w3id.org/bmp#HempFibreMat
+<https://w3id.org/bmp#HempFibreMat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#HempFibreMat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#HempFibreMat> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/78231.html"@en .
+<https://w3id.org/bmp#HempFibreMat> <http://www.w3.org/2000/01/rdf-schema#label> "HempFibreMat"@en .
+# 
+# https://w3id.org/bmp#Hempcrete
+<https://w3id.org/bmp#Hempcrete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#Hempcrete> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#Hempcrete> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/41260.html"@en .
+<https://w3id.org/bmp#Hempcrete> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/78231.html"@en .
+<https://w3id.org/bmp#Hempcrete> <http://www.w3.org/2000/01/rdf-schema#label> "Hempcrete"@en .
+# 
+# https://w3id.org/bmp#Hygric
+<https://w3id.org/bmp#Hygric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#Hygric> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialProperty> .
+<https://w3id.org/bmp#Hygric> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Mechanical> .
+<https://w3id.org/bmp#Hygric> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Optical> .
+<https://w3id.org/bmp#Hygric> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Physical> .
+<https://w3id.org/bmp#Hygric> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Thermal> .
+# 
+# https://w3id.org/bmp#Insulating
+<https://w3id.org/bmp#Insulating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#Insulating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#LayerFunction> .
+<https://w3id.org/bmp#Insulating> <http://www.w3.org/2000/01/rdf-schema#label> "Insulating"@en .
+# 
+# https://w3id.org/bmp#Layer
+<https://w3id.org/bmp#Layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#Layer> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Material> .
+<https://w3id.org/bmp#Layer> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#MaterialCategory> .
+<https://w3id.org/bmp#Layer> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#MaterialProperty> .
+<https://w3id.org/bmp#Layer> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#MaterialType> .
+# 
+# https://w3id.org/bmp#LayerFunction
+<https://w3id.org/bmp#LayerFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#LayerFunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#Layer> .
+<https://w3id.org/bmp#LayerFunction> <http://www.w3.org/2000/01/rdf-schema#comment> "The Layer Function class is used to give a first-time identification of building components, such as a layer, in building models."@en .
+<https://w3id.org/bmp#LayerFunction> <http://www.w3.org/2000/01/rdf-schema#label> "LayerFunction"@en .
+# 
+# https://w3id.org/bmp#LayerLocation
+<https://w3id.org/bmp#LayerLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#LayerLocation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#Layer> .
+# 
+# https://w3id.org/bmp#LifeSpan
+<https://w3id.org/bmp#LifeSpan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#LifeSpan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#Durability> .
+<https://w3id.org/bmp#LifeSpan> <http://www.w3.org/2000/01/rdf-schema#comment> "Service life time of a material or a product"@en .
+<https://w3id.org/bmp#LifeSpan> <http://www.w3.org/2000/01/rdf-schema#label> "LifeSpan"@en .
+# 
+# https://w3id.org/bmp#LightWeightAggregate
+<https://w3id.org/bmp#LightWeightAggregate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#LightWeightAggregate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#LightWeightAggregate> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/41260.html"@en .
+<https://w3id.org/bmp#LightWeightAggregate> <http://www.w3.org/2000/01/rdf-schema#label> "LightWeightAggregate"@en .
+# 
+# https://w3id.org/bmp#LightWeightConcrete
+<https://w3id.org/bmp#LightWeightConcrete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#LightWeightConcrete> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#LightWeightConcrete> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/41260.html"@en .
+<https://w3id.org/bmp#LightWeightConcrete> <http://www.w3.org/2000/01/rdf-schema#label> "LightWeightConcrete"@en .
+# 
+# https://w3id.org/bmp#LiquidTransportCoef
+<https://w3id.org/bmp#LiquidTransportCoef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#LiquidTransportCoef> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#Hygric> .
+# 
+# https://w3id.org/bmp#LoadBearing
+<https://w3id.org/bmp#LoadBearing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#LoadBearing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#LayerFunction> .
+<https://w3id.org/bmp#LoadBearing> <http://www.w3.org/2000/01/rdf-schema#label> "LoadBearing"@en .
+# 
+# https://w3id.org/bmp#Material
+<https://w3id.org/bmp#Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#Material> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#MaterialCategory> .
+<https://w3id.org/bmp#Material> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#MaterialProperty> .
+<https://w3id.org/bmp#Material> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#Material> <http://www.w3.org/2000/01/rdf-schema#comment> "Material class is used to describe a material as a non-living entity that manifest properties that can be measured or characterised."@en .
+<https://w3id.org/bmp#Material> <http://www.w3.org/2000/01/rdf-schema#label> "Material"@en .
+# 
+# https://w3id.org/bmp#MaterialCategory
+<https://w3id.org/bmp#MaterialCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#MaterialCategory> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#MaterialProperty> .
+<https://w3id.org/bmp#MaterialCategory> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#MaterialCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Material Category class is used to describe material categories in a higher aggregated level."@en .
+<https://w3id.org/bmp#MaterialCategory> <http://www.w3.org/2000/01/rdf-schema#label> "MaterialCategory"@en .
+# 
+# https://w3id.org/bmp#MaterialProperty
+<https://w3id.org/bmp#MaterialProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#MaterialProperty> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#MaterialProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "A property is an inherent or acquired feature of an item and cannot be part of several property sets."@en .
+<https://w3id.org/bmp#MaterialProperty> <http://www.w3.org/2000/01/rdf-schema#label> "MaterialProperty"@en .
+# 
+# https://w3id.org/bmp#MaterialType
+<https://w3id.org/bmp#MaterialType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#MaterialType> <http://www.w3.org/2000/01/rdf-schema#comment> "Material Types class is used to describe material typologies and sub typologies in low aggregated level."@en .
+<https://w3id.org/bmp#MaterialType> <http://www.w3.org/2000/01/rdf-schema#label> "MaterialType"@en .
+# 
+# https://w3id.org/bmp#Mechanical
+<https://w3id.org/bmp#Mechanical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#Mechanical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialProperty> .
+<https://w3id.org/bmp#Mechanical> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Optical> .
+<https://w3id.org/bmp#Mechanical> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Physical> .
+<https://w3id.org/bmp#Mechanical> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Thermal> .
+# 
+# https://w3id.org/bmp#MineralFibre
+<https://w3id.org/bmp#MineralFibre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#MineralFibre> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialCategory> .
+<https://w3id.org/bmp#MineralFibre> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/15229.html"@en .
+<https://w3id.org/bmp#MineralFibre> <http://www.w3.org/2000/01/rdf-schema#label> "MineralFibre"@en .
+# 
+# https://w3id.org/bmp#MineralFibreBoard
+<https://w3id.org/bmp#MineralFibreBoard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#MineralFibreBoard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#MineralFibreBoard> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/15229.html"@en .
+<https://w3id.org/bmp#MineralFibreBoard> <http://www.w3.org/2000/01/rdf-schema#label> "MineralFibreBoard"@en .
+# 
+# https://w3id.org/bmp#MineralFibreMat
+<https://w3id.org/bmp#MineralFibreMat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#MineralFibreMat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#MineralFibreMat> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/15229.html"@en .
+<https://w3id.org/bmp#MineralFibreMat> <http://www.w3.org/2000/01/rdf-schema#label> "MineralFibreMat"@en .
+# 
+# https://w3id.org/bmp#MoistureContent
+<https://w3id.org/bmp#MoistureContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#MoistureContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#ThermalConductivity> .
+# 
+# https://w3id.org/bmp#NaturalStone
+<https://w3id.org/bmp#NaturalStone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#NaturalStone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialCategory> .
+<https://w3id.org/bmp#NaturalStone> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/77077.html"@en .
+<https://w3id.org/bmp#NaturalStone> <http://www.w3.org/2000/01/rdf-schema#label> "NaturalStone"@en .
+# 
+# https://w3id.org/bmp#NonLoadBearing
+<https://w3id.org/bmp#NonLoadBearing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#NonLoadBearing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#LayerFunction> .
+<https://w3id.org/bmp#NonLoadBearing> <http://www.w3.org/2000/01/rdf-schema#label> "NonLoadBearing"@en .
+# 
+# https://w3id.org/bmp#NonMetallic
+<https://w3id.org/bmp#NonMetallic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#NonMetallic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialCategory> .
+<https://w3id.org/bmp#NonMetallic> <http://www.w3.org/2000/01/rdf-schema#comment> "NonMetallic"@en .
+<https://w3id.org/bmp#NonMetallic> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/77077.html"@en .
+# 
+# https://w3id.org/bmp#Optical
+<https://w3id.org/bmp#Optical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#Optical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialProperty> .
+<https://w3id.org/bmp#Optical> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Physical> .
+<https://w3id.org/bmp#Optical> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Thermal> .
+# 
+# https://w3id.org/bmp#PatternedGlass
+<https://w3id.org/bmp#PatternedGlass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#PatternedGlass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#PatternedGlass> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/46375.html"@en .
+<https://w3id.org/bmp#PatternedGlass> <http://www.w3.org/2000/01/rdf-schema#label> "PatternedGlass"@en .
+# 
+# https://w3id.org/bmp#Physical
+<https://w3id.org/bmp#Physical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#Physical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialProperty> .
+<https://w3id.org/bmp#Physical> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bmp#Thermal> .
+# 
+# https://w3id.org/bmp#PolishedWiredGlass
+<https://w3id.org/bmp#PolishedWiredGlass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#PolishedWiredGlass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#PolishedWiredGlass> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/46375.html"@en .
+<https://w3id.org/bmp#PolishedWiredGlass> <http://www.w3.org/2000/01/rdf-schema#label> "PolishedWiredGlass"@en .
+# 
+# https://w3id.org/bmp#Porosity
+<https://w3id.org/bmp#Porosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#Porosity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#Physical> .
+# 
+# https://w3id.org/bmp#PrestressedConcrete
+<https://w3id.org/bmp#PrestressedConcrete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#PrestressedConcrete> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#PrestressedConcrete> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/41260.html"@en .
+<https://w3id.org/bmp#PrestressedConcrete> <http://www.w3.org/2000/01/rdf-schema#label> "PrestressedConcrete"@en .
+# 
+# https://w3id.org/bmp#RelativeGasDiffusivity
+<https://w3id.org/bmp#RelativeGasDiffusivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#RelativeGasDiffusivity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#Physical> .
+# 
+# https://w3id.org/bmp#SandStone
+<https://w3id.org/bmp#SandStone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#SandStone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#SandStone> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/77077.html"@en .
+<https://w3id.org/bmp#SandStone> <http://www.w3.org/2000/01/rdf-schema#label> "SandStone"@en .
+# 
+# https://w3id.org/bmp#SmokeDevelopment
+<https://w3id.org/bmp#SmokeDevelopment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#SmokeDevelopment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#FireResistance> .
+<https://w3id.org/bmp#SmokeDevelopment> <http://www.w3.org/2000/01/rdf-schema#label> "SmokeDevelopment"@en .
+# 
+# https://w3id.org/bmp#SolarTransmittance
+<https://w3id.org/bmp#SolarTransmittance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#SolarTransmittance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#Thermal> .
+# 
+# https://w3id.org/bmp#SpecificHeatCapacity
+<https://w3id.org/bmp#SpecificHeatCapacity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#SpecificHeatCapacity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#Thermal> .
+# 
+# https://w3id.org/bmp#TempCondition
+<https://w3id.org/bmp#TempCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#TempCondition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#ThermalConductivity> .
+# 
+# https://w3id.org/bmp#Thermal
+<https://w3id.org/bmp#Thermal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#Thermal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialProperty> .
+# 
+# https://w3id.org/bmp#ThermalConductivity
+<https://w3id.org/bmp#ThermalConductivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#ThermalConductivity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#Thermal> .
+# 
+# https://w3id.org/bmp#ThermalDiffusivity
+<https://w3id.org/bmp#ThermalDiffusivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#ThermalDiffusivity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#Thermal> .
+# 
+# https://w3id.org/bmp#ThermalExpansionCoef
+<https://w3id.org/bmp#ThermalExpansionCoef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#ThermalExpansionCoef> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#Thermal> .
+# 
+# https://w3id.org/bmp#VolumetricHeatCapacity
+<https://w3id.org/bmp#VolumetricHeatCapacity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#VolumetricHeatCapacity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#Thermal> .
+# 
+# https://w3id.org/bmp#WaterVapourDiffusionThickness
+<https://w3id.org/bmp#WaterVapourDiffusionThickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#WaterVapourDiffusionThickness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#Hygric> .
+# 
+# https://w3id.org/bmp#WaterVapourDiffusivity
+<https://w3id.org/bmp#WaterVapourDiffusivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#WaterVapourDiffusivity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#Hygric> .
+# 
+# https://w3id.org/bmp#WaterVapourPermeability
+<https://w3id.org/bmp#WaterVapourPermeability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#WaterVapourPermeability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#Hygric> .
+# 
+# https://w3id.org/bmp#WaterVapourResistanceFactor
+<https://w3id.org/bmp#WaterVapourResistanceFactor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#WaterVapourResistanceFactor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#Hygric> .
+# 
+# https://w3id.org/bmp#WaterVapourSorptionIsotherm
+<https://w3id.org/bmp#WaterVapourSorptionIsotherm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#WaterVapourSorptionIsotherm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#Hygric> .
+# 
+# https://w3id.org/bmp#WoodHard
+<https://w3id.org/bmp#WoodHard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#WoodHard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#WoodHard> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/77077.html"@en .
+<https://w3id.org/bmp#WoodHard> <http://www.w3.org/2000/01/rdf-schema#label> "WoodHard"@en .
+# 
+# https://w3id.org/bmp#WoodSoft
+<https://w3id.org/bmp#WoodSoft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#WoodSoft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialType> .
+<https://w3id.org/bmp#WoodSoft> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/77077.html"@en .
+<https://w3id.org/bmp#WoodSoft> <http://www.w3.org/2000/01/rdf-schema#label> "WoodSoft"@en .
+# 
+# https://w3id.org/bmp#WoodTimber
+<https://w3id.org/bmp#WoodTimber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bmp#WoodTimber> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bmp#MaterialCategory> .
+<https://w3id.org/bmp#WoodTimber> <http://www.w3.org/2000/01/rdf-schema#comment> "https://www.iso.org/standard/77077.html"@en .
+<https://w3id.org/bmp#WoodTimber> <http://www.w3.org/2000/01/rdf-schema#label> "Timber"@en .
+<https://w3id.org/bmp#WoodTimber> <http://www.w3.org/2000/01/rdf-schema#label> "Wood"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://orcid.org/0000-0002-8651-0671
+<https://orcid.org/0000-0002-8651-0671> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://orcid.org/0000-0002-8651-0671> <http://www.w3.org/2000/01/rdf-schema#comment> "Ekaterina Petrova" .
+<https://orcid.org/0000-0002-8651-0671> <http://www.w3.org/2000/01/rdf-schema#label> "Ekaterina Petrova" .
+<https://orcid.org/0000-0002-8651-0671> <http://xmlns.com/foaf/0.1/name> "Ekaterina Petrova" .
+<https://orcid.org/0000-0002-8651-0671> <http://xmlns.com/foaf/0.1/weblog> "https://research.tue.nl/en/persons/ekaterina-petrova" .
+# 
+# https://orcid.org/0000-0002-9383-7234
+<https://orcid.org/0000-0002-9383-7234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://orcid.org/0000-0002-9383-7234> <http://www.w3.org/2000/01/rdf-schema#comment> "Julia Kaltenegger" .
+<https://orcid.org/0000-0002-9383-7234> <http://www.w3.org/2000/01/rdf-schema#label> "Julia Kaltenegger" .
+<https://orcid.org/0000-0002-9383-7234> <http://xmlns.com/foaf/0.1/name> "Julia Kaltenegger" .
+<https://orcid.org/0000-0002-9383-7234> <http://xmlns.com/foaf/0.1/weblog> "https://linktr.ee/julkaltenegger" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

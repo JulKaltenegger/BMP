@@ -1,0 +1,13 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<..\index-en.html> a prov:Entity;
+	 dc:title "Building Material Performance";
+	 prov:wasAttributedTo <https://orcid.org/0000-0002-9383-7234>;
+	 dc:creator <https://orcid.org/0000-0002-9383-7234>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0002-8651-0671>;
+	 dc:contributor <https://orcid.org/0000-0002-8651-0671>;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:specializationOf <https://w3id.org/bmp#>;
+.
