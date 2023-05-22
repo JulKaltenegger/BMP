@@ -1,6 +1,6 @@
-# baseURI: http://linkedbuildingdata.net/ifc/resources20230508_135051/
+# baseURI: http://linkedbuildingdata.net/ifc/resources20230515_141008/
 
-@prefix inst: <http://linkedbuildingdata.net/ifc/resources20230508_135051/> .
+@prefix inst: <http://linkedbuildingdata.net/ifc/resources20230515_141008/> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
@@ -97,7 +97,7 @@ inst:storey_104
 	bot:hasGuid "e16d5b76-9d45-4726-8432-5c88e0b9743a"^^xsd:string ;
 	rdfs:label "00_LE"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
-	bot:containsElement inst:wall_4281 , inst:wall_4913 , inst:wall_5121 , inst:wall_5272 , inst:wall_5641 , inst:slab_9277 , inst:wall_11697 ;
+	bot:containsElement inst:wall_5433 , inst:wall_5673 , inst:wall_6218 , inst:wall_6426 , inst:wall_6577 , inst:wall_6946 , inst:slab_10582 , inst:wall_13002 , inst:wall_13082 ;
 	props:name "00_LE"^^xsd:string ;
 	props:aboveGround ".U."^^xsd:double ;
 	props:name "00_LE"^^xsd:string ;
@@ -128,7 +128,8 @@ inst:storey_107
 	bot:hasGuid "5ccf6065-ab0d-40f6-8571-9eb109219337"^^xsd:string ;
 	rdfs:label "00_Begane Grond"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
-	bot:containsElement inst:slab_187 , inst:wall_408 , inst:wall_534 , inst:wall_4557 , inst:wall_5202 , inst:wall_5387 , inst:door_8960 , inst:slab_9216 , inst:slab_9364 , inst:wall_9636 , inst:wall_9728 , inst:wall_9784 , inst:wall_9874 , inst:door_9922 , inst:wall_9965 , inst:wall_10021 , inst:wall_10108 , inst:stair_10152 , inst:wall_11313 , inst:door_16793 , inst:window_17119 , inst:window_17623 , inst:door_18777 ;
+	bot:hasSpace inst:space_191 , inst:space_312 , inst:space_420 , inst:space_515 , inst:space_1073 , inst:space_1157 ;
+	bot:containsElement inst:slab_1329 , inst:wall_1550 , inst:wall_1675 , inst:wall_5563 , inst:wall_5901 , inst:wall_6507 , inst:wall_6692 , inst:door_10265 , inst:slab_10521 , inst:slab_10669 , inst:wall_10941 , inst:wall_11033 , inst:wall_11089 , inst:wall_11179 , inst:door_11227 , inst:wall_11270 , inst:wall_11326 , inst:wall_11413 , inst:stair_11457 , inst:wall_12618 , inst:door_18178 , inst:window_18504 , inst:window_19008 , inst:door_20162 ;
 	props:name "00_Begane Grond"^^xsd:string ;
 	props:aboveGround ".U."^^xsd:double ;
 	props:name "00_Begane Grond"^^xsd:string ;
@@ -159,7 +160,8 @@ inst:storey_115
 	bot:hasGuid "f76ffb06-4277-421c-b6bf-bd7993192b63"^^xsd:string ;
 	rdfs:label "01_WV_Eerste Verdieping"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
-	bot:containsElement inst:slab_308 , inst:wall_625 , inst:wall_727 , inst:wall_783 , inst:wall_839 , inst:door_2479 , inst:door_4143 , inst:door_4185 , inst:door_4220 , inst:slab_9021 , inst:slab_9126 , inst:stair_11741 , inst:window_17165 , inst:window_17578 , inst:window_17928 , inst:window_18346 , inst:wall_18403 , inst:wall_18546 , inst:wall_18651 ;
+	bot:hasSpace inst:space_603 , inst:space_693 , inst:space_778 , inst:space_863 , inst:space_1240 ;
+	bot:containsElement inst:slab_1450 , inst:wall_1766 , inst:wall_1868 , inst:wall_1924 , inst:wall_1980 , inst:door_3620 , inst:door_5284 , inst:door_5326 , inst:door_5361 , inst:slab_10326 , inst:slab_10431 , inst:stair_13126 , inst:window_18550 , inst:window_18963 , inst:window_19313 , inst:window_19731 , inst:wall_19788 , inst:wall_19931 , inst:wall_20036 ;
 	props:name "01_WV_Eerste Verdieping"^^xsd:string ;
 	props:aboveGround ".U."^^xsd:double ;
 	props:name "01_WV_Eerste Verdieping"^^xsd:string ;
@@ -190,7 +192,8 @@ inst:storey_123
 	bot:hasGuid "1646615f-0490-4ecd-8424-533d5b896f3a"^^xsd:string ;
 	rdfs:label "02_WV_Tweede Verdieping"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
-	bot:containsElement inst:slab_9433 , inst:slab_9502 , inst:slab_9571 , inst:roof_11358 , inst:roof_11510 , inst:beam_18828 ;
+	bot:hasSpace inst:space_980 ;
+	bot:containsElement inst:slab_10738 , inst:slab_10807 , inst:slab_10876 , inst:roof_12663 , inst:roof_12815 , inst:beam_20213 , inst:beam_20317 ;
 	props:name "02_WV_Tweede Verdieping"^^xsd:string ;
 	props:aboveGround ".U."^^xsd:double ;
 	props:name "02_WV_Tweede Verdieping"^^xsd:string ;
@@ -216,7 +219,942 @@ inst:storey_123
 	props:category "Levels"^^xsd:string ;
 	props:familyName "Level"^^xsd:string . 
 
-inst:slab_187
+inst:space_191
+	a bot:Space ;
+	bot:hasGuid "770957ba-9d96-4593-8134-b6c1c172bbbc"^^xsd:string ;
+	props:name "Dinner Room"^^xsd:string ;
+	props:name "Dinner Room"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Dinner Room 03"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
+	props:level "00_Begane Grond"^^xsd:string ;
+	props:limitOffset "0."^^xsd:double ;
+	props:upperLimit "01_WV_Slab Lower Edge"^^xsd:string ;
+	props:area "10.976249999999963"^^xsd:double ;
+	props:computationHeight "1500."^^xsd:double ;
+	props:perimeter "13399.999999999982"^^xsd:double ;
+	props:unboundedHeight "2500."^^xsd:double ;
+	props:volume "27.440624999999912"^^xsd:double ;
+	props:averageEstimatedIllumination "0."^^xsd:double ;
+	props:ceilingReflectance "75."^^xsd:double ;
+	props:floorReflectance "20."^^xsd:double ;
+	props:lightingCalculationWorkplane "762."^^xsd:double ;
+	props:roomCavityRatio "0."^^xsd:double ;
+	props:wallReflectance "50."^^xsd:double ;
+	props:designHVACLoadperarea "0."^^xsd:double ;
+	props:designOtherLoadperarea "0."^^xsd:double ;
+	props:actualLightingLoad "0."^^xsd:double ;
+	props:actualLightingLoadperarea "0."^^xsd:double ;
+	props:actualPowerLoad "0."^^xsd:double ;
+	props:actualPowerLoadperarea "0."^^xsd:double ;
+	props:airChangesperHour "0.5"^^xsd:double ;
+	props:areaperPerson "3.658749999999988"^^xsd:double ;
+	props:baseLightingLoadon "Specified Lighting Load Values"^^xsd:string ;
+	props:basePowerLoadon "By Space Type"^^xsd:string ;
+	props:conditionType "Heated"^^xsd:string ;
+	props:designCoolingLoad "0."^^xsd:double ;
+	props:designHeatingLoad "0."^^xsd:double ;
+	props:heatLoadValues "By Space Type"^^xsd:string ;
+	props:latentHeatGainperperson "80."^^xsd:double ;
+	props:lightingLoadUnits "Power"^^xsd:string ;
+	props:numberofPeople "3."^^xsd:double ;
+	props:occupancyUnit "Number of people"^^xsd:string ;
+	props:occupiable true ;
+	props:outdoorAirInformation "From Space Type"^^xsd:string ;
+	props:outdoorAirMethod "by ACH"^^xsd:string ;
+	props:outdoorAirperArea "0.69999999999999984"^^xsd:double ;
+	props:outdoorAirperPerson "0."^^xsd:double ;
+	props:plenum false ;
+	props:plenumLightingContribution "20."^^xsd:double ;
+	props:powerLoadUnits "Power Density"^^xsd:string ;
+	props:sensibleHeatGainperperson "80."^^xsd:double ;
+	props:spaceType "Rijwoning-Occupied"^^xsd:string ;
+	props:specifiedLightingLoad "50.000000000000007"^^xsd:double ;
+	props:specifiedLightingLoadperarea "4.5552898303154699"^^xsd:double ;
+	props:specifiedPowerLoad "54.881249999999817"^^xsd:double ;
+	props:specifiedPowerLoadperarea "5."^^xsd:double ;
+	props:totalHeatGainperperson "160."^^xsd:double ;
+	props:zone "Default"^^xsd:string ;
+	props:name "Dinner Room"^^xsd:string ;
+	props:number "03"^^xsd:string ;
+	props:roomName "Dining Room"^^xsd:string ;
+	props:roomNumber "3"^^xsd:string ;
+	props:actualExhaustAirflow "0."^^xsd:double ;
+	props:actualReturnAirflow "0."^^xsd:double ;
+	props:actualSupplyAirflow "0."^^xsd:double ;
+	props:outdoorAirflow "3.8111979166666532"^^xsd:double ;
+	props:returnAirflow "Specified Supply Airflow"^^xsd:string ;
+	props:specifiedExhaustAirflow "0."^^xsd:double ;
+	props:specifiedReturnAirflow "0."^^xsd:double ;
+	props:specifiedSupplyAirflow "0."^^xsd:double ;
+	props:category "Spaces"^^xsd:string ;
+	props:phaseId "8665"^^xsd:string ;
+	props:phase "Bestaand"^^xsd:string ;
+	props:netFloorArea "10.976249999999963"^^xsd:double ;
+	props:height "2500."^^xsd:double ;
+	props:grossPerimeter "13399.99999999998"^^xsd:double ;
+	props:grossFloorArea "10.976249999999963"^^xsd:double ;
+	props:grossVolume "27.440624999999912"^^xsd:double . 
+
+inst:space_312
+	a bot:Space ;
+	bot:hasGuid "770957ba-9d96-4593-8134-b6c1c172bbba"^^xsd:string ;
+	props:name "Kitchen"^^xsd:string ;
+	props:name "Kitchen"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Kitchen 04"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
+	props:limitOffset "0."^^xsd:double ;
+	props:upperLimit "01_WV_Slab Lower Edge"^^xsd:string ;
+	props:level "00_Begane Grond"^^xsd:string ;
+	props:area "6.8274999999999837"^^xsd:double ;
+	props:computationHeight "1500."^^xsd:double ;
+	props:perimeter "10700.000000000009"^^xsd:double ;
+	props:unboundedHeight "2500."^^xsd:double ;
+	props:volume "17.068749999999955"^^xsd:double ;
+	props:lightingCalculationWorkplane "762."^^xsd:double ;
+	props:roomCavityRatio "0."^^xsd:double ;
+	props:averageEstimatedIllumination "0."^^xsd:double ;
+	props:ceilingReflectance "75."^^xsd:double ;
+	props:floorReflectance "20."^^xsd:double ;
+	props:wallReflectance "50."^^xsd:double ;
+	props:designHVACLoadperarea "0."^^xsd:double ;
+	props:designOtherLoadperarea "0."^^xsd:double ;
+	props:actualLightingLoadperarea "0."^^xsd:double ;
+	props:actualPowerLoadperarea "0."^^xsd:double ;
+	props:airChangesperHour "0.5"^^xsd:double ;
+	props:baseLightingLoadon "Specified Lighting Load Values"^^xsd:string ;
+	props:basePowerLoadon "By Space Type"^^xsd:string ;
+	props:conditionType "Heated"^^xsd:string ;
+	props:heatLoadValues "By Space Type"^^xsd:string ;
+	props:lightingLoadUnits "Power"^^xsd:string ;
+	props:numberofPeople "3."^^xsd:double ;
+	props:occupancyUnit "Number of people"^^xsd:string ;
+	props:occupiable true ;
+	props:outdoorAirMethod "by ACH"^^xsd:string ;
+	props:plenum false ;
+	props:powerLoadUnits "Power Density"^^xsd:string ;
+	props:spaceType "Rijwoning-Occupied"^^xsd:string ;
+	props:specifiedPowerLoadperarea "5."^^xsd:double ;
+	props:actualLightingLoad "0."^^xsd:double ;
+	props:actualPowerLoad "0."^^xsd:double ;
+	props:areaperPerson "2.275833333333328"^^xsd:double ;
+	props:designCoolingLoad "0."^^xsd:double ;
+	props:designHeatingLoad "0."^^xsd:double ;
+	props:latentHeatGainperperson "80."^^xsd:double ;
+	props:outdoorAirInformation "From Space Type"^^xsd:string ;
+	props:outdoorAirperArea "0.69999999999999984"^^xsd:double ;
+	props:outdoorAirperPerson "0."^^xsd:double ;
+	props:plenumLightingContribution "20."^^xsd:double ;
+	props:sensibleHeatGainperperson "80."^^xsd:double ;
+	props:specifiedLightingLoad "50.000000000000007"^^xsd:double ;
+	props:specifiedLightingLoadperarea "7.3233247894544302"^^xsd:double ;
+	props:specifiedPowerLoad "34.137499999999918"^^xsd:double ;
+	props:totalHeatGainperperson "160."^^xsd:double ;
+	props:zone "Default"^^xsd:string ;
+	props:name "Kitchen"^^xsd:string ;
+	props:number "04"^^xsd:string ;
+	props:roomName "Kitchen"^^xsd:string ;
+	props:roomNumber "4"^^xsd:string ;
+	props:returnAirflow "Specified Supply Airflow"^^xsd:string ;
+	props:actualExhaustAirflow "0."^^xsd:double ;
+	props:actualReturnAirflow "0."^^xsd:double ;
+	props:actualSupplyAirflow "0."^^xsd:double ;
+	props:outdoorAirflow "2.3706597222222157"^^xsd:double ;
+	props:specifiedExhaustAirflow "0."^^xsd:double ;
+	props:specifiedReturnAirflow "0."^^xsd:double ;
+	props:specifiedSupplyAirflow "0."^^xsd:double ;
+	props:category "Spaces"^^xsd:string ;
+	props:phaseId "8665"^^xsd:string ;
+	props:phase "Bestaand"^^xsd:string ;
+	props:netFloorArea "6.8274999999999837"^^xsd:double ;
+	props:height "2500."^^xsd:double ;
+	props:grossPerimeter "10700.000000000005"^^xsd:double ;
+	props:grossFloorArea "6.8274999999999837"^^xsd:double ;
+	props:grossVolume "17.068749999999962"^^xsd:double . 
+
+inst:space_420
+	a bot:Space ;
+	bot:hasGuid "770957ba-9d96-4593-8134-b6c1c172bbb8"^^xsd:string ;
+	props:name "Living"^^xsd:string ;
+	props:name "Living"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Living 02"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
+	props:limitOffset "0."^^xsd:double ;
+	props:upperLimit "01_WV_Slab Lower Edge"^^xsd:string ;
+	props:level "00_Begane Grond"^^xsd:string ;
+	props:area "24.647619502505435"^^xsd:double ;
+	props:computationHeight "1500."^^xsd:double ;
+	props:perimeter "23874.999999999887"^^xsd:double ;
+	props:unboundedHeight "2500."^^xsd:double ;
+	props:volume "61.619048756263567"^^xsd:double ;
+	props:lightingCalculationWorkplane "762."^^xsd:double ;
+	props:roomCavityRatio "0."^^xsd:double ;
+	props:averageEstimatedIllumination "0."^^xsd:double ;
+	props:ceilingReflectance "75."^^xsd:double ;
+	props:floorReflectance "20."^^xsd:double ;
+	props:wallReflectance "50."^^xsd:double ;
+	props:designHVACLoadperarea "0."^^xsd:double ;
+	props:designOtherLoadperarea "0."^^xsd:double ;
+	props:actualLightingLoadperarea "0."^^xsd:double ;
+	props:actualPowerLoadperarea "0."^^xsd:double ;
+	props:airChangesperHour "0.5"^^xsd:double ;
+	props:baseLightingLoadon "Specified Lighting Load Values"^^xsd:string ;
+	props:basePowerLoadon "By Space Type"^^xsd:string ;
+	props:conditionType "Heated"^^xsd:string ;
+	props:heatLoadValues "By Space Type"^^xsd:string ;
+	props:lightingLoadUnits "Power"^^xsd:string ;
+	props:numberofPeople "3."^^xsd:double ;
+	props:occupancyUnit "Number of people"^^xsd:string ;
+	props:occupiable true ;
+	props:outdoorAirMethod "by ACH"^^xsd:string ;
+	props:plenum false ;
+	props:powerLoadUnits "Power Density"^^xsd:string ;
+	props:spaceType "Rijwoning-Occupied"^^xsd:string ;
+	props:specifiedPowerLoadperarea "5."^^xsd:double ;
+	props:actualLightingLoad "0."^^xsd:double ;
+	props:actualPowerLoad "0."^^xsd:double ;
+	props:areaperPerson "8.2158731675018117"^^xsd:double ;
+	props:designCoolingLoad "0."^^xsd:double ;
+	props:designHeatingLoad "0."^^xsd:double ;
+	props:latentHeatGainperperson "80."^^xsd:double ;
+	props:outdoorAirInformation "From Space Type"^^xsd:string ;
+	props:outdoorAirperArea "0.69999999999999984"^^xsd:double ;
+	props:outdoorAirperPerson "0."^^xsd:double ;
+	props:plenumLightingContribution "20."^^xsd:double ;
+	props:sensibleHeatGainperperson "80."^^xsd:double ;
+	props:specifiedLightingLoad "50.000000000000007"^^xsd:double ;
+	props:specifiedLightingLoadperarea "2.0285934710618805"^^xsd:double ;
+	props:specifiedPowerLoad "123.23809751252716"^^xsd:double ;
+	props:totalHeatGainperperson "160."^^xsd:double ;
+	props:zone "Default"^^xsd:string ;
+	props:name "Living"^^xsd:string ;
+	props:number "02"^^xsd:string ;
+	props:roomName "Living Room"^^xsd:string ;
+	props:roomNumber "2"^^xsd:string ;
+	props:returnAirflow "Specified Supply Airflow"^^xsd:string ;
+	props:actualExhaustAirflow "0."^^xsd:double ;
+	props:actualReturnAirflow "0."^^xsd:double ;
+	props:actualSupplyAirflow "0."^^xsd:double ;
+	props:outdoorAirflow "8.5582012161477152"^^xsd:double ;
+	props:specifiedExhaustAirflow "0."^^xsd:double ;
+	props:specifiedReturnAirflow "0."^^xsd:double ;
+	props:specifiedSupplyAirflow "0."^^xsd:double ;
+	props:category "Spaces"^^xsd:string ;
+	props:phaseId "8665"^^xsd:string ;
+	props:phase "Bestaand"^^xsd:string ;
+	props:netFloorArea "24.647619502505435"^^xsd:double ;
+	props:height "2500."^^xsd:double ;
+	props:grossPerimeter "23874.999999999884"^^xsd:double ;
+	props:grossFloorArea "24.647619502505435"^^xsd:double ;
+	props:grossVolume "61.619048756263595"^^xsd:double . 
+
+inst:space_515
+	a bot:Space ;
+	bot:hasGuid "770957ba-9d96-4593-8134-b6c1c172bbb6"^^xsd:string ;
+	props:name "Entrance"^^xsd:string ;
+	props:name "Entrance"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Entrance 01"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
+	props:limitOffset "0."^^xsd:double ;
+	props:upperLimit "01_WV_Slab Lower Edge"^^xsd:string ;
+	props:level "00_Begane Grond"^^xsd:string ;
+	props:area "3.3418437499999829"^^xsd:double ;
+	props:computationHeight "1500."^^xsd:double ;
+	props:perimeter "8152.8887360535173"^^xsd:double ;
+	props:unboundedHeight "2500."^^xsd:double ;
+	props:volume "8.3546093749999617"^^xsd:double ;
+	props:lightingCalculationWorkplane "762."^^xsd:double ;
+	props:roomCavityRatio "0."^^xsd:double ;
+	props:averageEstimatedIllumination "0."^^xsd:double ;
+	props:ceilingReflectance "75."^^xsd:double ;
+	props:floorReflectance "20."^^xsd:double ;
+	props:wallReflectance "50."^^xsd:double ;
+	props:designHVACLoadperarea "0."^^xsd:double ;
+	props:designOtherLoadperarea "0."^^xsd:double ;
+	props:actualLightingLoadperarea "0."^^xsd:double ;
+	props:actualPowerLoadperarea "0."^^xsd:double ;
+	props:airChangesperHour "0.5"^^xsd:double ;
+	props:baseLightingLoadon "Specified Lighting Load Values"^^xsd:string ;
+	props:basePowerLoadon "By Space Type"^^xsd:string ;
+	props:heatLoadValues "By Space Type"^^xsd:string ;
+	props:lightingLoadUnits "Power"^^xsd:string ;
+	props:occupancyUnit "Number of people"^^xsd:string ;
+	props:occupiable true ;
+	props:outdoorAirMethod "by ACH"^^xsd:string ;
+	props:plenum false ;
+	props:powerLoadUnits "Power Density"^^xsd:string ;
+	props:specifiedPowerLoadperarea "5."^^xsd:double ;
+	props:actualLightingLoad "0."^^xsd:double ;
+	props:actualPowerLoad "0."^^xsd:double ;
+	props:areaperPerson "1.670921874999991"^^xsd:double ;
+	props:conditionType "Unconditioned"^^xsd:string ;
+	props:designCoolingLoad "0."^^xsd:double ;
+	props:designHeatingLoad "0."^^xsd:double ;
+	props:latentHeatGainperperson "80."^^xsd:double ;
+	props:numberofPeople "2."^^xsd:double ;
+	props:outdoorAirInformation "From Space Type"^^xsd:string ;
+	props:outdoorAirperArea "0."^^xsd:double ;
+	props:outdoorAirperPerson "0."^^xsd:double ;
+	props:plenumLightingContribution "20."^^xsd:double ;
+	props:sensibleHeatGainperperson "80."^^xsd:double ;
+	props:spaceType "Rijwoning-Unoccupied"^^xsd:string ;
+	props:specifiedLightingLoad "25.000000000000004"^^xsd:double ;
+	props:specifiedLightingLoadperarea "7.4809003263543179"^^xsd:double ;
+	props:specifiedPowerLoad "16.709218749999913"^^xsd:double ;
+	props:totalHeatGainperperson "160."^^xsd:double ;
+	props:zone "Default"^^xsd:string ;
+	props:name "Entrance"^^xsd:string ;
+	props:number "01"^^xsd:string ;
+	props:roomName "Entrance"^^xsd:string ;
+	props:roomNumber "1"^^xsd:string ;
+	props:returnAirflow "Specified Supply Airflow"^^xsd:string ;
+	props:actualExhaustAirflow "0."^^xsd:double ;
+	props:actualReturnAirflow "0."^^xsd:double ;
+	props:actualSupplyAirflow "0."^^xsd:double ;
+	props:outdoorAirflow "1.1603624131944388"^^xsd:double ;
+	props:specifiedExhaustAirflow "0."^^xsd:double ;
+	props:specifiedReturnAirflow "0."^^xsd:double ;
+	props:specifiedSupplyAirflow "0."^^xsd:double ;
+	props:category "Spaces"^^xsd:string ;
+	props:phaseId "8665"^^xsd:string ;
+	props:phase "Bestaand"^^xsd:string ;
+	props:netFloorArea "3.3418437499999829"^^xsd:double ;
+	props:height "2500."^^xsd:double ;
+	props:grossPerimeter "8267.8887360535136"^^xsd:double ;
+	props:grossFloorArea "3.3418437499999829"^^xsd:double ;
+	props:grossVolume "8.3546093749999581"^^xsd:double . 
+
+inst:space_603
+	a bot:Space ;
+	bot:hasGuid "770957ba-9d96-4593-8134-b6c1c172ba54"^^xsd:string ;
+	props:name "Room 1"^^xsd:string ;
+	props:name "Room 1"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Room 1 09"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
+	props:limitOffset "0."^^xsd:double ;
+	props:level "01_WV_Eerste Verdieping"^^xsd:string ;
+	props:upperLimit "02_WV_Slab Lower Edge"^^xsd:string ;
+	props:area "15.087578050295638"^^xsd:double ;
+	props:computationHeight "1500."^^xsd:double ;
+	props:perimeter "15570.575560300013"^^xsd:double ;
+	props:unboundedHeight "2500."^^xsd:double ;
+	props:volume "37.718945125739097"^^xsd:double ;
+	props:lightingCalculationWorkplane "762."^^xsd:double ;
+	props:roomCavityRatio "0."^^xsd:double ;
+	props:averageEstimatedIllumination "0."^^xsd:double ;
+	props:ceilingReflectance "75."^^xsd:double ;
+	props:floorReflectance "20."^^xsd:double ;
+	props:wallReflectance "50."^^xsd:double ;
+	props:designHVACLoadperarea "0."^^xsd:double ;
+	props:designOtherLoadperarea "0."^^xsd:double ;
+	props:actualLightingLoadperarea "0."^^xsd:double ;
+	props:actualPowerLoadperarea "0."^^xsd:double ;
+	props:airChangesperHour "0.5"^^xsd:double ;
+	props:basePowerLoadon "By Space Type"^^xsd:string ;
+	props:conditionType "Heated"^^xsd:string ;
+	props:heatLoadValues "By Space Type"^^xsd:string ;
+	props:occupiable true ;
+	props:outdoorAirMethod "by ACH"^^xsd:string ;
+	props:plenum false ;
+	props:powerLoadUnits "Power Density"^^xsd:string ;
+	props:spaceType "Rijwoning-Occupied"^^xsd:string ;
+	props:specifiedPowerLoadperarea "5."^^xsd:double ;
+	props:actualLightingLoad "0."^^xsd:double ;
+	props:actualPowerLoad "0."^^xsd:double ;
+	props:areaperPerson "37."^^xsd:double ;
+	props:baseLightingLoadon "By Space Type"^^xsd:string ;
+	props:designCoolingLoad "0."^^xsd:double ;
+	props:designHeatingLoad "0."^^xsd:double ;
+	props:latentHeatGainperperson "80."^^xsd:double ;
+	props:lightingLoadUnits "Power Density"^^xsd:string ;
+	props:numberofPeople "0.40777237973771996"^^xsd:double ;
+	props:occupancyUnit "By Space Type"^^xsd:string ;
+	props:outdoorAirInformation "From Space Type"^^xsd:string ;
+	props:outdoorAirperArea "0.69999999999999984"^^xsd:double ;
+	props:outdoorAirperPerson "0."^^xsd:double ;
+	props:plenumLightingContribution "20."^^xsd:double ;
+	props:sensibleHeatGainperperson "80."^^xsd:double ;
+	props:specifiedLightingLoad "75.437890251478194"^^xsd:double ;
+	props:specifiedLightingLoadperarea "5."^^xsd:double ;
+	props:specifiedPowerLoad "75.437890251478194"^^xsd:double ;
+	props:totalHeatGainperperson "160."^^xsd:double ;
+	props:zone "Default"^^xsd:string ;
+	props:name "Room 1"^^xsd:string ;
+	props:number "09"^^xsd:string ;
+	props:roomName "Room"^^xsd:string ;
+	props:roomNumber "9"^^xsd:string ;
+	props:returnAirflow "Specified Supply Airflow"^^xsd:string ;
+	props:actualExhaustAirflow "0."^^xsd:double ;
+	props:actualReturnAirflow "0."^^xsd:double ;
+	props:actualSupplyAirflow "0."^^xsd:double ;
+	props:outdoorAirflow "5.2387423785748739"^^xsd:double ;
+	props:specifiedExhaustAirflow "0."^^xsd:double ;
+	props:specifiedReturnAirflow "0."^^xsd:double ;
+	props:specifiedSupplyAirflow "0."^^xsd:double ;
+	props:category "Spaces"^^xsd:string ;
+	props:phaseId "8665"^^xsd:string ;
+	props:phase "Bestaand"^^xsd:string ;
+	props:netFloorArea "15.087578050295638"^^xsd:double ;
+	props:height "2500."^^xsd:double ;
+	props:grossPerimeter "15570.575560300009"^^xsd:double ;
+	props:grossFloorArea "15.087578050295638"^^xsd:double ;
+	props:grossVolume "37.718945125739097"^^xsd:double . 
+
+inst:space_693
+	a bot:Space ;
+	bot:hasGuid "770957ba-9d96-4593-8134-b6c1c172ba53"^^xsd:string ;
+	props:name "Bathroom"^^xsd:string ;
+	props:name "Bathroom"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Bathroom 08"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
+	props:limitOffset "0."^^xsd:double ;
+	props:upperLimit "02_WV_Slab Lower Edge"^^xsd:string ;
+	props:level "01_WV_Eerste Verdieping"^^xsd:string ;
+	props:area "7.4801249999999184"^^xsd:double ;
+	props:computationHeight "1500."^^xsd:double ;
+	props:perimeter "11114.999999999942"^^xsd:double ;
+	props:unboundedHeight "2500."^^xsd:double ;
+	props:volume "18.7003124999998"^^xsd:double ;
+	props:lightingCalculationWorkplane "762."^^xsd:double ;
+	props:roomCavityRatio "0."^^xsd:double ;
+	props:averageEstimatedIllumination "0."^^xsd:double ;
+	props:ceilingReflectance "75."^^xsd:double ;
+	props:floorReflectance "20."^^xsd:double ;
+	props:wallReflectance "50."^^xsd:double ;
+	props:designHVACLoadperarea "0."^^xsd:double ;
+	props:designOtherLoadperarea "0."^^xsd:double ;
+	props:actualLightingLoadperarea "0."^^xsd:double ;
+	props:actualPowerLoadperarea "0."^^xsd:double ;
+	props:airChangesperHour "0.5"^^xsd:double ;
+	props:basePowerLoadon "By Space Type"^^xsd:string ;
+	props:conditionType "Heated"^^xsd:string ;
+	props:heatLoadValues "By Space Type"^^xsd:string ;
+	props:occupiable true ;
+	props:outdoorAirMethod "by ACH"^^xsd:string ;
+	props:plenum false ;
+	props:powerLoadUnits "Power Density"^^xsd:string ;
+	props:spaceType "Rijwoning-Occupied"^^xsd:string ;
+	props:specifiedPowerLoadperarea "5."^^xsd:double ;
+	props:baseLightingLoadon "By Space Type"^^xsd:string ;
+	props:lightingLoadUnits "Power Density"^^xsd:string ;
+	props:occupancyUnit "By Space Type"^^xsd:string ;
+	props:specifiedLightingLoadperarea "5."^^xsd:double ;
+	props:actualLightingLoad "0."^^xsd:double ;
+	props:actualPowerLoad "0."^^xsd:double ;
+	props:areaperPerson "37."^^xsd:double ;
+	props:designCoolingLoad "0."^^xsd:double ;
+	props:designHeatingLoad "0."^^xsd:double ;
+	props:latentHeatGainperperson "80."^^xsd:double ;
+	props:numberofPeople "0.20216554054053834"^^xsd:double ;
+	props:outdoorAirInformation "From Space Type"^^xsd:string ;
+	props:outdoorAirperArea "0.69999999999999984"^^xsd:double ;
+	props:outdoorAirperPerson "0."^^xsd:double ;
+	props:plenumLightingContribution "20."^^xsd:double ;
+	props:sensibleHeatGainperperson "80."^^xsd:double ;
+	props:specifiedLightingLoad "37.400624999999593"^^xsd:double ;
+	props:specifiedPowerLoad "37.400624999999593"^^xsd:double ;
+	props:totalHeatGainperperson "160."^^xsd:double ;
+	props:zone "Default"^^xsd:string ;
+	props:name "Bathroom"^^xsd:string ;
+	props:number "08"^^xsd:string ;
+	props:roomName "Bath"^^xsd:string ;
+	props:roomNumber "8"^^xsd:string ;
+	props:returnAirflow "Specified Supply Airflow"^^xsd:string ;
+	props:actualExhaustAirflow "0."^^xsd:double ;
+	props:actualReturnAirflow "0."^^xsd:double ;
+	props:actualSupplyAirflow "0."^^xsd:double ;
+	props:outdoorAirflow "2.5972656249999715"^^xsd:double ;
+	props:specifiedExhaustAirflow "0."^^xsd:double ;
+	props:specifiedReturnAirflow "0."^^xsd:double ;
+	props:specifiedSupplyAirflow "0."^^xsd:double ;
+	props:category "Spaces"^^xsd:string ;
+	props:phaseId "8665"^^xsd:string ;
+	props:phase "Bestaand"^^xsd:string ;
+	props:netFloorArea "7.4801249999999184"^^xsd:double ;
+	props:height "2500."^^xsd:double ;
+	props:grossPerimeter "11114.999999999938"^^xsd:double ;
+	props:grossFloorArea "7.4801249999999184"^^xsd:double ;
+	props:grossVolume "18.7003124999998"^^xsd:double . 
+
+inst:space_778
+	a bot:Space ;
+	bot:hasGuid "770957ba-9d96-4593-8134-b6c1c172ba51"^^xsd:string ;
+	props:name "Room 2"^^xsd:string ;
+	props:name "Room 2"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Room 2 10"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
+	props:limitOffset "0."^^xsd:double ;
+	props:upperLimit "02_WV_Slab Lower Edge"^^xsd:string ;
+	props:level "01_WV_Eerste Verdieping"^^xsd:string ;
+	props:area "14.750834449704271"^^xsd:double ;
+	props:computationHeight "1500."^^xsd:double ;
+	props:perimeter "15385.424439699947"^^xsd:double ;
+	props:unboundedHeight "2500."^^xsd:double ;
+	props:volume "36.877086124260686"^^xsd:double ;
+	props:lightingCalculationWorkplane "762."^^xsd:double ;
+	props:roomCavityRatio "0."^^xsd:double ;
+	props:averageEstimatedIllumination "0."^^xsd:double ;
+	props:ceilingReflectance "75."^^xsd:double ;
+	props:floorReflectance "20."^^xsd:double ;
+	props:wallReflectance "50."^^xsd:double ;
+	props:designHVACLoadperarea "0."^^xsd:double ;
+	props:designOtherLoadperarea "0."^^xsd:double ;
+	props:actualLightingLoadperarea "0."^^xsd:double ;
+	props:actualPowerLoadperarea "0."^^xsd:double ;
+	props:airChangesperHour "0.5"^^xsd:double ;
+	props:baseLightingLoadon "Specified Lighting Load Values"^^xsd:string ;
+	props:basePowerLoadon "By Space Type"^^xsd:string ;
+	props:conditionType "Heated"^^xsd:string ;
+	props:heatLoadValues "By Space Type"^^xsd:string ;
+	props:lightingLoadUnits "Power"^^xsd:string ;
+	props:numberofPeople "3."^^xsd:double ;
+	props:occupancyUnit "Number of people"^^xsd:string ;
+	props:occupiable true ;
+	props:outdoorAirMethod "by ACH"^^xsd:string ;
+	props:plenum false ;
+	props:powerLoadUnits "Power Density"^^xsd:string ;
+	props:spaceType "Rijwoning-Occupied"^^xsd:string ;
+	props:specifiedPowerLoadperarea "5."^^xsd:double ;
+	props:actualLightingLoad "0."^^xsd:double ;
+	props:actualPowerLoad "0."^^xsd:double ;
+	props:areaperPerson "4.9169448165680905"^^xsd:double ;
+	props:designCoolingLoad "0."^^xsd:double ;
+	props:designHeatingLoad "0."^^xsd:double ;
+	props:latentHeatGainperperson "80."^^xsd:double ;
+	props:outdoorAirInformation "From Space Type"^^xsd:string ;
+	props:outdoorAirperArea "0.69999999999999984"^^xsd:double ;
+	props:outdoorAirperPerson "0."^^xsd:double ;
+	props:plenumLightingContribution "20."^^xsd:double ;
+	props:sensibleHeatGainperperson "80."^^xsd:double ;
+	props:specifiedLightingLoad "50.000000000000007"^^xsd:double ;
+	props:specifiedLightingLoadperarea "3.3896387469118685"^^xsd:double ;
+	props:specifiedPowerLoad "73.754172248521357"^^xsd:double ;
+	props:totalHeatGainperperson "160."^^xsd:double ;
+	props:zone "Default"^^xsd:string ;
+	props:name "Room 2"^^xsd:string ;
+	props:number "10"^^xsd:string ;
+	props:roomName "Room"^^xsd:string ;
+	props:roomNumber "10"^^xsd:string ;
+	props:returnAirflow "Specified Supply Airflow"^^xsd:string ;
+	props:actualExhaustAirflow "0."^^xsd:double ;
+	props:actualReturnAirflow "0."^^xsd:double ;
+	props:actualSupplyAirflow "0."^^xsd:double ;
+	props:outdoorAirflow "5.1218175172584273"^^xsd:double ;
+	props:specifiedExhaustAirflow "0."^^xsd:double ;
+	props:specifiedReturnAirflow "0."^^xsd:double ;
+	props:specifiedSupplyAirflow "0."^^xsd:double ;
+	props:category "Spaces"^^xsd:string ;
+	props:phaseId "8665"^^xsd:string ;
+	props:phase "Bestaand"^^xsd:string ;
+	props:netFloorArea "14.750834449704271"^^xsd:double ;
+	props:height "2500."^^xsd:double ;
+	props:grossPerimeter "15385.424439699944"^^xsd:double ;
+	props:grossFloorArea "14.750834449704271"^^xsd:double ;
+	props:grossVolume "36.877086124260686"^^xsd:double . 
+
+inst:space_863
+	a bot:Space ;
+	bot:hasGuid "770957ba-9d96-4593-8134-b6c1c172ba4f"^^xsd:string ;
+	props:name "Room 3"^^xsd:string ;
+	props:name "Room 3"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Room 3 11"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
+	props:limitOffset "0."^^xsd:double ;
+	props:upperLimit "02_WV_Slab Lower Edge"^^xsd:string ;
+	props:level "01_WV_Eerste Verdieping"^^xsd:string ;
+	props:area "6.6337499999999139"^^xsd:double ;
+	props:computationHeight "1500."^^xsd:double ;
+	props:perimeter "10374.99999999994"^^xsd:double ;
+	props:unboundedHeight "2500."^^xsd:double ;
+	props:volume "16.584374999999788"^^xsd:double ;
+	props:lightingCalculationWorkplane "762."^^xsd:double ;
+	props:roomCavityRatio "0."^^xsd:double ;
+	props:averageEstimatedIllumination "0."^^xsd:double ;
+	props:ceilingReflectance "75."^^xsd:double ;
+	props:floorReflectance "20."^^xsd:double ;
+	props:wallReflectance "50."^^xsd:double ;
+	props:designHVACLoadperarea "0."^^xsd:double ;
+	props:designOtherLoadperarea "0."^^xsd:double ;
+	props:actualLightingLoadperarea "0."^^xsd:double ;
+	props:actualPowerLoadperarea "0."^^xsd:double ;
+	props:airChangesperHour "0.5"^^xsd:double ;
+	props:baseLightingLoadon "Specified Lighting Load Values"^^xsd:string ;
+	props:basePowerLoadon "By Space Type"^^xsd:string ;
+	props:conditionType "Heated"^^xsd:string ;
+	props:heatLoadValues "By Space Type"^^xsd:string ;
+	props:lightingLoadUnits "Power"^^xsd:string ;
+	props:numberofPeople "3."^^xsd:double ;
+	props:occupancyUnit "Number of people"^^xsd:string ;
+	props:occupiable true ;
+	props:outdoorAirMethod "by ACH"^^xsd:string ;
+	props:plenum false ;
+	props:powerLoadUnits "Power Density"^^xsd:string ;
+	props:spaceType "Rijwoning-Occupied"^^xsd:string ;
+	props:specifiedPowerLoadperarea "5."^^xsd:double ;
+	props:actualLightingLoad "0."^^xsd:double ;
+	props:actualPowerLoad "0."^^xsd:double ;
+	props:areaperPerson "2.2112499999999713"^^xsd:double ;
+	props:designCoolingLoad "0."^^xsd:double ;
+	props:designHeatingLoad "0."^^xsd:double ;
+	props:latentHeatGainperperson "80."^^xsd:double ;
+	props:outdoorAirInformation "From Space Type"^^xsd:string ;
+	props:outdoorAirperArea "0.69999999999999984"^^xsd:double ;
+	props:outdoorAirperPerson "0."^^xsd:double ;
+	props:plenumLightingContribution "20."^^xsd:double ;
+	props:sensibleHeatGainperperson "80."^^xsd:double ;
+	props:specifiedLightingLoad "50.000000000000007"^^xsd:double ;
+	props:specifiedLightingLoadperarea "7.5372149990579462"^^xsd:double ;
+	props:specifiedPowerLoad "33.168749999999577"^^xsd:double ;
+	props:totalHeatGainperperson "160."^^xsd:double ;
+	props:zone "Default"^^xsd:string ;
+	props:name "Room 3"^^xsd:string ;
+	props:number "11"^^xsd:string ;
+	props:roomName "Room"^^xsd:string ;
+	props:roomNumber "11"^^xsd:string ;
+	props:returnAirflow "Specified Supply Airflow"^^xsd:string ;
+	props:actualExhaustAirflow "0."^^xsd:double ;
+	props:actualReturnAirflow "0."^^xsd:double ;
+	props:actualSupplyAirflow "0."^^xsd:double ;
+	props:outdoorAirflow "2.3033854166666368"^^xsd:double ;
+	props:specifiedExhaustAirflow "0."^^xsd:double ;
+	props:specifiedReturnAirflow "0."^^xsd:double ;
+	props:specifiedSupplyAirflow "0."^^xsd:double ;
+	props:category "Spaces"^^xsd:string ;
+	props:phaseId "8665"^^xsd:string ;
+	props:phase "Bestaand"^^xsd:string ;
+	props:netFloorArea "6.6337499999999139"^^xsd:double ;
+	props:height "2500."^^xsd:double ;
+	props:grossPerimeter "10374.999999999936"^^xsd:double ;
+	props:grossFloorArea "6.6337499999999139"^^xsd:double ;
+	props:grossVolume "16.584374999999788"^^xsd:double . 
+
+inst:space_980
+	a bot:Space ;
+	bot:hasGuid "770957ba-9d96-4593-8134-b6c1c172ba1d"^^xsd:string ;
+	props:name "Roof"^^xsd:string ;
+	props:name "Roof"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Roof 12"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
+	props:level "02_WV_Tweede Verdieping"^^xsd:string ;
+	props:limitOffset "2438.4000000000001"^^xsd:double ;
+	props:upperLimit "02_WV_Tweede Verdieping"^^xsd:string ;
+	props:area "26.853335878641815"^^xsd:double ;
+	props:computationHeight "1500."^^xsd:double ;
+	props:perimeter "20951.111959547259"^^xsd:double ;
+	props:unboundedHeight "2438.4000000000001"^^xsd:double ;
+	props:volume "57.933458012808558"^^xsd:double ;
+	props:lightingCalculationWorkplane "762."^^xsd:double ;
+	props:roomCavityRatio "0."^^xsd:double ;
+	props:averageEstimatedIllumination "0."^^xsd:double ;
+	props:ceilingReflectance "75."^^xsd:double ;
+	props:floorReflectance "20."^^xsd:double ;
+	props:wallReflectance "50."^^xsd:double ;
+	props:designHVACLoadperarea "0."^^xsd:double ;
+	props:designOtherLoadperarea "0."^^xsd:double ;
+	props:actualLightingLoadperarea "0."^^xsd:double ;
+	props:actualPowerLoadperarea "0."^^xsd:double ;
+	props:airChangesperHour "0.5"^^xsd:double ;
+	props:baseLightingLoadon "Specified Lighting Load Values"^^xsd:string ;
+	props:basePowerLoadon "By Space Type"^^xsd:string ;
+	props:heatLoadValues "By Space Type"^^xsd:string ;
+	props:lightingLoadUnits "Power"^^xsd:string ;
+	props:occupancyUnit "Number of people"^^xsd:string ;
+	props:occupiable true ;
+	props:outdoorAirMethod "by ACH"^^xsd:string ;
+	props:plenum false ;
+	props:powerLoadUnits "Power Density"^^xsd:string ;
+	props:specifiedPowerLoadperarea "5."^^xsd:double ;
+	props:conditionType "Unconditioned"^^xsd:string ;
+	props:outdoorAirperArea "0."^^xsd:double ;
+	props:spaceType "Rijwoning-Unoccupied"^^xsd:string ;
+	props:actualLightingLoad "0."^^xsd:double ;
+	props:actualPowerLoad "0."^^xsd:double ;
+	props:areaperPerson "0."^^xsd:double ;
+	props:designCoolingLoad "0."^^xsd:double ;
+	props:designHeatingLoad "0."^^xsd:double ;
+	props:latentHeatGainperperson "80."^^xsd:double ;
+	props:numberofPeople "0."^^xsd:double ;
+	props:outdoorAirInformation "From Space Type"^^xsd:string ;
+	props:outdoorAirperPerson "0."^^xsd:double ;
+	props:plenumLightingContribution "20."^^xsd:double ;
+	props:sensibleHeatGainperperson "80."^^xsd:double ;
+	props:specifiedLightingLoad "25.000000000000004"^^xsd:double ;
+	props:specifiedLightingLoadperarea "0.93098302992903437"^^xsd:double ;
+	props:specifiedPowerLoad "134.26667939320907"^^xsd:double ;
+	props:totalHeatGainperperson "160."^^xsd:double ;
+	props:zone "Default"^^xsd:string ;
+	props:name "Roof"^^xsd:string ;
+	props:number "12"^^xsd:string ;
+	props:roomName "Roof"^^xsd:string ;
+	props:roomNumber "12"^^xsd:string ;
+	props:returnAirflow "Specified Supply Airflow"^^xsd:string ;
+	props:actualExhaustAirflow "0."^^xsd:double ;
+	props:actualReturnAirflow "0."^^xsd:double ;
+	props:actualSupplyAirflow "0."^^xsd:double ;
+	props:outdoorAirflow "8.0463136128900761"^^xsd:double ;
+	props:specifiedExhaustAirflow "0."^^xsd:double ;
+	props:specifiedReturnAirflow "0."^^xsd:double ;
+	props:specifiedSupplyAirflow "0."^^xsd:double ;
+	props:category "Spaces"^^xsd:string ;
+	props:phaseId "8665"^^xsd:string ;
+	props:phase "Bestaand"^^xsd:string ;
+	props:netFloorArea "26.853335878641815"^^xsd:double ;
+	props:height "2438.4000000000001"^^xsd:double ;
+	props:grossFloorArea "26.853335878641815"^^xsd:double ;
+	props:grossVolume "65.479174206480209"^^xsd:double . 
+
+inst:space_1073
+	a bot:Space ;
+	bot:hasGuid "238c2826-9890-4f27-8fd1-22598521fc17"^^xsd:string ;
+	props:name "Stairs"^^xsd:string ;
+	props:name "Stairs"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Stairs 06"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
+	props:limitOffset "2438.4000000000001"^^xsd:double ;
+	props:level "00_Begane Grond"^^xsd:string ;
+	props:upperLimit "00_Begane Grond"^^xsd:string ;
+	props:unboundedHeight "2438.4000000000001"^^xsd:double ;
+	props:area "2.9821637284563689"^^xsd:double ;
+	props:computationHeight "1500."^^xsd:double ;
+	props:perimeter "8073.3346410141403"^^xsd:double ;
+	props:volume "7.2717080354680084"^^xsd:double ;
+	props:lightingCalculationWorkplane "762."^^xsd:double ;
+	props:roomCavityRatio "0."^^xsd:double ;
+	props:averageEstimatedIllumination "0."^^xsd:double ;
+	props:ceilingReflectance "75."^^xsd:double ;
+	props:floorReflectance "20."^^xsd:double ;
+	props:wallReflectance "50."^^xsd:double ;
+	props:designHVACLoadperarea "0."^^xsd:double ;
+	props:designOtherLoadperarea "0."^^xsd:double ;
+	props:actualLightingLoadperarea "0."^^xsd:double ;
+	props:actualPowerLoadperarea "0."^^xsd:double ;
+	props:airChangesperHour "0.5"^^xsd:double ;
+	props:basePowerLoadon "By Space Type"^^xsd:string ;
+	props:heatLoadValues "By Space Type"^^xsd:string ;
+	props:occupiable true ;
+	props:outdoorAirMethod "by ACH"^^xsd:string ;
+	props:plenum false ;
+	props:powerLoadUnits "Power Density"^^xsd:string ;
+	props:specifiedPowerLoadperarea "5."^^xsd:double ;
+	props:conditionType "Unconditioned"^^xsd:string ;
+	props:outdoorAirperArea "0."^^xsd:double ;
+	props:spaceType "Rijwoning-Unoccupied"^^xsd:string ;
+	props:baseLightingLoadon "By Space Type"^^xsd:string ;
+	props:lightingLoadUnits "Power Density"^^xsd:string ;
+	props:occupancyUnit "By Space Type"^^xsd:string ;
+	props:specifiedLightingLoadperarea "5."^^xsd:double ;
+	props:actualLightingLoad "0."^^xsd:double ;
+	props:actualPowerLoad "0."^^xsd:double ;
+	props:areaperPerson "37."^^xsd:double ;
+	props:designCoolingLoad "0."^^xsd:double ;
+	props:designHeatingLoad "0."^^xsd:double ;
+	props:latentHeatGainperperson "80."^^xsd:double ;
+	props:numberofPeople "0.080599019688009949"^^xsd:double ;
+	props:outdoorAirInformation "From Space Type"^^xsd:string ;
+	props:outdoorAirperPerson "0."^^xsd:double ;
+	props:plenumLightingContribution "20."^^xsd:double ;
+	props:sensibleHeatGainperperson "80."^^xsd:double ;
+	props:specifiedLightingLoad "14.910818642281841"^^xsd:double ;
+	props:specifiedPowerLoad "14.910818642281841"^^xsd:double ;
+	props:totalHeatGainperperson "160."^^xsd:double ;
+	props:zone "Default"^^xsd:string ;
+	props:name "Stairs"^^xsd:string ;
+	props:number "06"^^xsd:string ;
+	props:roomName "Unoccupied"^^xsd:string ;
+	props:roomNumber "Unoccupied"^^xsd:string ;
+	props:returnAirflow "Specified Supply Airflow"^^xsd:string ;
+	props:actualExhaustAirflow "0."^^xsd:double ;
+	props:actualReturnAirflow "0."^^xsd:double ;
+	props:actualSupplyAirflow "0."^^xsd:double ;
+	props:outdoorAirflow "1.0099594493705566"^^xsd:double ;
+	props:specifiedExhaustAirflow "0."^^xsd:double ;
+	props:specifiedReturnAirflow "0."^^xsd:double ;
+	props:specifiedSupplyAirflow "0."^^xsd:double ;
+	props:category "Spaces"^^xsd:string ;
+	props:phaseId "8665"^^xsd:string ;
+	props:phase "Bestaand"^^xsd:string ;
+	props:netFloorArea "2.9821637284563689"^^xsd:double ;
+	props:height "2438.4000000000001"^^xsd:double ;
+	props:grossPerimeter "8254.1138410141393"^^xsd:double ;
+	props:grossFloorArea "2.9821637284563689"^^xsd:double ;
+	props:grossVolume "7.2717080354680101"^^xsd:double . 
+
+inst:space_1157
+	a bot:Space ;
+	bot:hasGuid "238c2826-9890-4f27-8fd1-22598521fc11"^^xsd:string ;
+	props:name "Toilet"^^xsd:string ;
+	props:name "Toilet"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Toilet 05"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
+	props:limitOffset "2438.4000000000001"^^xsd:double ;
+	props:upperLimit "00_Begane Grond"^^xsd:string ;
+	props:level "00_Begane Grond"^^xsd:string ;
+	props:unboundedHeight "2438.4000000000001"^^xsd:double ;
+	props:area "0.92499999999997107"^^xsd:double ;
+	props:computationHeight "1500."^^xsd:double ;
+	props:perimeter "3849.9999999999391"^^xsd:double ;
+	props:volume "2.2555199999999309"^^xsd:double ;
+	props:lightingCalculationWorkplane "762."^^xsd:double ;
+	props:roomCavityRatio "0."^^xsd:double ;
+	props:averageEstimatedIllumination "0."^^xsd:double ;
+	props:ceilingReflectance "75."^^xsd:double ;
+	props:floorReflectance "20."^^xsd:double ;
+	props:wallReflectance "50."^^xsd:double ;
+	props:designHVACLoadperarea "0."^^xsd:double ;
+	props:designOtherLoadperarea "0."^^xsd:double ;
+	props:actualLightingLoadperarea "0."^^xsd:double ;
+	props:actualPowerLoadperarea "0."^^xsd:double ;
+	props:airChangesperHour "0.5"^^xsd:double ;
+	props:basePowerLoadon "By Space Type"^^xsd:string ;
+	props:heatLoadValues "By Space Type"^^xsd:string ;
+	props:occupiable true ;
+	props:outdoorAirMethod "by ACH"^^xsd:string ;
+	props:plenum false ;
+	props:powerLoadUnits "Power Density"^^xsd:string ;
+	props:specifiedPowerLoadperarea "5."^^xsd:double ;
+	props:conditionType "Unconditioned"^^xsd:string ;
+	props:outdoorAirperArea "0."^^xsd:double ;
+	props:spaceType "Rijwoning-Unoccupied"^^xsd:string ;
+	props:baseLightingLoadon "By Space Type"^^xsd:string ;
+	props:lightingLoadUnits "Power Density"^^xsd:string ;
+	props:occupancyUnit "By Space Type"^^xsd:string ;
+	props:specifiedLightingLoadperarea "5."^^xsd:double ;
+	props:actualLightingLoad "0."^^xsd:double ;
+	props:actualPowerLoad "0."^^xsd:double ;
+	props:areaperPerson "37."^^xsd:double ;
+	props:designCoolingLoad "0."^^xsd:double ;
+	props:designHeatingLoad "0."^^xsd:double ;
+	props:latentHeatGainperperson "80."^^xsd:double ;
+	props:numberofPeople "0.024999999999999217"^^xsd:double ;
+	props:outdoorAirInformation "From Space Type"^^xsd:string ;
+	props:outdoorAirperPerson "0."^^xsd:double ;
+	props:plenumLightingContribution "20."^^xsd:double ;
+	props:sensibleHeatGainperperson "80."^^xsd:double ;
+	props:specifiedLightingLoad "4.6249999999998552"^^xsd:double ;
+	props:specifiedPowerLoad "4.6249999999998552"^^xsd:double ;
+	props:totalHeatGainperperson "160."^^xsd:double ;
+	props:zone "Default"^^xsd:string ;
+	props:name "Toilet"^^xsd:string ;
+	props:number "05"^^xsd:string ;
+	props:roomName "Toilet"^^xsd:string ;
+	props:roomNumber "5"^^xsd:string ;
+	props:returnAirflow "Specified Supply Airflow"^^xsd:string ;
+	props:actualExhaustAirflow "0."^^xsd:double ;
+	props:actualReturnAirflow "0."^^xsd:double ;
+	props:actualSupplyAirflow "0."^^xsd:double ;
+	props:outdoorAirflow "0.31326666666665698"^^xsd:double ;
+	props:specifiedExhaustAirflow "0."^^xsd:double ;
+	props:specifiedReturnAirflow "0."^^xsd:double ;
+	props:specifiedSupplyAirflow "0."^^xsd:double ;
+	props:category "Spaces"^^xsd:string ;
+	props:phaseId "8665"^^xsd:string ;
+	props:phase "Bestaand"^^xsd:string ;
+	props:netFloorArea "0.92499999999997107"^^xsd:double ;
+	props:height "2438.4000000000001"^^xsd:double ;
+	props:grossPerimeter "3849.9999999999391"^^xsd:double ;
+	props:grossFloorArea "0.92499999999997107"^^xsd:double ;
+	props:grossVolume "2.2555199999999296"^^xsd:double . 
+
+inst:space_1240
+	a bot:Space ;
+	bot:hasGuid "238c2826-9890-4f27-8fd1-22598521fc1f"^^xsd:string ;
+	props:name "Stairs"^^xsd:string ;
+	props:name "Stairs"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:reference "Stairs 07"^^xsd:string ;
+	props:category "Spaces"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
+	props:limitOffset "2438.4000000000001"^^xsd:double ;
+	props:level "01_WV_Eerste Verdieping"^^xsd:string ;
+	props:upperLimit "01_WV_Eerste Verdieping"^^xsd:string ;
+	props:unboundedHeight "2438.4000000000001"^^xsd:double ;
+	props:area "5.2155000000000307"^^xsd:double ;
+	props:computationHeight "1500."^^xsd:double ;
+	props:perimeter "9135.0000000000255"^^xsd:double ;
+	props:volume "12.717475200000072"^^xsd:double ;
+	props:lightingCalculationWorkplane "762."^^xsd:double ;
+	props:roomCavityRatio "0."^^xsd:double ;
+	props:averageEstimatedIllumination "0."^^xsd:double ;
+	props:ceilingReflectance "75."^^xsd:double ;
+	props:floorReflectance "20."^^xsd:double ;
+	props:wallReflectance "50."^^xsd:double ;
+	props:designHVACLoadperarea "0."^^xsd:double ;
+	props:designOtherLoadperarea "0."^^xsd:double ;
+	props:actualLightingLoadperarea "0."^^xsd:double ;
+	props:actualPowerLoadperarea "0."^^xsd:double ;
+	props:airChangesperHour "0.5"^^xsd:double ;
+	props:basePowerLoadon "By Space Type"^^xsd:string ;
+	props:heatLoadValues "By Space Type"^^xsd:string ;
+	props:occupiable true ;
+	props:outdoorAirMethod "by ACH"^^xsd:string ;
+	props:plenum false ;
+	props:powerLoadUnits "Power Density"^^xsd:string ;
+	props:specifiedPowerLoadperarea "5."^^xsd:double ;
+	props:conditionType "Unconditioned"^^xsd:string ;
+	props:outdoorAirperArea "0."^^xsd:double ;
+	props:spaceType "Rijwoning-Unoccupied"^^xsd:string ;
+	props:baseLightingLoadon "By Space Type"^^xsd:string ;
+	props:lightingLoadUnits "Power Density"^^xsd:string ;
+	props:occupancyUnit "By Space Type"^^xsd:string ;
+	props:specifiedLightingLoadperarea "5."^^xsd:double ;
+	props:actualLightingLoad "0."^^xsd:double ;
+	props:actualPowerLoad "0."^^xsd:double ;
+	props:areaperPerson "37."^^xsd:double ;
+	props:designCoolingLoad "0."^^xsd:double ;
+	props:designHeatingLoad "0."^^xsd:double ;
+	props:latentHeatGainperperson "80."^^xsd:double ;
+	props:numberofPeople "0.14095945945946028"^^xsd:double ;
+	props:outdoorAirInformation "From Space Type"^^xsd:string ;
+	props:outdoorAirperPerson "0."^^xsd:double ;
+	props:plenumLightingContribution "20."^^xsd:double ;
+	props:sensibleHeatGainperperson "80."^^xsd:double ;
+	props:specifiedLightingLoad "26.077500000000157"^^xsd:double ;
+	props:specifiedPowerLoad "26.077500000000157"^^xsd:double ;
+	props:totalHeatGainperperson "160."^^xsd:double ;
+	props:zone "Default"^^xsd:string ;
+	props:name "Stairs"^^xsd:string ;
+	props:number "07"^^xsd:string ;
+	props:roomName "Stairs"^^xsd:string ;
+	props:roomNumber "7"^^xsd:string ;
+	props:returnAirflow "Specified Supply Airflow"^^xsd:string ;
+	props:actualExhaustAirflow "0."^^xsd:double ;
+	props:actualReturnAirflow "0."^^xsd:double ;
+	props:actualSupplyAirflow "0."^^xsd:double ;
+	props:outdoorAirflow "1.7663160000000098"^^xsd:double ;
+	props:specifiedExhaustAirflow "0."^^xsd:double ;
+	props:specifiedReturnAirflow "0."^^xsd:double ;
+	props:specifiedSupplyAirflow "0."^^xsd:double ;
+	props:category "Spaces"^^xsd:string ;
+	props:phaseId "8665"^^xsd:string ;
+	props:phase "Bestaand"^^xsd:string ;
+	props:netFloorArea "5.2155000000000307"^^xsd:double ;
+	props:height "2438.4000000000001"^^xsd:double ;
+	props:grossPerimeter "9135.0000000000255"^^xsd:double ;
+	props:grossFloorArea "5.2155000000000307"^^xsd:double ;
+	props:grossVolume "12.717475200000075"^^xsd:double . 
+
+inst:slab_1329
 	a bot:Element ;
 	a beo:Slab__FLOOR ;
 	rdfs:label "Floor:NLRS_23_IN_80mm:828284"^^xsd:string ;
@@ -271,7 +1209,7 @@ inst:slab_187
 	props:isExternal true ;
 	props:thermalTransmittance "8.6249999999999982"^^xsd:double . 
 
-inst:slab_308
+inst:slab_1450
 	a bot:Element ;
 	a beo:Slab__FLOOR ;
 	rdfs:label "Floor:NLRS_23_FL_Finish 15mm:828426"^^xsd:string ;
@@ -326,19 +1264,19 @@ inst:slab_308
 	props:isExternal true ;
 	props:thermalTransmittance "193.33333333333331"^^xsd:double . 
 
-inst:wall_408
+inst:wall_1550
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_22_WA_250mm:830959"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "af013f6d-0dda-43c9-a60c-475962980abf"^^xsd:string ;
 	props:tag "830959"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseConstraint "00_Begane Grond"^^xsd:string ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:locationLine "Core Centerline"^^xsd:string ;
 	props:topConstraint "Up to level: 01_WV_Slab Lower Edge"^^xsd:string ;
 	props:topExtensionDistance "0."^^xsd:double ;
@@ -392,19 +1330,19 @@ inst:wall_408
 	props:thermalTransmittance "4.2901740926527001"^^xsd:double ;
 	props:isExternal false . 
 
-inst:wall_534
+inst:wall_1675
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_22_WA_250mm:831350"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "87d51e70-08ec-4185-a481-3d5833f5b580"^^xsd:string ;
 	props:tag "831350"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseConstraint "00_Begane Grond"^^xsd:string ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:locationLine "Core Centerline"^^xsd:string ;
 	props:topConstraint "Up to level: 01_WV_Slab Lower Edge"^^xsd:string ;
 	props:topExtensionDistance "0."^^xsd:double ;
@@ -458,19 +1396,19 @@ inst:wall_534
 	props:thermalTransmittance "4.2901740926527001"^^xsd:double ;
 	props:isExternal false . 
 
-inst:wall_625
+inst:wall_1766
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_42_WA_75mm:837942"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "9f7ccc62-a209-47d8-b29f-c120dc22d51a"^^xsd:string ;
-	bot:hostsElement inst:door_4220 ;
+	bot:hostsElement inst:door_5361 ;
 	props:tag "837942"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:locationLine "Core Centerline"^^xsd:string ;
 	props:topExtensionDistance "0."^^xsd:double ;
 	props:topisAttached false ;
@@ -525,19 +1463,19 @@ inst:wall_625
 	props:isExternal false ;
 	props:thermalTransmittance "18.533333333333331"^^xsd:double . 
 
-inst:wall_727
+inst:wall_1868
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_42_WA_75mm:838090"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "f09998e2-9d69-44da-a059-0def1b64bfb4"^^xsd:string ;
-	bot:hostsElement inst:door_4185 ;
+	bot:hostsElement inst:door_5326 ;
 	props:tag "838090"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:locationLine "Core Centerline"^^xsd:string ;
 	props:topExtensionDistance "0."^^xsd:double ;
 	props:topisAttached false ;
@@ -592,20 +1530,20 @@ inst:wall_727
 	props:isExternal false ;
 	props:thermalTransmittance "18.533333333333331"^^xsd:double . 
 
-inst:wall_783
+inst:wall_1924
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_42_WA_75mm:838140"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "f09998e2-9d69-44da-a059-0def1b64bf82"^^xsd:string ;
-	bot:hostsElement inst:door_2479 ;
-	bot:hostsElement inst:door_4143 ;
+	bot:hostsElement inst:door_3620 ;
+	bot:hostsElement inst:door_5284 ;
 	props:tag "838140"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:locationLine "Core Centerline"^^xsd:string ;
 	props:topExtensionDistance "0."^^xsd:double ;
 	props:topisAttached false ;
@@ -660,18 +1598,18 @@ inst:wall_783
 	props:isExternal false ;
 	props:thermalTransmittance "18.533333333333331"^^xsd:double . 
 
-inst:wall_839
+inst:wall_1980
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_42_WA_75mm:838560"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "f09998e2-9d69-44da-a059-0def1b64bdde"^^xsd:string ;
 	props:tag "838560"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:locationLine "Core Centerline"^^xsd:string ;
 	props:topExtensionDistance "0."^^xsd:double ;
 	props:topisAttached false ;
@@ -726,7 +1664,7 @@ inst:wall_839
 	props:isExternal false ;
 	props:thermalTransmittance "18.533333333333331"^^xsd:double . 
 
-inst:door_2479
+inst:door_3620
 	a bot:Element ;
 	a beo:Door ;
 	rdfs:label "Doors_IntSgl_1:800x2110mm:844144"^^xsd:string ;
@@ -751,7 +1689,7 @@ inst:door_2479
 	props:typeId "843978"^^xsd:string ;
 	props:phaseCreated "Bestaand"^^xsd:string . 
 
-inst:door_4143
+inst:door_5284
 	a bot:Element ;
 	a beo:Door ;
 	rdfs:label "Doors_IntSgl_1:800x2110mm:844159"^^xsd:string ;
@@ -776,7 +1714,7 @@ inst:door_4143
 	props:headHeight "2110."^^xsd:double ;
 	props:phaseCreated "Bestaand"^^xsd:string . 
 
-inst:door_4185
+inst:door_5326
 	a bot:Element ;
 	a beo:Door ;
 	rdfs:label "Doors_IntSgl_1:800x2110mm:844198"^^xsd:string ;
@@ -801,7 +1739,7 @@ inst:door_4185
 	props:hostId "838090"^^xsd:string ;
 	props:phaseCreated "Bestaand"^^xsd:string . 
 
-inst:door_4220
+inst:door_5361
 	a bot:Element ;
 	a beo:Door ;
 	rdfs:label "Doors_IntSgl_1:800x2110mm:844224"^^xsd:string ;
@@ -826,20 +1764,151 @@ inst:door_4220
 	props:hostId "837942"^^xsd:string ;
 	props:phaseCreated "Bestaand"^^xsd:string . 
 
-inst:wall_4281
+inst:wall_5433
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_41_AIR_80mm:852474"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "15887e26-d900-4736-8782-50dc1dbbf336"^^xsd:string ;
+	props:tag "852474"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
+	props:relatedtoMass false ;
+	props:roomBounding true ;
+	props:baseExtensionDistance "0."^^xsd:double ;
+	props:baseisAttached false ;
+	props:topExtensionDistance "0."^^xsd:double ;
+	props:topOffset "0."^^xsd:double ;
+	props:baseConstraint "00_LE"^^xsd:string ;
+	props:locationLine "Finish Face: Interior"^^xsd:string ;
+	props:topConstraint "Up to level: 02_WV_Tweede Verdieping"^^xsd:string ;
+	props:topisAttached true ;
+	props:unconnectedHeight "5700."^^xsd:double ;
+	props:crossSection "Vertical"^^xsd:string ;
+	props:area "65.113818515666225"^^xsd:double ;
+	props:length "8840.0000000000091"^^xsd:double ;
+	props:thickness "60."^^xsd:double ;
+	props:volume "5.2091054812533111"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:cost "0."^^xsd:double ;
+	props:family "Basic Wall"^^xsd:string ;
+	props:familyandType "Basic Wall: NLRS_41_AIR_80mm"^^xsd:string ;
+	props:type "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:typeId "852853"^^xsd:string ;
+	props:phaseCreated "Bestaand"^^xsd:string ;
+	props:structural false ;
+	props:structuralUsage "Non-bearing"^^xsd:string ;
+	props:nLSfB "41"^^xsd:string ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:reference "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:extendToStructure true ;
+	props:roughness "1"^^xsd:double ;
+	props:absorptance "0.10000000000000001"^^xsd:double ;
+	props:heatTransferCoefficientU "5.8749999999999991"^^xsd:double ;
+	props:thermalMass "0.096336000000000019"^^xsd:double ;
+	props:thermalResistanceR "0.17021276595744683"^^xsd:double ;
+	props:function "Interior"^^xsd:string ;
+	props:wrappingatEnds "None"^^xsd:string ;
+	props:wrappingatInserts "Do not wrap"^^xsd:string ;
+	props:width "80."^^xsd:double ;
+	props:coarseScaleFillPattern "<Solid fill>"^^xsd:string ;
+	props:coarseScaleFillColor "8421504"^^xsd:double ;
+	props:assemblyCode "2E(21.22)"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:keynote "d-28-000"^^xsd:string ;
+	props:typeComments "d=28mm"^^xsd:string ;
+	props:typeName "NLRS_41_AIR_80mm"^^xsd:string ;
+	props:category "Walls"^^xsd:string ;
+	props:familyName "Basic Wall"^^xsd:string ;
+	props:roughness "304.80000000000001"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:isExternal false ;
+	props:thermalTransmittance "5.8749999999999991"^^xsd:double . 
+
+inst:wall_5563
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_22_WA_80mm int:852740"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "15887e26-d900-4736-8782-50dc1dbbf1c8"^^xsd:string ;
+	props:tag "852740"^^xsd:string ;
+	props:relatedtoMass false ;
+	props:roomBounding true ;
+	props:baseConstraint "00_Begane Grond"^^xsd:string ;
+	props:baseExtensionDistance "0."^^xsd:double ;
+	props:baseisAttached false ;
+	props:topExtensionDistance "0."^^xsd:double ;
+	props:topOffset "0."^^xsd:double ;
+	props:locationLine "Finish Face: Interior"^^xsd:string ;
+	props:topConstraint "Up to level: 02_WV_Tweede Verdieping"^^xsd:string ;
+	props:topisAttached true ;
+	props:baseOffset "-50."^^xsd:double ;
+	props:unconnectedHeight "5450."^^xsd:double ;
+	props:crossSection "Vertical"^^xsd:string ;
+	props:area "61.175061496030409"^^xsd:double ;
+	props:length "8680.0000000000109"^^xsd:double ;
+	props:thickness "80."^^xsd:double ;
+	props:volume "4.8940049196825424"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:cost "0."^^xsd:double ;
+	props:family "Basic Wall"^^xsd:string ;
+	props:familyandType "Basic Wall: NLRS_22_WA_80mm int"^^xsd:string ;
+	props:type "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:typeId "885860"^^xsd:string ;
+	props:phaseCreated "Bestaand"^^xsd:string ;
+	props:structural false ;
+	props:structuralUsage "Non-bearing"^^xsd:string ;
+	props:nLSfB "21"^^xsd:string ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure true ;
+	props:reference "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:roughness "1"^^xsd:double ;
+	props:absorptance "0.10000000000000001"^^xsd:double ;
+	props:heatTransferCoefficientU "10."^^xsd:double ;
+	props:thermalMass "120.88799999999999"^^xsd:double ;
+	props:thermalResistanceR "0.099999999999999992"^^xsd:double ;
+	props:function "Interior"^^xsd:string ;
+	props:wrappingatEnds "None"^^xsd:string ;
+	props:wrappingatInserts "Do not wrap"^^xsd:string ;
+	props:width "80."^^xsd:double ;
+	props:coarseScaleFillPattern "<Solid fill>"^^xsd:string ;
+	props:coarseScaleFillColor "8421504"^^xsd:double ;
+	props:assemblyCode "2E(21.22)"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:keynote "d-28-000"^^xsd:string ;
+	props:typeComments "d=80mm"^^xsd:string ;
+	props:typeName "NLRS_22_WA_80mm int"^^xsd:string ;
+	props:structuralMaterial "NLRS_f2_brick wall int"^^xsd:string ;
+	props:category "Walls"^^xsd:string ;
+	props:familyName "Basic Wall"^^xsd:string ;
+	props:roughness "304.80000000000001"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:isExternal false ;
+	props:thermalTransmittance "10."^^xsd:double . 
+
+inst:wall_5673
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_41_AIR_80mm:854387"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "c879ab99-a4d3-4ed8-b07f-f54c43b86949"^^xsd:string ;
-	bot:hostsElement inst:door_16793 ;
-	bot:hostsElement inst:window_17623 ;
+	bot:hostsElement inst:door_18178 ;
+	bot:hostsElement inst:window_19008 ;
 	props:tag "854387"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:topExtensionDistance "0."^^xsd:double ;
 	props:topOffset "0."^^xsd:double ;
 	props:baseConstraint "00_LE"^^xsd:string ;
@@ -894,7 +1963,7 @@ inst:wall_4281
 	props:isExternal false ;
 	props:thermalTransmittance "5.8749999999999991"^^xsd:double . 
 
-inst:wall_4557
+inst:wall_5901
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_22_WA_80mm int:854388"^^xsd:string ;
@@ -960,20 +2029,20 @@ inst:wall_4557
 	props:isExternal false ;
 	props:thermalTransmittance "10."^^xsd:double . 
 
-inst:wall_4913
+inst:wall_6218
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_21_WA_80mm ext:854390"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "c879ab99-a4d3-4ed8-b07f-f54c43b8694c"^^xsd:string ;
-	bot:hostsElement inst:window_17928 ;
-	bot:hostsElement inst:window_18346 ;
+	bot:hostsElement inst:window_19313 ;
+	bot:hostsElement inst:window_19731 ;
 	props:tag "854390"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:topExtensionDistance "0."^^xsd:double ;
 	props:topOffset "0."^^xsd:double ;
 	props:baseConstraint "00_LE"^^xsd:string ;
@@ -1028,18 +2097,18 @@ inst:wall_4913
 	props:isExternal false ;
 	props:thermalTransmittance "16.25"^^xsd:double . 
 
-inst:wall_5121
+inst:wall_6426
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_41_AIR_80mm:854458"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "c879ab99-a4d3-4ed8-b07f-f54c43b86980"^^xsd:string ;
 	props:tag "854458"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:topExtensionDistance "0."^^xsd:double ;
 	props:topOffset "0."^^xsd:double ;
 	props:baseConstraint "00_LE"^^xsd:string ;
@@ -1093,7 +2162,7 @@ inst:wall_5121
 	props:isExternal false ;
 	props:thermalTransmittance "5.8749999999999991"^^xsd:double . 
 
-inst:wall_5202
+inst:wall_6507
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_22_WA_80mm int:854459"^^xsd:string ;
@@ -1159,21 +2228,21 @@ inst:wall_5202
 	props:isExternal false ;
 	props:thermalTransmittance "10."^^xsd:double . 
 
-inst:wall_5272
+inst:wall_6577
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_41_AIR_80mm:855375"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "c879ab99-a4d3-4ed8-b07f-f54c43b86d75"^^xsd:string ;
-	bot:hostsElement inst:window_17578 ;
-	bot:hostsElement inst:window_17119 ;
-	bot:hostsElement inst:window_17165 ;
+	bot:hostsElement inst:window_18963 ;
+	bot:hostsElement inst:window_18504 ;
+	bot:hostsElement inst:window_18550 ;
 	props:tag "855375"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:topExtensionDistance "0."^^xsd:double ;
 	props:topOffset "0."^^xsd:double ;
 	props:baseConstraint "00_LE"^^xsd:string ;
@@ -1228,7 +2297,7 @@ inst:wall_5272
 	props:isExternal false ;
 	props:thermalTransmittance "5.8749999999999991"^^xsd:double . 
 
-inst:wall_5387
+inst:wall_6692
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_22_WA_80mm int:855376"^^xsd:string ;
@@ -1294,19 +2363,19 @@ inst:wall_5387
 	props:isExternal false ;
 	props:thermalTransmittance "10."^^xsd:double . 
 
-inst:wall_5641
+inst:wall_6946
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_21_WA_80mm ext:855378"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "c879ab99-a4d3-4ed8-b07f-f54c43b86d68"^^xsd:string ;
-	bot:hostsElement inst:door_8960 ;
+	bot:hostsElement inst:door_10265 ;
 	props:tag "855378"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:topExtensionDistance "0."^^xsd:double ;
 	props:topOffset "0."^^xsd:double ;
 	props:baseConstraint "00_LE"^^xsd:string ;
@@ -1361,7 +2430,7 @@ inst:wall_5641
 	props:isExternal false ;
 	props:thermalTransmittance "16.25"^^xsd:double . 
 
-inst:door_8960
+inst:door_10265
 	a bot:Element ;
 	a beo:Door ;
 	rdfs:label "Doors_ExtSgl_3:1010x2110mm:855427"^^xsd:string ;
@@ -1387,7 +2456,7 @@ inst:door_8960
 	props:phaseCreated "Bestaand"^^xsd:string ;
 	props:nLSfB "31"^^xsd:string . 
 
-inst:slab_9021
+inst:slab_10326
 	a bot:Element ;
 	a beo:Slab__FLOOR ;
 	rdfs:label "Floor:NLRS_23_FL_150mm:858017"^^xsd:string ;
@@ -1443,7 +2512,7 @@ inst:slab_9021
 	props:isExternal true ;
 	props:thermalTransmittance "1.5333333333333332"^^xsd:double . 
 
-inst:slab_9126
+inst:slab_10431
 	a bot:Element ;
 	a beo:Slab__FLOOR ;
 	rdfs:label "Floor:NLRS_23_FL_Insulation 35mm:858217"^^xsd:string ;
@@ -1498,7 +2567,7 @@ inst:slab_9126
 	props:isExternal true ;
 	props:thermalTransmittance "19.714285714285712"^^xsd:double . 
 
-inst:slab_9216
+inst:slab_10521
 	a bot:Element ;
 	a beo:Slab__FLOOR ;
 	rdfs:label "Floor:NLRS_23_FL_Finish 15mm:858313"^^xsd:string ;
@@ -1553,7 +2622,7 @@ inst:slab_9216
 	props:isExternal true ;
 	props:thermalTransmittance "193.33333333333331"^^xsd:double . 
 
-inst:slab_9277
+inst:slab_10582
 	a bot:Element ;
 	a beo:Slab__FLOOR ;
 	rdfs:label "Floor:NLRS_23_FL_250mm:858324"^^xsd:string ;
@@ -1609,7 +2678,7 @@ inst:slab_9277
 	props:isExternal true ;
 	props:thermalTransmittance "0.91999999999999982"^^xsd:double . 
 
-inst:slab_9364
+inst:slab_10669
 	a bot:Element ;
 	a beo:Slab__FLOOR ;
 	rdfs:label "Floor:NLRS_23_FL_Insulation 35mm:858335"^^xsd:string ;
@@ -1664,7 +2733,7 @@ inst:slab_9364
 	props:isExternal true ;
 	props:thermalTransmittance "19.714285714285712"^^xsd:double . 
 
-inst:slab_9433
+inst:slab_10738
 	a bot:Element ;
 	a beo:Slab__FLOOR ;
 	rdfs:label "Floor:NLRS_23_FL_Finish 15mm:858977"^^xsd:string ;
@@ -1719,7 +2788,7 @@ inst:slab_9433
 	props:isExternal true ;
 	props:thermalTransmittance "193.33333333333331"^^xsd:double . 
 
-inst:slab_9502
+inst:slab_10807
 	a bot:Element ;
 	a beo:Slab__FLOOR ;
 	rdfs:label "Floor:NLRS_23_FL_150mm:858988"^^xsd:string ;
@@ -1775,7 +2844,7 @@ inst:slab_9502
 	props:isExternal true ;
 	props:thermalTransmittance "1.5333333333333332"^^xsd:double . 
 
-inst:slab_9571
+inst:slab_10876
 	a bot:Element ;
 	a beo:Slab__FLOOR ;
 	rdfs:label "Floor:NLRS_23_FL_Insulation 35mm:858999"^^xsd:string ;
@@ -1830,19 +2899,19 @@ inst:slab_9571
 	props:isExternal true ;
 	props:thermalTransmittance "19.714285714285712"^^xsd:double . 
 
-inst:wall_9636
+inst:wall_10941
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_22_WA_350mm:861551"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "33d3e87c-bff6-42bd-bcd7-4d7bcb51929b"^^xsd:string ;
 	props:tag "861551"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseConstraint "00_Begane Grond"^^xsd:string ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:locationLine "Core Centerline"^^xsd:string ;
 	props:topConstraint "Up to level: 01_WV_Slab Lower Edge"^^xsd:string ;
 	props:topExtensionDistance "0."^^xsd:double ;
@@ -1896,19 +2965,19 @@ inst:wall_9636
 	props:isExternal false ;
 	props:thermalTransmittance "3.0423519564762502"^^xsd:double . 
 
-inst:wall_9728
+inst:wall_11033
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_22_WA_350mm:862021"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "33d3e87c-bff6-42bd-bcd7-4d7bcb5190b1"^^xsd:string ;
 	props:tag "862021"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseConstraint "00_Begane Grond"^^xsd:string ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:locationLine "Core Centerline"^^xsd:string ;
 	props:topConstraint "Up to level: 01_WV_Slab Lower Edge"^^xsd:string ;
 	props:topExtensionDistance "0."^^xsd:double ;
@@ -1962,19 +3031,19 @@ inst:wall_9728
 	props:isExternal false ;
 	props:thermalTransmittance "3.0423519564762502"^^xsd:double . 
 
-inst:wall_9784
+inst:wall_11089
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_22_WA_250mm:862386"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "33d3e87c-bff6-42bd-bcd7-4d7bcb519f46"^^xsd:string ;
 	props:tag "862386"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseConstraint "00_Begane Grond"^^xsd:string ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:locationLine "Core Centerline"^^xsd:string ;
 	props:topConstraint "Up to level: 01_WV_Slab Lower Edge"^^xsd:string ;
 	props:topExtensionDistance "0."^^xsd:double ;
@@ -2028,20 +3097,20 @@ inst:wall_9784
 	props:thermalTransmittance "4.2901740926527001"^^xsd:double ;
 	props:isExternal false . 
 
-inst:wall_9874
+inst:wall_11179
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_42_WA_75mm:862907"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "03d162fd-fefd-42d3-84a2-bde414c9168b"^^xsd:string ;
-	bot:hostsElement inst:door_9922 ;
+	bot:hostsElement inst:door_11227 ;
 	props:tag "862907"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseConstraint "00_Begane Grond"^^xsd:string ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:locationLine "Core Centerline"^^xsd:string ;
 	props:topConstraint "Up to level: 01_WV_Slab Lower Edge"^^xsd:string ;
 	props:topExtensionDistance "0."^^xsd:double ;
@@ -2095,7 +3164,7 @@ inst:wall_9874
 	props:isExternal false ;
 	props:thermalTransmittance "18.533333333333331"^^xsd:double . 
 
-inst:door_9922
+inst:door_11227
 	a bot:Element ;
 	a beo:Door ;
 	rdfs:label "Doors_IntSgl_1:800x2110mm:862963"^^xsd:string ;
@@ -2120,19 +3189,19 @@ inst:door_9922
 	props:hostId "862907"^^xsd:string ;
 	props:phaseCreated "Bestaand"^^xsd:string . 
 
-inst:wall_9965
+inst:wall_11270
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_42_WA_75mm:863010"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "03d162fd-fefd-42d3-84a2-bde414c91712"^^xsd:string ;
 	props:tag "863010"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseConstraint "00_Begane Grond"^^xsd:string ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:locationLine "Core Centerline"^^xsd:string ;
 	props:topConstraint "Up to level: 01_WV_Slab Lower Edge"^^xsd:string ;
 	props:topExtensionDistance "0."^^xsd:double ;
@@ -2186,19 +3255,19 @@ inst:wall_9965
 	props:isExternal false ;
 	props:thermalTransmittance "18.533333333333331"^^xsd:double . 
 
-inst:wall_10021
+inst:wall_11326
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_42_WA_75mm:863259"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "03d162fd-fefd-42d3-84a2-bde414c9102b"^^xsd:string ;
 	props:tag "863259"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseConstraint "00_Begane Grond"^^xsd:string ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:locationLine "Core Centerline"^^xsd:string ;
 	props:topConstraint "Up to level: 01_WV_Slab Lower Edge"^^xsd:string ;
 	props:topExtensionDistance "0."^^xsd:double ;
@@ -2252,20 +3321,20 @@ inst:wall_10021
 	props:isExternal false ;
 	props:thermalTransmittance "18.533333333333331"^^xsd:double . 
 
-inst:wall_10108
+inst:wall_11413
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_42_WA_75mm:865329"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "f7bbb6c4-846a-49d6-a083-a9918bb50e2e"^^xsd:string ;
-	bot:hostsElement inst:door_18777 ;
+	bot:hostsElement inst:door_20162 ;
 	props:tag "865329"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseConstraint "00_Begane Grond"^^xsd:string ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:locationLine "Core Centerline"^^xsd:string ;
 	props:topConstraint "Up to level: 01_WV_Slab Lower Edge"^^xsd:string ;
 	props:topExtensionDistance "0."^^xsd:double ;
@@ -2319,13 +3388,13 @@ inst:wall_10108
 	props:isExternal false ;
 	props:thermalTransmittance "18.533333333333331"^^xsd:double . 
 
-inst:stair_10152
+inst:stair_11457
 	a bot:Element ;
 	a beo:Stair ;
 	rdfs:label "Cast-In-Place Stair:Stair:868647"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "a1d2e13f-02ce-4bbd-8515-89bad0b0a736"^^xsd:string ;
-	bot:hasSubElement inst:stairFlight_11165 ;
+	bot:hasSubElement inst:stairFlight_12470 ;
 	props:tag "868647"^^xsd:string ;
 	props:category "Stairs"^^xsd:string ;
 	props:reference "NLRS_24_STR_trap-beton ihwg-monolitisch-breedte 850mm-optrede 185mm-aantrede 220mm_gen_rsf"^^xsd:string ;
@@ -2374,7 +3443,7 @@ inst:stair_10152
 	props:rightLateralOffset "0."^^xsd:double ;
 	props:rightSupport "None"^^xsd:string . 
 
-inst:stairFlight_11165
+inst:stairFlight_12470
 	a bot:Element ;
 	a beo:StairFlight ;
 	rdfs:label "Cast-In-Place Stair:Stair:868647 Run 1"^^xsd:string ;
@@ -2427,19 +3496,19 @@ inst:stairFlight_11165
 	props:category "Stairs: Runs"^^xsd:string ;
 	props:nosingLength "0."^^xsd:double . 
 
-inst:wall_11313
+inst:wall_12618
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_42_WA_75mm:870182"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "a2e83558-f744-4df6-83ef-10dd0d606cd0"^^xsd:string ;
 	props:tag "870182"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseConstraint "00_Begane Grond"^^xsd:string ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:locationLine "Core Centerline"^^xsd:string ;
 	props:topConstraint "Up to level: 01_WV_Slab Lower Edge"^^xsd:string ;
 	props:topExtensionDistance "0."^^xsd:double ;
@@ -2493,14 +3562,14 @@ inst:wall_11313
 	props:isExternal false ;
 	props:thermalTransmittance "18.533333333333331"^^xsd:double . 
 
-inst:roof_11358
+inst:roof_12663
 	a bot:Element ;
 	a beo:Roof ;
 	rdfs:label "Basic Roof:NLRS_27_structure-120mm:872419"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "a965b370-8ba7-4f38-ad09-2fb3fd844e9f"^^xsd:string ;
-	bot:hasSubElement inst:slab_11375 ;
-	bot:hasSubElement inst:slab_11394 ;
+	bot:hasSubElement inst:slab_12680 ;
+	bot:hasSubElement inst:slab_12699 ;
 	props:tag "872419"^^xsd:string ;
 	props:category "Roofs"^^xsd:string ;
 	props:reference "NLRS_27_structure-120mm"^^xsd:string ;
@@ -2528,7 +3597,7 @@ inst:roof_11358
 	props:phaseCreated "Bestaand"^^xsd:string ;
 	props:nLSfB "27"^^xsd:string . 
 
-inst:slab_11375
+inst:slab_12680
 	a bot:Element ;
 	a beo:Slab__ROOF ;
 	rdfs:label "Basic Roof:NLRS_27_structure-120mm:872419"^^xsd:string ;
@@ -2563,7 +3632,7 @@ inst:slab_11375
 	props:isExternal true ;
 	props:thermalTransmittance "11.583333333333332"^^xsd:double . 
 
-inst:slab_11394
+inst:slab_12699
 	a bot:Element ;
 	a beo:Slab__ROOF ;
 	rdfs:label "Basic Roof:NLRS_27_structure-120mm:872419"^^xsd:string ;
@@ -2598,14 +3667,14 @@ inst:slab_11394
 	props:isExternal true ;
 	props:thermalTransmittance "11.583333333333332"^^xsd:double . 
 
-inst:roof_11510
+inst:roof_12815
 	a bot:Element ;
 	a beo:Roof ;
 	rdfs:label "Basic Roof:NLRS_27_IN-80mm:872584"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "a965b370-8ba7-4f38-ad09-2fb3fd8451f4"^^xsd:string ;
-	bot:hasSubElement inst:slab_11530 ;
-	bot:hasSubElement inst:slab_11555 ;
+	bot:hasSubElement inst:slab_12835 ;
+	bot:hasSubElement inst:slab_12860 ;
 	props:tag "872584"^^xsd:string ;
 	props:category "Roofs"^^xsd:string ;
 	props:reference "NLRS_27_IN-80mm"^^xsd:string ;
@@ -2633,7 +3702,7 @@ inst:roof_11510
 	props:phaseCreated "Bestaand"^^xsd:string ;
 	props:nLSfB "47"^^xsd:string . 
 
-inst:slab_11530
+inst:slab_12835
 	a bot:Element ;
 	a beo:Slab__ROOF ;
 	rdfs:label "Basic Roof:NLRS_27_IN-80mm:872584"^^xsd:string ;
@@ -2667,7 +3736,7 @@ inst:slab_11530
 	props:isExternal true ;
 	props:thermalTransmittance "4.3925233644859816"^^xsd:double . 
 
-inst:slab_11555
+inst:slab_12860
 	a bot:Element ;
 	a beo:Slab__ROOF ;
 	rdfs:label "Basic Roof:NLRS_27_IN-80mm:872584"^^xsd:string ;
@@ -2701,18 +3770,84 @@ inst:slab_11555
 	props:isExternal true ;
 	props:thermalTransmittance "4.3925233644859816"^^xsd:double . 
 
-inst:wall_11697
+inst:wall_13002
+	a bot:Element ;
+	a beo:Wall__STANDARD ;
+	rdfs:label "Basic Wall:NLRS_21_WA_80mm ext:872814"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "28470628-2285-4d41-8541-1460997fcf41"^^xsd:string ;
+	props:tag "872814"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
+	props:relatedtoMass false ;
+	props:roomBounding true ;
+	props:baseExtensionDistance "0."^^xsd:double ;
+	props:baseisAttached false ;
+	props:topExtensionDistance "0."^^xsd:double ;
+	props:topOffset "0."^^xsd:double ;
+	props:baseConstraint "00_LE"^^xsd:string ;
+	props:locationLine "Finish Face: Interior"^^xsd:string ;
+	props:topConstraint "Up to level: 02_WV_Tweede Verdieping"^^xsd:string ;
+	props:topisAttached true ;
+	props:unconnectedHeight "5700."^^xsd:double ;
+	props:crossSection "Vertical"^^xsd:string ;
+	props:area "65.579297287596077"^^xsd:double ;
+	props:length "9000.0000000000091"^^xsd:double ;
+	props:thickness "80."^^xsd:double ;
+	props:volume "5.2463437830076138"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:cost "0."^^xsd:double ;
+	props:family "Basic Wall"^^xsd:string ;
+	props:familyandType "Basic Wall: NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:type "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:typeId "852537"^^xsd:string ;
+	props:phaseCreated "Bestaand"^^xsd:string ;
+	props:structural false ;
+	props:structuralUsage "Non-bearing"^^xsd:string ;
+	props:nLSfB "21"^^xsd:string ;
+	props:category "Walls"^^xsd:string ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:loadBearing false ;
+	props:isExternal false ;
+	props:extendToStructure true ;
+	props:reference "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:roughness "1"^^xsd:double ;
+	props:absorptance "0.10000000000000001"^^xsd:double ;
+	props:heatTransferCoefficientU "16.25"^^xsd:double ;
+	props:thermalMass "120.88799999999999"^^xsd:double ;
+	props:thermalResistanceR "0.061538461538461535"^^xsd:double ;
+	props:function "Interior"^^xsd:string ;
+	props:wrappingatEnds "None"^^xsd:string ;
+	props:wrappingatInserts "Do not wrap"^^xsd:string ;
+	props:width "80."^^xsd:double ;
+	props:coarseScaleFillPattern "<Solid fill>"^^xsd:string ;
+	props:coarseScaleFillColor "8421504"^^xsd:double ;
+	props:assemblyCode "2E(21.22)"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:keynote "d-28-000"^^xsd:string ;
+	props:typeComments "d=80mm"^^xsd:string ;
+	props:typeName "NLRS_21_WA_80mm ext"^^xsd:string ;
+	props:structuralMaterial "NLRS_f2_brick wall ext"^^xsd:string ;
+	props:category "Walls"^^xsd:string ;
+	props:familyName "Basic Wall"^^xsd:string ;
+	props:roughness "304.80000000000001"^^xsd:double ;
+	props:category "Walls"^^xsd:string ;
+	props:description "stucwerk interieur, fijn, wit"^^xsd:string ;
+	props:isExternal false ;
+	props:thermalTransmittance "16.25"^^xsd:double . 
+
+inst:wall_13082
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_21_WA_80mm ext:873094"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "28470628-2285-4d41-8541-1460997fcca9"^^xsd:string ;
 	props:tag "873094"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:topExtensionDistance "0."^^xsd:double ;
 	props:topOffset "0."^^xsd:double ;
 	props:baseConstraint "00_LE"^^xsd:string ;
@@ -2767,13 +3902,13 @@ inst:wall_11697
 	props:isExternal false ;
 	props:thermalTransmittance "16.25"^^xsd:double . 
 
-inst:stair_11741
+inst:stair_13126
 	a bot:Element ;
 	a beo:Stair ;
 	rdfs:label "Cast-In-Place Stair:Stair:874176"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "dd619595-0009-4b68-9cba-1acc297a0e57"^^xsd:string ;
-	bot:hasSubElement inst:stairFlight_13589 ;
+	bot:hasSubElement inst:stairFlight_14974 ;
 	props:tag "874176"^^xsd:string ;
 	props:category "Stairs"^^xsd:string ;
 	props:reference "NLRS_24_STR_trap-beton ihwg-monolitisch-breedte 850mm-optrede 185mm-aantrede 220mm_gen_rsf"^^xsd:string ;
@@ -2822,7 +3957,7 @@ inst:stair_11741
 	props:rightLateralOffset "0."^^xsd:double ;
 	props:rightSupport "None"^^xsd:string . 
 
-inst:stairFlight_13589
+inst:stairFlight_14974
 	a bot:Element ;
 	a beo:StairFlight ;
 	rdfs:label "Cast-In-Place Stair:Stair:874176 Run 1"^^xsd:string ;
@@ -2875,7 +4010,7 @@ inst:stairFlight_13589
 	props:category "Stairs: Runs"^^xsd:string ;
 	props:nosingLength "0."^^xsd:double . 
 
-inst:door_16793
+inst:door_18178
 	a bot:Element ;
 	a beo:Door ;
 	rdfs:label "Doors_ExtSgl_3:1010x2110mm:878657"^^xsd:string ;
@@ -2901,7 +4036,7 @@ inst:door_16793
 	props:phaseCreated "Bestaand"^^xsd:string ;
 	props:nLSfB "31"^^xsd:string . 
 
-inst:window_17119
+inst:window_18504
 	a bot:Element ;
 	a beo:Window ;
 	rdfs:label "Windows_Concept_Plain_Sgl:2416x1900mm:880971"^^xsd:string ;
@@ -2929,7 +4064,7 @@ inst:window_17119
 	props:phaseCreated "Bestaand"^^xsd:string ;
 	props:nLSfB "31"^^xsd:string . 
 
-inst:window_17165
+inst:window_18550
 	a bot:Element ;
 	a beo:Window ;
 	rdfs:label "Windows_Concept_Plain_Sgl:2416x1900mm:881130"^^xsd:string ;
@@ -2957,7 +4092,7 @@ inst:window_17165
 	props:phaseCreated "Bestaand"^^xsd:string ;
 	props:nLSfB "31"^^xsd:string . 
 
-inst:window_17578
+inst:window_18963
 	a bot:Element ;
 	a beo:Window ;
 	rdfs:label "Windows_Concept_Plain_Dbl:1000x1000mm:881262"^^xsd:string ;
@@ -2985,7 +4120,7 @@ inst:window_17578
 	props:phaseCreated "Bestaand"^^xsd:string ;
 	props:nLSfB "31"^^xsd:string . 
 
-inst:window_17623
+inst:window_19008
 	a bot:Element ;
 	a beo:Window ;
 	rdfs:label "Windows_Concept_Plain_Sgl:2416x1900mm:885465"^^xsd:string ;
@@ -3013,7 +4148,7 @@ inst:window_17623
 	props:phaseCreated "Bestaand"^^xsd:string ;
 	props:nLSfB "31"^^xsd:string . 
 
-inst:window_17928
+inst:window_19313
 	a bot:Element ;
 	a beo:Window ;
 	rdfs:label "Windows_Concept_Plain_Sgl:2416x1900mm:885511"^^xsd:string ;
@@ -3041,7 +4176,7 @@ inst:window_17928
 	props:phaseCreated "Bestaand"^^xsd:string ;
 	props:nLSfB "31"^^xsd:string . 
 
-inst:window_18346
+inst:window_19731
 	a bot:Element ;
 	a beo:Window ;
 	rdfs:label "Windows_Concept_Plain_Dbl:1000x1000mm:885512"^^xsd:string ;
@@ -3069,18 +4204,18 @@ inst:window_18346
 	props:phaseCreated "Bestaand"^^xsd:string ;
 	props:nLSfB "31"^^xsd:string . 
 
-inst:wall_18403
+inst:wall_19788
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_41_IN_150mm:898949"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "ec23297d-f7a7-4201-ab33-60d2c6c005d1"^^xsd:string ;
 	props:tag "898949"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:topExtensionDistance "0."^^xsd:double ;
 	props:topisAttached false ;
 	props:topOffset "0."^^xsd:double ;
@@ -3134,18 +4269,18 @@ inst:wall_18403
 	props:isExternal false ;
 	props:thermalTransmittance "4.5999999999999988"^^xsd:double . 
 
-inst:wall_18546
+inst:wall_19931
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_41_IN_150mm:898998"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "ec23297d-f7a7-4201-ab33-60d2c6c005e2"^^xsd:string ;
 	props:tag "898998"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:topExtensionDistance "0."^^xsd:double ;
 	props:topisAttached false ;
 	props:topOffset "0."^^xsd:double ;
@@ -3199,18 +4334,18 @@ inst:wall_18546
 	props:isExternal false ;
 	props:thermalTransmittance "4.5999999999999988"^^xsd:double . 
 
-inst:wall_18651
+inst:wall_20036
 	a bot:Element ;
 	a beo:Wall__STANDARD ;
 	rdfs:label "Basic Wall:NLRS_41_GKP_22mm:902650"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
 	bot:hasGuid "c17d4db6-63c6-4855-9c4f-1d3f8eba4968"^^xsd:string ;
 	props:tag "902650"^^xsd:string ;
+	props:baseOffset "0."^^xsd:double ;
 	props:relatedtoMass false ;
 	props:roomBounding true ;
 	props:baseExtensionDistance "0."^^xsd:double ;
 	props:baseisAttached false ;
-	props:baseOffset "0."^^xsd:double ;
 	props:topExtensionDistance "0."^^xsd:double ;
 	props:topisAttached false ;
 	props:topOffset "0."^^xsd:double ;
@@ -3263,7 +4398,7 @@ inst:wall_18651
 	props:isExternal false ;
 	props:thermalTransmittance "63.18181818181818"^^xsd:double . 
 
-inst:door_18777
+inst:door_20162
 	a bot:Element ;
 	a beo:Door ;
 	rdfs:label "Doors_IntSgl_1:800x2110mm:902727"^^xsd:string ;
@@ -3288,13 +4423,13 @@ inst:door_18777
 	props:hostId "865329"^^xsd:string ;
 	props:phaseCreated "Bestaand"^^xsd:string . 
 
-inst:beam_18828
+inst:beam_20213
 	a bot:Element ;
 	a beo:Beam ;
-	rdfs:label "Holz Tr\X\E4ger - rechteckig:Holz Tr\X\E4ger - 75*250:904996"^^xsd:string ;
+	rdfs:label "Holz Tr\X\E4ger - rechteckig:Holz Tr\X\E4ger - 75*250:904249"^^xsd:string ;
 	rdfs:comment ""^^xsd:string ;
-	bot:hasGuid "b794e12b-395b-42e5-b34e-62aa08e978c1"^^xsd:string ;
-	props:tag "904996"^^xsd:string ;
+	bot:hasGuid "b794e12b-395b-42e5-b34e-62aa08e97bdc"^^xsd:string ;
+	props:tag "904249"^^xsd:string ;
 	props:isExternal false ;
 	props:reference "Holz Tr\X\E4ger - 75*250"^^xsd:string ;
 	props:span "5129."^^xsd:double ;
@@ -3309,7 +4444,7 @@ inst:beam_18828
 	props:referenceLevelElevation "5400."^^xsd:double ;
 	props:startLevelOffset "124.58209066669703"^^xsd:double ;
 	props:length "5129."^^xsd:double ;
-	props:volume "0.096168750000000414"^^xsd:double ;
+	props:volume "0.096168750000000316"^^xsd:double ;
 	props:endExtension "0."^^xsd:double ;
 	props:joinStatus "Both joins enabled"^^xsd:string ;
 	props:startExtension "0."^^xsd:double ;
@@ -3329,6 +4464,65 @@ inst:beam_18828
 	props:cutLength "5129."^^xsd:double ;
 	props:stickSymbolLocation "Center of Geometry"^^xsd:string ;
 	props:structuralUsage "Other"^^xsd:string ;
+	props:b "75."^^xsd:double ;
+	props:h "250.00000000000003"^^xsd:double ;
+	props:typeComments "B/H=10/20cm"^^xsd:string ;
+	props:typeName "Holz Tr\X\E4ger - 75*250"^^xsd:string ;
+	props:structuralMaterial "Holz - C 24 Cl.1"^^xsd:string ;
+	props:category "Structural Framing"^^xsd:string ;
+	props:familyName "Holz Tr\X\E4ger - rechteckig"^^xsd:string ;
+	props:sectionShape "31"^^xsd:double ;
+	props:momentofInertiastrongaxis "9.7656250000000046E-05"^^xsd:double ;
+	props:momentofInertiaweakaxis "8.7890625000000027E-06"^^xsd:double ;
+	props:perimeter "650."^^xsd:double ;
+	props:sectionArea "0.018750000000000003"^^xsd:double ;
+	props:height "250.00000000000003"^^xsd:double ;
+	props:width "75."^^xsd:double ;
+	props:isExternal false ;
+	props:loadBearing true ;
+	props:category "Structural Framing"^^xsd:string . 
+
+inst:beam_20317
+	a bot:Element ;
+	a beo:Beam ;
+	rdfs:label "Holz Tr\X\E4ger - rechteckig:Holz Tr\X\E4ger - 75*250:904996"^^xsd:string ;
+	rdfs:comment ""^^xsd:string ;
+	bot:hasGuid "b794e12b-395b-42e5-b34e-62aa08e978c1"^^xsd:string ;
+	props:tag "904996"^^xsd:string ;
+	props:isExternal false ;
+	props:reference "Holz Tr\X\E4ger - 75*250"^^xsd:string ;
+	props:loadBearing true ;
+	props:span "5129."^^xsd:double ;
+	props:slope "35.006183133643731"^^xsd:double ;
+	props:category "Structural Framing"^^xsd:string ;
+	props:reference "Holz Tr\X\E4ger - 75*250"^^xsd:string ;
+	props:reference "Holz Tr\X\E4ger - 75*250"^^xsd:string ;
+	props:crossSectionRotation "0."^^xsd:double ;
+	props:referenceLevel "02_WV_Tweede Verdieping"^^xsd:string ;
+	props:endLevelOffset "3066.9090173587842"^^xsd:double ;
+	props:referenceLevelElevation "5400."^^xsd:double ;
+	props:startLevelOffset "124.58209066669703"^^xsd:double ;
+	props:length "5129."^^xsd:double ;
+	props:volume "0.096168750000000414"^^xsd:double ;
+	props:endExtension "0."^^xsd:double ;
+	props:joinStatus "Both joins enabled"^^xsd:string ;
+	props:startExtension "0."^^xsd:double ;
+	props:yJustification "Origin"^^xsd:string ;
+	props:yOffsetValue "0."^^xsd:double ;
+	props:yzJustification "Uniform"^^xsd:string ;
+	props:zJustification "Top"^^xsd:string ;
+	props:zOffsetValue "0."^^xsd:double ;
+	props:hasAssociation true ;
+	props:comments "Inside"^^xsd:string ;
+	props:category "Structural Framing"^^xsd:string ;
+	props:family "Holz Tr\X\E4ger - rechteckig"^^xsd:string ;
+	props:familyandType "Holz Tr\X\E4ger - rechteckig: Holz Tr\X\E4ger - 75*250"^^xsd:string ;
+	props:type "Holz Tr\X\E4ger - 75*250"^^xsd:string ;
+	props:typeId "904227"^^xsd:string ;
+	props:phaseCreated "Bestaand"^^xsd:string ;
+	props:stickSymbolLocation "Center of Geometry"^^xsd:string ;
+	props:structuralUsage "Other"^^xsd:string ;
+	props:cutLength "5129."^^xsd:double ;
 	props:b "75."^^xsd:double ;
 	props:h "250.00000000000003"^^xsd:double ;
 	props:typeComments "B/H=10/20cm"^^xsd:string ;

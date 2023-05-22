@@ -1,0 +1,967 @@
+@prefix : <https://w3id.org/bmp#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://w3id.org/bmp#> .
+
+<http://w3id.org/bmp#> rdf:type owl:Ontology ;
+                        <http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0002-8651-0671> ;
+                        <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-9383-7234> ;
+                        <http://purl.org/dc/terms/description> """The Building Material Performance ontology is created to enrich 
+building information models with highly aggregated information with respect to material information modelling and material simulation.
+
+BMP classifies construction materials based on categories, types and property groups. Each property group describes parameters to be used as input values for simulation works."""@en ;
+                        <http://purl.org/dc/terms/title> "Building Material Performance"@en ;
+                        <http://purl.org/vocab/vann/preferredNamespacePrefix> "bmp"@en ;
+                        <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/bmp#"@en ;
+                        rdfs:label "Building Material Performance" ;
+                        owl:versionInfo "1.0"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/weblog
+<http://xmlns.com/foaf/0.1/weblog> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://w3id.org/bmp#hasAdsorptionC
+:hasAdsorptionC rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :hasWaterVapourSorptionIsotherm ;
+                rdfs:domain :WaterVapourSorptionIsotherm ;
+                rdfs:range :AdsorptionC .
+
+
+###  http://w3id.org/bmp#hasAdsorptionK
+:hasAdsorptionK rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :hasWaterVapourSorptionIsotherm ;
+                rdfs:domain :WaterVapourSorptionIsotherm ;
+                rdfs:range :AdsorptionK .
+
+
+###  http://w3id.org/bmp#hasAdsorptionWm
+:hasAdsorptionWm rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :hasWaterVapourSorptionIsotherm ;
+                 rdfs:domain :WaterVapourSorptionIsotherm ;
+                 rdfs:range :AdsorptionWm .
+
+
+###  http://w3id.org/bmp#hasDesorptionC
+:hasDesorptionC rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :hasWaterVapourSorptionIsotherm ;
+                rdfs:domain :WaterVapourSorptionIsotherm ;
+                rdfs:range :DesorptionC .
+
+
+###  http://w3id.org/bmp#hasDesorptionK
+:hasDesorptionK rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :hasWaterVapourSorptionIsotherm ;
+                rdfs:domain :WaterVapourSorptionIsotherm ;
+                rdfs:range :DesorptionK .
+
+
+###  https://w3id.org/bmp#hasBulkDensity
+:hasBulkDensity rdf:type owl:ObjectProperty ;
+                rdfs:domain :Physical ;
+                rdfs:range :BulkDensity .
+
+
+###  https://w3id.org/bmp#hasDesorptionWm
+:hasDesorptionWm rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :hasWaterVapourSorptionIsotherm ;
+                 rdfs:domain :WaterVapourSorptionIsotherm ;
+                 rdfs:range :DesorptionWm .
+
+
+###  https://w3id.org/bmp#hasDropping
+:hasDropping rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :hasFireResistance ;
+             rdfs:domain :FireResistance ;
+             rdfs:range :Dropping .
+
+
+###  https://w3id.org/bmp#hasEffectiveGasPermeability
+:hasEffectiveGasPermeability rdf:type owl:ObjectProperty ;
+                             rdfs:domain :Physical ;
+                             rdfs:range :EffectiveGasPermeability .
+
+
+###  https://w3id.org/bmp#hasFireClassification
+:hasFireClassification rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf :hasFireResistance ;
+                       rdfs:domain :FireResistance ;
+                       rdfs:range :FireClassification .
+
+
+###  https://w3id.org/bmp#hasFireResistance
+:hasFireResistance rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Durability ;
+                   rdfs:range :FireResistance .
+
+
+###  https://w3id.org/bmp#hasLifeSpan
+:hasLifeSpan rdf:type owl:ObjectProperty ;
+             rdfs:domain :Durability ;
+             rdfs:range :LifeSpan .
+
+
+###  https://w3id.org/bmp#hasLiquidTransportCoef
+:hasLiquidTransportCoef rdf:type owl:ObjectProperty ;
+                        rdfs:domain :Hygric ;
+                        rdfs:range :LiquidTransportCoef .
+
+
+###  https://w3id.org/bmp#hasMoistureContent
+:hasMoistureContent rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf :hasThermalConductivity ;
+                    rdfs:domain :ThermalConductivity ;
+                    rdfs:range :MoistureContent .
+
+
+###  https://w3id.org/bmp#hasPorosity
+:hasPorosity rdf:type owl:ObjectProperty ;
+             rdfs:domain :Physical ;
+             rdfs:range :Porosity .
+
+
+###  https://w3id.org/bmp#hasRelativeGasDiffusivity
+:hasRelativeGasDiffusivity rdf:type owl:ObjectProperty ;
+                           rdfs:domain :Physical ;
+                           rdfs:range :RelativeGasDiffusivity .
+
+
+###  https://w3id.org/bmp#hasSmokeDevelopment
+:hasSmokeDevelopment rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf :hasFireResistance ;
+                     rdfs:domain :FireResistance ;
+                     rdfs:range :SmokeDevelopment .
+
+
+###  https://w3id.org/bmp#hasSolarTransmittance
+:hasSolarTransmittance rdf:type owl:ObjectProperty ;
+                       rdfs:domain :Thermal ;
+                       rdfs:range :SolarTransmittance .
+
+
+###  https://w3id.org/bmp#hasSpecificHeatCapacity
+:hasSpecificHeatCapacity rdf:type owl:ObjectProperty ;
+                         rdfs:domain :Thermal ;
+                         rdfs:range :SpecificHeatCapacity .
+
+
+###  https://w3id.org/bmp#hasTemperatureCondition
+:hasTemperatureCondition rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf :hasThermalConductivity ;
+                         rdfs:domain :ThermalConductivity ;
+                         rdfs:range :TempCondition .
+
+
+###  https://w3id.org/bmp#hasThermalConductivity
+:hasThermalConductivity rdf:type owl:ObjectProperty ;
+                        rdfs:domain :Thermal ;
+                        rdfs:range :ThermalConductivity .
+
+
+###  https://w3id.org/bmp#hasThermalDiffusivity
+:hasThermalDiffusivity rdf:type owl:ObjectProperty ;
+                       rdfs:domain :Thermal ;
+                       rdfs:range :ThermalDiffusivity .
+
+
+###  https://w3id.org/bmp#hasThermalExpansionCoef
+:hasThermalExpansionCoef rdf:type owl:ObjectProperty ;
+                         rdfs:domain :Thermal ;
+                         rdfs:range :ThermalExpansionCoef .
+
+
+###  https://w3id.org/bmp#hasVolumetricHeatCapacity
+:hasVolumetricHeatCapacity rdf:type owl:ObjectProperty ;
+                           rdfs:domain :Thermal ;
+                           rdfs:range :VolumetricHeatCapacity .
+
+
+###  https://w3id.org/bmp#hasWaterVapourDiffusionThickness
+:hasWaterVapourDiffusionThickness rdf:type owl:ObjectProperty ;
+                                  rdfs:domain :Hygric ;
+                                  rdfs:range :WaterVapourDiffusionThickness .
+
+
+###  https://w3id.org/bmp#hasWaterVapourDiffusivity
+:hasWaterVapourDiffusivity rdf:type owl:ObjectProperty ;
+                           rdfs:domain :Hygric ;
+                           rdfs:range :WaterVapourDiffusivity .
+
+
+###  https://w3id.org/bmp#hasWaterVapourPermeability
+:hasWaterVapourPermeability rdf:type owl:ObjectProperty ;
+                            rdfs:domain :Hygric ;
+                            rdfs:range :WaterVapourPermeability .
+
+
+###  https://w3id.org/bmp#hasWaterVapourResistanceFactor
+:hasWaterVapourResistanceFactor rdf:type owl:ObjectProperty ;
+                                rdfs:domain :Hygric ;
+                                rdfs:range :WaterVapourResistanceFactor .
+
+
+###  https://w3id.org/bmp#hasWaterVapourSorptionIsotherm
+:hasWaterVapourSorptionIsotherm rdf:type owl:ObjectProperty ;
+                                rdfs:domain :Hygric ;
+                                rdfs:range :WaterVapourSorptionIsotherm .
+
+
+###  https://w3id.org/bmp#isAirDryTimber
+:isAirDryTimber rdf:type owl:ObjectProperty ;
+                rdfs:domain :MaterialType ;
+                rdfs:range :AirDryTimber .
+
+
+###  https://w3id.org/bmp#isBasaltStone
+:isBasaltStone rdf:type owl:ObjectProperty ;
+               rdfs:domain :MaterialType ;
+               rdfs:range :BasaltStone .
+
+
+###  https://w3id.org/bmp#isBrick
+:isBrick rdf:type owl:ObjectProperty ;
+         rdfs:domain :MaterialCategory ;
+         rdfs:range :Brick .
+
+
+###  https://w3id.org/bmp#isBrickMasonryUnit
+:isBrickMasonryUnit rdf:type owl:ObjectProperty ;
+                    rdfs:domain :MaterialType ;
+                    rdfs:range :BrickMasonryUnit .
+
+
+###  https://w3id.org/bmp#isCalciumSilicateUnit
+:isCalciumSilicateUnit rdf:type owl:ObjectProperty ;
+                       rdfs:domain :MaterialType ;
+                       rdfs:range :CalciumSilicateUnit .
+
+
+###  https://w3id.org/bmp#isClayUnit
+:isClayUnit rdf:type owl:ObjectProperty ;
+            rdfs:domain :MaterialType ;
+            rdfs:range :ClayUnit .
+
+
+###  https://w3id.org/bmp#isConcrete
+:isConcrete rdf:type owl:ObjectProperty ;
+            rdfs:domain :MaterialCategory ;
+            rdfs:range :Concrete .
+
+
+###  https://w3id.org/bmp#isDrawnSheetGlass
+:isDrawnSheetGlass rdf:type owl:ObjectProperty ;
+                   rdfs:domain :MaterialType ;
+                   rdfs:range :DrawnSheetGlass .
+
+
+###  https://w3id.org/bmp#isFloatGlass
+:isFloatGlass rdf:type owl:ObjectProperty ;
+              rdfs:domain :MaterialType ;
+              rdfs:range :FloatGlass .
+
+
+###  https://w3id.org/bmp#isGlass
+:isGlass rdf:type owl:ObjectProperty ;
+         rdfs:domain :MaterialCategory ;
+         rdfs:range :Glass .
+
+
+###  https://w3id.org/bmp#isGranitStone
+:isGranitStone rdf:type owl:ObjectProperty ;
+               rdfs:domain :MaterialType ;
+               rdfs:range :GranitStone .
+
+
+###  https://w3id.org/bmp#isHeavyWeightAggregate
+:isHeavyWeightAggregate rdf:type owl:ObjectProperty ;
+                        rdfs:domain :MaterialType ;
+                        rdfs:range :HeavyWeightAggregate .
+
+
+###  https://w3id.org/bmp#isHeavyWeightConcrete
+:isHeavyWeightConcrete rdf:type owl:ObjectProperty ;
+                       rdfs:domain :MaterialType ;
+                       rdfs:range :HeavyWeightConcrete .
+
+
+###  https://w3id.org/bmp#isHemp
+:isHemp rdf:type owl:ObjectProperty ;
+        rdfs:domain :MaterialCategory ;
+        rdfs:range :Hemp .
+
+
+###  https://w3id.org/bmp#isHempFibreBoard
+:isHempFibreBoard rdf:type owl:ObjectProperty ;
+                  rdfs:domain :MaterialType ;
+                  rdfs:range :HempFibreBoard .
+
+
+###  https://w3id.org/bmp#isHempFibreMat
+:isHempFibreMat rdf:type owl:ObjectProperty ;
+                rdfs:domain :MaterialType ;
+                rdfs:range :HempFibreMat .
+
+
+###  https://w3id.org/bmp#isHempcrete
+:isHempcrete rdf:type owl:ObjectProperty ;
+             rdfs:domain :MaterialType ;
+             rdfs:range :Hempcrete .
+
+
+###  https://w3id.org/bmp#isLightWeightAggregate
+:isLightWeightAggregate rdf:type owl:ObjectProperty ;
+                        rdfs:domain :MaterialType ;
+                        rdfs:range :LightWeightAggregate .
+
+
+###  https://w3id.org/bmp#isLightWeightConcrete
+:isLightWeightConcrete rdf:type owl:ObjectProperty ;
+                       rdfs:domain :MaterialType ;
+                       rdfs:range :LightWeightConcrete .
+
+
+###  https://w3id.org/bmp#isMineralFibre
+:isMineralFibre rdf:type owl:ObjectProperty ;
+                rdfs:domain :MaterialCategory ;
+                rdfs:range :MineralFibre .
+
+
+###  https://w3id.org/bmp#isMineralFibreBoard
+:isMineralFibreBoard rdf:type owl:ObjectProperty ;
+                     rdfs:domain :MaterialType ;
+                     rdfs:range :MineralFibreBoard .
+
+
+###  https://w3id.org/bmp#isMineralFibreMat
+:isMineralFibreMat rdf:type owl:ObjectProperty ;
+                   rdfs:domain :MaterialType ;
+                   rdfs:range :MineralFibreMat .
+
+
+###  https://w3id.org/bmp#isNaturalStone
+:isNaturalStone rdf:type owl:ObjectProperty ;
+                rdfs:domain :MaterialCategory ;
+                rdfs:range :NaturalStone .
+
+
+###  https://w3id.org/bmp#isNonMetallic
+:isNonMetallic rdf:type owl:ObjectProperty ;
+               rdfs:domain :MaterialCategory ;
+               rdfs:range :NonMetallic .
+
+
+###  https://w3id.org/bmp#isPatternedGlass
+:isPatternedGlass rdf:type owl:ObjectProperty ;
+                  rdfs:domain :MaterialType ;
+                  rdfs:range :PatternedGlass .
+
+
+###  https://w3id.org/bmp#isPolishedWiredGlass
+:isPolishedWiredGlass rdf:type owl:ObjectProperty ;
+                      rdfs:domain :MaterialType ;
+                      rdfs:range :PolishedWiredGlass .
+
+
+###  https://w3id.org/bmp#isPrestressedConcrete
+:isPrestressedConcrete rdf:type owl:ObjectProperty ;
+                       rdfs:domain :MaterialType ;
+                       rdfs:range :PrestressedConcrete .
+
+
+###  https://w3id.org/bmp#isSandStone
+:isSandStone rdf:type owl:ObjectProperty ;
+             rdfs:domain :MaterialType ;
+             rdfs:range :SandStone .
+
+
+###  https://w3id.org/bmp#isWoodHard
+:isWoodHard rdf:type owl:ObjectProperty ;
+            rdfs:domain :MaterialType ;
+            rdfs:range :WoodHard .
+
+
+###  https://w3id.org/bmp#isWoodSoft
+:isWoodSoft rdf:type owl:ObjectProperty ;
+            rdfs:domain :MaterialType ;
+            rdfs:range :WoodSoft .
+
+
+###  https://w3id.org/bmp#isWoodTimber
+:isWoodTimber rdf:type owl:ObjectProperty ;
+              rdfs:domain :MaterialCategory ;
+              rdfs:range :WoodTimber .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://w3id.org/bmp#AdsorptionC
+:AdsorptionC rdf:type owl:Class ;
+             rdfs:subClassOf :WaterVapourSorptionIsotherm .
+
+
+###  http://w3id.org/bmp#AdsorptionK
+:AdsorptionK rdf:type owl:Class ;
+             rdfs:subClassOf :WaterVapourSorptionIsotherm .
+
+
+###  http://w3id.org/bmp#AdsorptionWm
+:AdsorptionWm rdf:type owl:Class ;
+              rdfs:subClassOf :WaterVapourSorptionIsotherm .
+
+
+###  http://w3id.org/bmp#DesorptionC
+:DesorptionC rdf:type owl:Class ;
+             rdfs:subClassOf :WaterVapourSorptionIsotherm .
+
+
+###  http://w3id.org/bmp#DesorptionK
+:DesorptionK rdf:type owl:Class ;
+             rdfs:subClassOf :WaterVapourSorptionIsotherm .
+
+
+###  http://w3id.org/bmp#DesorptionWm
+:DesorptionWm rdf:type owl:Class ;
+              rdfs:subClassOf :WaterVapourSorptionIsotherm .
+
+
+###  https://w3id.org/bmp#Accoustic
+:Accoustic rdf:type owl:Class ;
+           rdfs:subClassOf :MaterialProperty ;
+           owl:disjointWith :Durability ,
+                            :Hygric ,
+                            :Mechanical ,
+                            :Optical ,
+                            :Physical ,
+                            :Thermal ;
+           rdfs:label "Accoustic"@en .
+
+
+###  https://w3id.org/bmp#AirDryTimber
+:AirDryTimber rdf:type owl:Class ;
+              rdfs:subClassOf :MaterialType ;
+              rdfs:comment "https://www.iso.org/standard/77077.html"@en ;
+              rdfs:label "AirDryTimber"@en .
+
+
+###  https://w3id.org/bmp#BasaltStone
+:BasaltStone rdf:type owl:Class ;
+             rdfs:subClassOf :MaterialType ;
+             rdfs:comment "https://www.iso.org/standard/77077.html"@en ;
+             rdfs:label "BasaltStone"@en .
+
+
+###  https://w3id.org/bmp#Brick
+:Brick rdf:type owl:Class ;
+       rdfs:subClassOf :MaterialCategory ;
+       rdfs:comment "https://www.iso.org/standard/32918.html"@en ;
+       rdfs:label "Brick"@en .
+
+
+###  https://w3id.org/bmp#BrickMasonryUnit
+:BrickMasonryUnit rdf:type owl:Class ;
+                  rdfs:subClassOf :MaterialType ;
+                  rdfs:comment "https://www.iso.org/standard/32918.html"@en ;
+                  rdfs:label "BrickMasonryUnit"@en .
+
+
+###  https://w3id.org/bmp#BulkDensity
+:BulkDensity rdf:type owl:Class ;
+             rdfs:subClassOf :Physical .
+
+
+###  https://w3id.org/bmp#CalciumSilicateUnit
+:CalciumSilicateUnit rdf:type owl:Class ;
+                     rdfs:subClassOf :MaterialType ;
+                     rdfs:comment "https://www.iso.org/standard/32918.html"@en ;
+                     rdfs:label "CalciumSilicateUnit"@en .
+
+
+###  https://w3id.org/bmp#ClayUnit
+:ClayUnit rdf:type owl:Class ;
+          rdfs:subClassOf :MaterialType ;
+          rdfs:comment "https://www.iso.org/standard/32918.html"@en ;
+          rdfs:label "ClayUnit"@en .
+
+
+###  https://w3id.org/bmp#Concrete
+:Concrete rdf:type owl:Class ;
+          rdfs:subClassOf :MaterialCategory ;
+          rdfs:comment "https://www.iso.org/standard/41260.html"@en ;
+          rdfs:label "Concrete"@en .
+
+
+###  https://w3id.org/bmp#DrawnSheetGlass
+:DrawnSheetGlass rdf:type owl:Class ;
+                 rdfs:subClassOf :MaterialType ;
+                 rdfs:comment "https://www.iso.org/standard/46375.html"@en ;
+                 rdfs:label "DrawnSheetGlass"@en .
+
+
+###  https://w3id.org/bmp#Dropping
+:Dropping rdf:type owl:Class ;
+          rdfs:subClassOf :FireResistance ;
+          rdfs:label "Dropping"@en .
+
+
+###  https://w3id.org/bmp#Durability
+:Durability rdf:type owl:Class ;
+            rdfs:subClassOf :MaterialProperty ;
+            owl:disjointWith :Hygric ,
+                             :Mechanical ,
+                             :Optical ,
+                             :Physical ,
+                             :Thermal ;
+            rdfs:label "Durability"@en .
+
+
+###  https://w3id.org/bmp#EffectiveGasPermeability
+:EffectiveGasPermeability rdf:type owl:Class ;
+                          rdfs:subClassOf :Physical .
+
+
+###  https://w3id.org/bmp#Finishing
+:Finishing rdf:type owl:Class ;
+           rdfs:subClassOf :LayerFunction ;
+           rdfs:label "Finishing"^^xsd:string .
+
+
+###  https://w3id.org/bmp#FireClassification
+:FireClassification rdf:type owl:Class ;
+                    rdfs:subClassOf :FireResistance ;
+                    rdfs:label "FireClassification"@en .
+
+
+###  https://w3id.org/bmp#FireResistance
+:FireResistance rdf:type owl:Class ;
+                rdfs:subClassOf :Durability ;
+                rdfs:comment "https://www.peroni.com/lang_UK/_download/EN_Reaction_to_Fire_Classification.pdf"@en ;
+                rdfs:label "FireResistance"@en .
+
+
+###  https://w3id.org/bmp#FloatGlass
+:FloatGlass rdf:type owl:Class ;
+            rdfs:subClassOf :MaterialType ;
+            rdfs:comment "https://www.iso.org/standard/46375.html"@en ;
+            rdfs:label "FloatGlass"@en .
+
+
+###  https://w3id.org/bmp#Glass
+:Glass rdf:type owl:Class ;
+       rdfs:subClassOf :MaterialCategory ;
+       rdfs:comment "https://www.iso.org/standard/46375.html"@en ;
+       rdfs:label "Glass"@en .
+
+
+###  https://w3id.org/bmp#GlazingOpening
+:GlazingOpening rdf:type owl:Class ;
+                rdfs:subClassOf :LayerFunction ;
+                rdfs:label "Glazing"@en ,
+                           "Opening"@en .
+
+
+###  https://w3id.org/bmp#GranitStone
+:GranitStone rdf:type owl:Class ;
+             rdfs:subClassOf :MaterialType ;
+             rdfs:comment "https://www.iso.org/standard/77077.html"@en ;
+             rdfs:label "GranitStone"@en .
+
+
+###  https://w3id.org/bmp#HeavyWeightAggregate
+:HeavyWeightAggregate rdf:type owl:Class ;
+                      rdfs:subClassOf :MaterialType ;
+                      rdfs:comment "https://www.iso.org/standard/41260.html"@en ;
+                      rdfs:label "HeavyWeightAggregate"@en .
+
+
+###  https://w3id.org/bmp#HeavyWeightConcrete
+:HeavyWeightConcrete rdf:type owl:Class ;
+                     rdfs:subClassOf :MaterialType ;
+                     rdfs:comment "https://www.iso.org/standard/41260.html"@en ;
+                     rdfs:label "HeavyWeightConcrete"@en .
+
+
+###  https://w3id.org/bmp#Hemp
+:Hemp rdf:type owl:Class ;
+      rdfs:subClassOf :MaterialCategory ;
+      rdfs:comment "https://www.iso.org/standard/78231.html"@en ;
+      rdfs:label "Hemp"@en .
+
+
+###  https://w3id.org/bmp#HempFibreBoard
+:HempFibreBoard rdf:type owl:Class ;
+                rdfs:subClassOf :MaterialType ;
+                rdfs:comment "https://www.iso.org/standard/78231.html"@en ;
+                rdfs:label "HempFibreBoard"@en .
+
+
+###  https://w3id.org/bmp#HempFibreMat
+:HempFibreMat rdf:type owl:Class ;
+              rdfs:subClassOf :MaterialType ;
+              rdfs:comment "https://www.iso.org/standard/78231.html"@en ;
+              rdfs:label "HempFibreMat"@en .
+
+
+###  https://w3id.org/bmp#Hempcrete
+:Hempcrete rdf:type owl:Class ;
+           rdfs:subClassOf :MaterialType ;
+           rdfs:comment "https://www.iso.org/standard/41260.html"@en ,
+                        "https://www.iso.org/standard/78231.html"@en ;
+           rdfs:label "Hempcrete"@en .
+
+
+###  https://w3id.org/bmp#Hygric
+:Hygric rdf:type owl:Class ;
+        rdfs:subClassOf :MaterialProperty ;
+        owl:disjointWith :Mechanical ,
+                         :Optical ,
+                         :Physical ,
+                         :Thermal .
+
+
+###  https://w3id.org/bmp#Insulating
+:Insulating rdf:type owl:Class ;
+            rdfs:subClassOf :LayerFunction ;
+            rdfs:label "Insulating"@en .
+
+
+###  https://w3id.org/bmp#Layer
+:Layer rdf:type owl:Class ;
+       owl:disjointWith :Material ,
+                        :MaterialCategory ,
+                        :MaterialProperty ,
+                        :MaterialType .
+
+
+###  https://w3id.org/bmp#LayerFunction
+:LayerFunction rdf:type owl:Class ;
+               rdfs:subClassOf :Layer ;
+               rdfs:comment "The Layer Function class is used to give a first-time identification of building components, such as a layer, in building models."@en ;
+               rdfs:label "LayerFunction"@en .
+
+
+###  https://w3id.org/bmp#LayerLocation
+:LayerLocation rdf:type owl:Class ;
+               rdfs:subClassOf :Layer .
+
+
+###  https://w3id.org/bmp#LifeSpan
+:LifeSpan rdf:type owl:Class ;
+          rdfs:subClassOf :Durability ;
+          rdfs:comment "Service life time of a material or a product"@en ;
+          rdfs:label "LifeSpan"@en .
+
+
+###  https://w3id.org/bmp#LightWeightAggregate
+:LightWeightAggregate rdf:type owl:Class ;
+                      rdfs:subClassOf :MaterialType ;
+                      rdfs:comment "https://www.iso.org/standard/41260.html"@en ;
+                      rdfs:label "LightWeightAggregate"@en .
+
+
+###  https://w3id.org/bmp#LightWeightConcrete
+:LightWeightConcrete rdf:type owl:Class ;
+                     rdfs:subClassOf :MaterialType ;
+                     rdfs:comment "https://www.iso.org/standard/41260.html"@en ;
+                     rdfs:label "LightWeightConcrete"@en .
+
+
+###  https://w3id.org/bmp#LiquidTransportCoef
+:LiquidTransportCoef rdf:type owl:Class ;
+                     rdfs:subClassOf :Hygric .
+
+
+###  https://w3id.org/bmp#LoadBearing
+:LoadBearing rdf:type owl:Class ;
+             rdfs:subClassOf :LayerFunction ;
+             rdfs:label "LoadBearing"@en .
+
+
+###  https://w3id.org/bmp#Material
+:Material rdf:type owl:Class ;
+          owl:disjointWith :MaterialCategory ,
+                           :MaterialProperty ,
+                           :MaterialType ;
+          rdfs:comment "Material class is used to describe a material as a non-living entity that manifest properties that can be measured or characterised."@en ;
+          rdfs:label "Material"@en .
+
+
+###  https://w3id.org/bmp#MaterialCategory
+:MaterialCategory rdf:type owl:Class ;
+                  owl:disjointWith :MaterialProperty ,
+                                   :MaterialType ;
+                  rdfs:comment "Material Category class is used to describe material categories in a higher aggregated level."@en ;
+                  rdfs:label "MaterialCategory"@en .
+
+
+###  https://w3id.org/bmp#MaterialProperty
+:MaterialProperty rdf:type owl:Class ;
+                  owl:disjointWith :MaterialType ;
+                  rdfs:comment "A property is an inherent or acquired feature of an item and cannot be part of several property sets."@en ;
+                  rdfs:label "MaterialProperty"@en .
+
+
+###  https://w3id.org/bmp#MaterialType
+:MaterialType rdf:type owl:Class ;
+              rdfs:comment "Material Types class is used to describe material typologies and sub typologies in low aggregated level."@en ;
+              rdfs:label "MaterialType"@en .
+
+
+###  https://w3id.org/bmp#Mechanical
+:Mechanical rdf:type owl:Class ;
+            rdfs:subClassOf :MaterialProperty ;
+            owl:disjointWith :Optical ,
+                             :Physical ,
+                             :Thermal .
+
+
+###  https://w3id.org/bmp#MineralFibre
+:MineralFibre rdf:type owl:Class ;
+              rdfs:subClassOf :MaterialCategory ;
+              rdfs:comment "https://www.iso.org/standard/15229.html"@en ;
+              rdfs:label "MineralFibre"@en .
+
+
+###  https://w3id.org/bmp#MineralFibreBoard
+:MineralFibreBoard rdf:type owl:Class ;
+                   rdfs:subClassOf :MaterialType ;
+                   rdfs:comment "https://www.iso.org/standard/15229.html"@en ;
+                   rdfs:label "MineralFibreBoard"@en .
+
+
+###  https://w3id.org/bmp#MineralFibreMat
+:MineralFibreMat rdf:type owl:Class ;
+                 rdfs:subClassOf :MaterialType ;
+                 rdfs:comment "https://www.iso.org/standard/15229.html"@en ;
+                 rdfs:label "MineralFibreMat"@en .
+
+
+###  https://w3id.org/bmp#MoistureContent
+:MoistureContent rdf:type owl:Class ;
+                 rdfs:subClassOf :ThermalConductivity .
+
+
+###  https://w3id.org/bmp#NaturalStone
+:NaturalStone rdf:type owl:Class ;
+              rdfs:subClassOf :MaterialCategory ;
+              rdfs:comment "https://www.iso.org/standard/77077.html"@en ;
+              rdfs:label "NaturalStone"@en .
+
+
+###  https://w3id.org/bmp#NonLoadBearing
+:NonLoadBearing rdf:type owl:Class ;
+                rdfs:subClassOf :LayerFunction ;
+                rdfs:label "NonLoadBearing"@en .
+
+
+###  https://w3id.org/bmp#NonMetallic
+:NonMetallic rdf:type owl:Class ;
+             rdfs:subClassOf :MaterialCategory ;
+             rdfs:comment "NonMetallic"@en ,
+                          "https://www.iso.org/standard/77077.html"@en .
+
+
+###  https://w3id.org/bmp#Optical
+:Optical rdf:type owl:Class ;
+         rdfs:subClassOf :MaterialProperty ;
+         owl:disjointWith :Physical ,
+                          :Thermal .
+
+
+###  https://w3id.org/bmp#PatternedGlass
+:PatternedGlass rdf:type owl:Class ;
+                rdfs:subClassOf :MaterialType ;
+                rdfs:comment "https://www.iso.org/standard/46375.html"@en ;
+                rdfs:label "PatternedGlass"@en .
+
+
+###  https://w3id.org/bmp#Physical
+:Physical rdf:type owl:Class ;
+          rdfs:subClassOf :MaterialProperty ;
+          owl:disjointWith :Thermal .
+
+
+###  https://w3id.org/bmp#PolishedWiredGlass
+:PolishedWiredGlass rdf:type owl:Class ;
+                    rdfs:subClassOf :MaterialType ;
+                    rdfs:comment "https://www.iso.org/standard/46375.html"@en ;
+                    rdfs:label "PolishedWiredGlass"@en .
+
+
+###  https://w3id.org/bmp#Porosity
+:Porosity rdf:type owl:Class ;
+          rdfs:subClassOf :Physical .
+
+
+###  https://w3id.org/bmp#PrestressedConcrete
+:PrestressedConcrete rdf:type owl:Class ;
+                     rdfs:subClassOf :MaterialType ;
+                     rdfs:comment "https://www.iso.org/standard/41260.html"@en ;
+                     rdfs:label "PrestressedConcrete"@en .
+
+
+###  https://w3id.org/bmp#RelativeGasDiffusivity
+:RelativeGasDiffusivity rdf:type owl:Class ;
+                        rdfs:subClassOf :Physical .
+
+
+###  https://w3id.org/bmp#SandStone
+:SandStone rdf:type owl:Class ;
+           rdfs:subClassOf :MaterialType ;
+           rdfs:comment "https://www.iso.org/standard/77077.html"@en ;
+           rdfs:label "SandStone"@en .
+
+
+###  https://w3id.org/bmp#SmokeDevelopment
+:SmokeDevelopment rdf:type owl:Class ;
+                  rdfs:subClassOf :FireResistance ;
+                  rdfs:label "SmokeDevelopment"@en .
+
+
+###  https://w3id.org/bmp#SolarTransmittance
+:SolarTransmittance rdf:type owl:Class ;
+                    rdfs:subClassOf :Thermal .
+
+
+###  https://w3id.org/bmp#SpecificHeatCapacity
+:SpecificHeatCapacity rdf:type owl:Class ;
+                      rdfs:subClassOf :Thermal .
+
+
+###  https://w3id.org/bmp#TempCondition
+:TempCondition rdf:type owl:Class ;
+               rdfs:subClassOf :ThermalConductivity .
+
+
+###  https://w3id.org/bmp#Thermal
+:Thermal rdf:type owl:Class ;
+         rdfs:subClassOf :MaterialProperty .
+
+
+###  https://w3id.org/bmp#ThermalConductivity
+:ThermalConductivity rdf:type owl:Class ;
+                     rdfs:subClassOf :Thermal .
+
+
+###  https://w3id.org/bmp#ThermalDiffusivity
+:ThermalDiffusivity rdf:type owl:Class ;
+                    rdfs:subClassOf :Thermal .
+
+
+###  https://w3id.org/bmp#ThermalExpansionCoef
+:ThermalExpansionCoef rdf:type owl:Class ;
+                      rdfs:subClassOf :Thermal .
+
+
+###  https://w3id.org/bmp#VolumetricHeatCapacity
+:VolumetricHeatCapacity rdf:type owl:Class ;
+                        rdfs:subClassOf :Thermal .
+
+
+###  https://w3id.org/bmp#WaterVapourDiffusionThickness
+:WaterVapourDiffusionThickness rdf:type owl:Class ;
+                               rdfs:subClassOf :Hygric .
+
+
+###  https://w3id.org/bmp#WaterVapourDiffusivity
+:WaterVapourDiffusivity rdf:type owl:Class ;
+                        rdfs:subClassOf :Hygric .
+
+
+###  https://w3id.org/bmp#WaterVapourPermeability
+:WaterVapourPermeability rdf:type owl:Class ;
+                         rdfs:subClassOf :Hygric .
+
+
+###  https://w3id.org/bmp#WaterVapourResistanceFactor
+:WaterVapourResistanceFactor rdf:type owl:Class ;
+                             rdfs:subClassOf :Hygric .
+
+
+###  https://w3id.org/bmp#WaterVapourSorptionIsotherm
+:WaterVapourSorptionIsotherm rdf:type owl:Class ;
+                             rdfs:subClassOf :Hygric .
+
+
+###  https://w3id.org/bmp#WoodHard
+:WoodHard rdf:type owl:Class ;
+          rdfs:subClassOf :MaterialType ;
+          rdfs:comment "https://www.iso.org/standard/77077.html"@en ;
+          rdfs:label "WoodHard"@en .
+
+
+###  https://w3id.org/bmp#WoodSoft
+:WoodSoft rdf:type owl:Class ;
+          rdfs:subClassOf :MaterialType ;
+          rdfs:comment "https://www.iso.org/standard/77077.html"@en ;
+          rdfs:label "WoodSoft"@en .
+
+
+###  https://w3id.org/bmp#WoodTimber
+:WoodTimber rdf:type owl:Class ;
+            rdfs:subClassOf :MaterialCategory ;
+            rdfs:comment "https://www.iso.org/standard/77077.html"@en ;
+            rdfs:label "Timber"@en ,
+                       "Wood"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://orcid.org/0000-0002-8651-0671
+<https://orcid.org/0000-0002-8651-0671> rdf:type owl:NamedIndividual ;
+                                        rdfs:comment "Ekaterina Petrova" ;
+                                        rdfs:label "Ekaterina Petrova" ;
+                                        <http://xmlns.com/foaf/0.1/name> "Ekaterina Petrova" ;
+                                        <http://xmlns.com/foaf/0.1/weblog> "https://research.tue.nl/en/persons/ekaterina-petrova" .
+
+
+###  https://orcid.org/0000-0002-9383-7234
+<https://orcid.org/0000-0002-9383-7234> rdf:type owl:NamedIndividual ;
+                                        rdfs:comment "Julia Kaltenegger" ;
+                                        rdfs:label "Julia Kaltenegger" ;
+                                        <http://xmlns.com/foaf/0.1/name> "Julia Kaltenegger" ;
+                                        <http://xmlns.com/foaf/0.1/weblog> "https://linktr.ee/julkaltenegger" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

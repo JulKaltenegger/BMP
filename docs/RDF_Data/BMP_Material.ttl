@@ -16,12 +16,12 @@ inst:Cork001 a bmp:Material;
 
 inst:WaterVaporSorptionIsothermState_001 a bmp:WaterVaporSorptionIsothermState ;
   bmp:hasWaterVaporSorptionIsotherm "10"^^xsd:double ;
-  bmp:hasAdsortpionWm "5.82"^^xsd:double ;
-  bmp:hasAdsortpionK "0.876"^^xsd:double ;
-  bmp:hasAdsortpionC "10.4"^^xsd:double ;
-  bmp:hasDesortpionWm "10.1"^^xsd:double ;
-  bmp:hasDesortpionK "0.737"^^xsd:double ;
-  bmp:hasDesortpionC "6.65"^^xsd:double .
+  bmp:hasAdsorptionWm "5.82"^^xsd:double ;
+  bmp:hasAdsorptionK "0.876"^^xsd:double ;
+  bmp:hasAdsorptionC "10.4"^^xsd:double ;
+  bmp:hasDesorptionWm "10.1"^^xsd:double ;
+  bmp:hasDesorptionK "0.737"^^xsd:double ;
+  bmp:hasDesorptionC "6.65"^^xsd:double .
   
 inst:ThermalConductivityState_001 a bmp:thermalConductivityState ;
   bmp:hasThermalConductivity "0.04"^^xsd:double ;
@@ -41,12 +41,12 @@ inst:HempCrete001 a bmp:Material ;
   
 inst:WaterVaporSorptionIsothermState_002 a bmp:WaterVaporSorptionIsothermState ;
   bmp:hasWaterVaporSorptionIsotherm "20"^^xsd:double ;
-  bmp:hasAdsortpionWm "5.83"^^xsd:double ; 
-  bmp:hasAdsortpionK "0.877"^^xsd:double ;
-  bmp:hasAdsortpionC "10.6"^^xsd:double ;
-  bmp:hasDesortpionWm "10.2"^^xsd:double ;
-  bmp:hasDesortpionK "0.738"^^xsd:double ;
-  bmp:hasDesortpionC "6.66"^^xsd:double .
+  bmp:hasAdsorptionWm "5.83"^^xsd:double ; 
+  bmp:hasAdsorptionK "0.877"^^xsd:double ;
+  bmp:hasAdsorptionC "10.6"^^xsd:double ;
+  bmp:hasDesorptionWm "10.2"^^xsd:double ;
+  bmp:hasDesorptionK "0.738"^^xsd:double ;
+  bmp:hasDesorptionC "6.66"^^xsd:double .
 
 inst:ThermalConductivityState_002 a bmp:thermalConductivityState ;
   bmp:hasThermalConductivity "0.0543" ;
@@ -66,12 +66,12 @@ inst:WoodFiber001 a bmp:Material ;
 
 inst:WaterVaporSorptionIsothermState_003 a bmp:WaterVaporSorptionIsothermState ;
   bmp:hasWaterVaporSorptionIsotherm "30"^^xsd:double ;
-  bmp:hasAdsortpionWm "5.84"^^xsd:double ; 
-  bmp:hasAdsortpionK "0.878"^^xsd:double ;
-  bmp:hasAdsortpionC "10.8"^^xsd:double ;
-  bmp:hasDesortpionWm "10.3"^^xsd:double ;
-  bmp:hasDesortpionK "0.739"^^xsd:double ;
-  bmp:hasDesortpionC "6.67"^^xsd:double .
+  bmp:hasAdsorptionWm "5.84"^^xsd:double ; 
+  bmp:hasAdsorptionK "0.878"^^xsd:double ;
+  bmp:hasAdsorptionC "10.8"^^xsd:double ;
+  bmp:hasDesorptionWm "10.3"^^xsd:double ;
+  bmp:hasDesorptionK "0.739"^^xsd:double ;
+  bmp:hasDesorptionC "6.67"^^xsd:double .
 
 inst:ThermalConductivityState_003 a bmp:thermalConductivityState ;
   bmp:hasThermalConductivity "0.038"^^xsd:double ;
@@ -91,12 +91,12 @@ inst:LightBrick001 a bmp:Material ;
 
 inst:WaterVaporSorptionIsothermState_004 a bmp:WaterVaporSorptionIsothermState ; 
   bmp:hasWaterVaporSorptionIsotherm "40"^^xsd:double ;
-  bmp:hasAdsortpionWm "5.85"^^xsd:double ;
-  bmp:hasAdsortpionK "0.879"^^xsd:double ;
-  bmp:hasAdsortpionC "11"^^xsd:double ;
-  bmp:hasDesortpionWm "10.4"^^xsd:double ;
-  bmp:hasDesortpionK "0.74"^^xsd:double ;
-  bmp:hasDesortpionC "6.68"^^xsd:double .
+  bmp:hasAdsorptionWm "5.85"^^xsd:double ;
+  bmp:hasAdsorptionK "0.879"^^xsd:double ;
+  bmp:hasAdsorptionC "11"^^xsd:double ;
+  bmp:hasDesorptionWm "10.4"^^xsd:double ;
+  bmp:hasDesorptionK "0.74"^^xsd:double ;
+  bmp:hasDesorptionC "6.68"^^xsd:double .
 
 inst:ThermalConductivityState_004 a bmp:thermalConductivityState ;
   bmp:hasThermalConductivity "0.22"^^xsd:double ;
@@ -116,12 +116,12 @@ inst:HeavyBrick001 a bmp:Material;
 
 inst:WaterVaporSorptionIsothermState_005 a bmp:WaterVaporSorptionIsothermState ;  
   bmp:hasWaterVaporSorptionIsotherm "50"^^xsd:double ;
-  bmp:hasAdsortpionWm "5.86"^^xsd:double ;   
-  bmp:hasAdsortpionK "0.88"^^xsd:double ;
-  bmp:hasAdsortpionC "11.2"^^xsd:double ;
-  bmp:hasDesortpionWm "10.4"^^xsd:double ;
-  bmp:hasDesortpionK "0.741"^^xsd:double ;
-  bmp:hasDesortpionC "6.669"^^xsd:double .
+  bmp:hasAdsorptionWm "5.86"^^xsd:double ;   
+  bmp:hasAdsorptionK "0.88"^^xsd:double ;
+  bmp:hasAdsorptionC "11.2"^^xsd:double ;
+  bmp:hasDesorptionWm "10.4"^^xsd:double ;
+  bmp:hasDesorptionK "0.741"^^xsd:double ;
+  bmp:hasDesorptionC "6.669"^^xsd:double .
 
 inst:ThermalConductivityState_005 a bmp:thermalConductivityState ;
   bmp:hasThermalConductivity "1.1"^^xsd:double ;
