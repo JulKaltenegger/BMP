@@ -5,3 +5,6 @@ The Building Material Performance ontology classifies construction materials bas
 Web Documentation
 https://w3id.org/bmp#
 HTML documentation https://julkaltenegger.github.io/bmp/ 
+
+
+![alt text](<UML_Class Diagram-1.png>)
